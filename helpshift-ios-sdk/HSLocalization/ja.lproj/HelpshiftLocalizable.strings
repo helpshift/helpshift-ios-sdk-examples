@@ -56,7 +56,7 @@
 "Close" = "終了";
 "Loading..." = "読み込み中...";
 "Help" = "ヘルプ";
-"Sending failed !" = "送信失敗!";
+"Sending failed!" = "送信失敗!";
 "Screenshot could not be sent. Image is too large, try again with another image" = "スクリーンショットが送信できませんでした。画像が大きすぎます。他の画像で再試行してください。";
 "Name invalid" = "名前が無効です";
 "Please provide a name." = "名前を入力してください。";
@@ -73,7 +73,6 @@
 "CONTACT US" = "お問い合わせ";
 "Back" = "戻る";
 "Thanks for messaging us! Did we answer all your questions?" = "ご連絡ありがとうございます！ご質問全てに答えていますでしょうか?";
-"You ended the conversation above." = "上記の会話を終了しました。";
 "YES, THANKS!" = "はい、ありがとう！";
 "START A NEW CONVERSATION" = "新しい会話を始める";
 "New Conversation" = "新しい会話";
@@ -83,3 +82,4 @@
 "Your message has been received. Thanks for contacting us!" = "メッセージを受け取りました。ご連絡ありがとうございます！";
 "What else can we help you with?" = "他にお手伝いできることはありますか?";
 "Would you like to review the app?" = "アプリを評価しますか？";
+"This conversation has ended." = "この会話は終了しました。";

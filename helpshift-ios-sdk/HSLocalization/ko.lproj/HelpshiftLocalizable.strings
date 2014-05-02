@@ -56,7 +56,7 @@
 "Close" = "닫기";
 "Loading..." = "로드 중...";
 "Help" = "도움말";
-"Sending failed !" = "전송 실패!";
+"Sending failed!" = "전송 실패!";
 "Screenshot could not be sent. Image is too large, try again with another image" = "스크린샷을 전송할 수 없습니다. 이미지가 너무 크기 때문에 다른 이미지로 다시 시도하세요";
 "Name invalid" = "잘못된 이름";
 "Please provide a name." = "이름을 입력하세요.";
@@ -73,7 +73,6 @@
 "CONTACT US" = "연락처";
 "Back" = "뒤로";
 "Thanks for messaging us! Did we answer all your questions?" = "메시지를 보내주셔서 감사합니다! 모든 질문에 답이 되었습니까?";
-"You ended the conversation above." = "위의 대화를 종료하셨습니다.";
 "YES, THANKS!" = "예, 감사합니다!";
 "START A NEW CONVERSATION" = "새로운 대화 시작";
 "New Conversation" = "새로운 대화";
@@ -83,3 +82,4 @@
 "Your message has been received. Thanks for contacting us!" = "메시지가 수신되었습니다. 연락해주셔서 감사합니다!";
 "What else can we help you with?" = "또 도와드릴 것이 있습니까?";
 "Would you like to review the app?" = "앱의 리뷰를 작성하시겠습니까?";
+"This conversation has ended." = "이 대화는 종료되었습니다.";

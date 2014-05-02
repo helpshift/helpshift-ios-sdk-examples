@@ -56,7 +56,7 @@
 "Close" = "关闭";
 "Loading..." = "载入中…";
 "Help" = "帮助";
-"Sending failed !" = "发送失败！";
+"Sending failed!" = "发送失败！";
 "Screenshot could not be sent. Image is too large, try again with another image" = "截图无法发送。图片太大，再次尝试与另一图像";
 "Name invalid" = "命名无效";
 "Please provide a name." = "请提供一个名称。";
@@ -74,7 +74,6 @@
 "Back" = "返回";
 "Thanks for messaging us! Did we answer all your questions?" = "感谢来信！我们回答了你的所有问题了吗?";
 "YES, THANKS!" = "是的，谢谢!";
-"You ended the conversation above." = "你已结束了上面的会话。";
 "START A NEW CONVERSATION" = "开始一个新会话";
 "New Conversation" = "新会话";
 "What's on your mind?" = "有什么问题或反馈吗?";
@@ -83,3 +82,4 @@
 "Your message has been received. Thanks for contacting us!" = "你的信息已收到。感谢联系我们！";
 "What else can we help you with?" = "还有其他需要帮助的吗?";
 "Would you like to review the app?" = "您要评价本应用吗?";
+"This conversation has ended." = "此会话已结束。";

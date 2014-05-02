@@ -1,6 +1,6 @@
 /*
  *    Helpshift.h
- *    SDK version 4.3.1
+ *    SDK version 4.4.0
  *
  *    Get the documentation at http://www.helpshift.com/docs
  *
@@ -13,8 +13,16 @@
  * This document describes the API exposed by the Helpshift SDK (4.x) which the developers can use to integrate Helpshift support into their iOS applications. If you want documentation regarding how to use the various features provided by the Helpshift SDK, please visit the [developer docs](http://developers.helpshift.com/)
  */
 
-typedef NSDictionary * (^metadataBlock)(void);
+typedef enum HSAlertToRateAppAction
+{
+    HS_RATE_ALERT_CLOSE = 0,
+    HS_RATE_ALERT_FEEDBACK,
+    HS_RATE_ALERT_SUCCESS,
+    HS_RATE_ALERT_FAIL
+} HSAlertToRateAppAction;
 
+typedef NSDictionary * (^metadataBlock)(void);
+typedef void (^AppRatingAlertViewCompletionBlock)(HSAlertToRateAppAction);
 
 // A Reserved key (HSCustomMetadataKey) constant to be used in options dictionary of showFAQs, showConversation, showFAQSection, showSingleFAQ to
 // provide a dictionary for custom data to be attached along with new conversations.
@@ -158,6 +166,15 @@ extern NSString *const HSTagsKey;
 
 - (void) showSingleFAQ:(NSString *)faqPublishID withController:(UIViewController *)viewController withOptions:(NSDictionary *)optionsDictionary;
 
+/** Show alert for app rating
+ *
+ * To manually show an alert for app rating, you need automated reviews disabled in admin.
+ * Also, if there is an ongoing conversation, the review alert will not show up.
+ *
+ * @available Available in SDK version 4.4.0 or later
+ */
++ (void) showAlertToRateAppWithURL:(NSString *)url withCompletionBlock:(AppRatingAlertViewCompletionBlock)completionBlock;
+
 /** Set an user identifier for your users.
  *
  * This is part of additional user configuration. The user identifier will be passed through to the admin dashboard as "User ID" under customer info.
@@ -296,6 +313,94 @@ extern NSString *const HSTagsKey;
  */
 - (void) clearBreadCrumbs;
 
+
+
+
+// Deprecated API calls
+
+/**
+ * @warning Deprecated API call. Use installForApiKey:domainName:appID: instead.
+ */
++ (void) installForAppID:(NSString *)appID domainName:(NSString *)domainName apiKey:(NSString *)apiKey
+    __attribute__((deprecated("Use installForApiKey:domainName:appID: instead")));
+
+/**
+ * @warning Deprecated API call. Use installForApiKey:domainName:appID:withOptions: instead.
+ */
++ (void) installForAppID:(NSString *)appID domainName:(NSString *)domainName apiKey:(NSString *)apiKey withOptions:(NSDictionary *)optionsDictionary
+    __attribute__((deprecated("Use installForApiKey:domainName:appID:withOptions: instead")));
+
+/**
+ * @warning Deprecated API call. Use showFAQs:withOptions: instead.
+ */
+- (void) showSupport:(UIViewController *)viewController withOptions:(NSDictionary *)optionsDictionary
+    __attribute__((deprecated("Use showFAQs:withOptions: instead")));
+
+/**
+ * @warning Deprecated API call. Use showFAQs:withOptions: instead.
+ */
+- (void) showSupport:(UIViewController *)viewController
+    __attribute__((deprecated("Use showFAQs:withOptions: instead")));
+
+/**
+ * @warning Deprecated API call. Use showFAQs:withOptions: instead.
+ */
+- (void) showFAQs:(UIViewController *)viewController
+    __attribute__((deprecated("Use showFAQs:withOptions: instead")));
+
+/**
+ * @warning Deprecated API call. Use showConversation:withOptions: instead.
+ */
+- (void) reportIssue:(UIViewController *)viewController
+    __attribute__((deprecated("Use showConversation:withOptions: instead")));
+
+/**
+ * @warning Deprecated API call. Use showConversation:withOptions: instead.
+ */
+- (void) reportIssue:(UIViewController *)viewController withOptions:(NSDictionary *)optionsDictionary
+    __attribute__((deprecated("Use showConversation:withOptions: instead")));
+
+/**
+ * @warning Deprecated API call. Use showFAQSection:withController:withOptions: instead.
+ */
+- (void) showFAQSection:(NSString *)faqSectionPublishID withController:(UIViewController *)viewController
+    __attribute__((deprecated("Use showFAQSection:withController:withOptions: instead")));
+
+/**
+ * @warning Deprecated API call. Use showSingleFAQ:withController:withOptions: instead.
+ */
+- (void) showFAQ:(NSString *)faqPublishID withController:(UIViewController *)viewController
+    __attribute__((deprecated("Use showSingleFAQ:withController:withOptions: instead")));
+
+/**
+ * @warning Deprecated API call. Use showConversation:withOptions: instead.
+ */
+- (void) showInbox:(UIViewController *)viewController
+    __attribute__((deprecated("Use showConversation:withOptions: instead")));
+
+/**
+ * @warning Deprecated API call. Use getNotificationCountFromRemote: instead.
+ */
+- (NSInteger) notificationCountAsync:(BOOL)isAsync
+    __attribute__((deprecated("Use getNotificationCountFromRemote: instead")));
+
+/**
+ * @warning Deprecated API call. Use handleRemoteNotification:withController: instead.
+ */
+- (void) handleNotification:(NSDictionary *)notification withController:(UIViewController *)viewController
+    __attribute__((deprecated("Use handleRemoteNotification:withController: instead")));
+
+/**
+ * @warning Deprecated API call. Use setName:andEmail: instead.
+ */
++ (void) setUsername:(NSString *)name
+    __attribute__((deprecated("Use setName:andEmail: instead")));
+
+/**
+ * @warning Deprecated API call. Use setName:andEmail: instead.
+ */
++ (void) setUseremail:(NSString *)email
+    __attribute__((deprecated("Use setName:andEmail: instead")));
 
 @end
 

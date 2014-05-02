@@ -56,7 +56,7 @@
 "Close" = "Закрыть";
 "Loading..." = "Идёт загрузка...";
 "Help" = "Справка";
-"Sending failed !" = "Отправка не удалась!";
+"Sending failed!" = "Отправка не удалась!";
 "Screenshot could not be sent. Image is too large, try again with another image" = "Скриншот не может быть отправлен. Изображение слишком большое, попробуйте еще раз с другим изображением";
 "Name invalid" = "Некорректное имя";
 "Please provide a name." = "Пожалуйста, укажите имя.";
@@ -73,7 +73,6 @@
 "Back" = "Назад";
 "Thanks for messaging us! Did we answer all your questions?" = "Спасибо за обращение. Мы смогли Вам помочь?";
 "YES, THANKS!" = "ДА, СПАСИБО!";
-"You ended the conversation above." = "Вы завершили диалог.";
 "START A NEW CONVERSATION" = "НАЧАТЬ НОВЫЙ ДИАЛОГ";
 "New Conversation" = "Новый диалог";
 "What's on your mind?" = "О чем вы хотите спросить?";
@@ -82,3 +81,4 @@
 "Your message has been received. Thanks for contacting us!" = "Ваше сообщение получено. Спасибо за обращение к нам.";
 "What else can we help you with?" = "Чем еще мы можем вам помочь?";
 "Would you like to review the app?" = "Не хотели бы вы оставить отзыв о приложении?";
+"This conversation has ended." = "Разговор завершен.";

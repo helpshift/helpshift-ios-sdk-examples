@@ -56,7 +56,7 @@
 "Close" = "Close";
 "Loading..." = "Loading...";
 "Help" = "Help";
-"Sending failed !" = "Sending failed !";
+"Sending failed!" = "Sending failed!";
 "Screenshot could not be sent. Image is too large, try again with another image" = "Screenshot could not be sent. Image is too large, try again with another image";
 "Name invalid" = "Name invalid";
 "Please provide a name." = "Please provide a name.";
@@ -73,7 +73,6 @@
 "CONTACT US" = "CONTACT US";
 "Back" = "Back";
 "Thanks for messaging us! Did we answer all your questions?" = "Thanks for messaging us! Did we answer all your questions?";
-"You ended the conversation above." = "You ended the conversation above.";
 "YES, THANKS!" = "YES, THANKS!";
 "START A NEW CONVERSATION" = "START A NEW CONVERSATION";
 "New Conversation" = "New Conversation";
@@ -83,3 +82,4 @@
 "Your message has been received. Thanks for contacting us!" = "Your message has been received. Thanks for contacting us!";
 "What else can we help you with?" = "What else can we help you with?";
 "Would you like to review the app?" = "Would you like to review the app?";
+"This conversation has ended." = "This conversation has ended.";

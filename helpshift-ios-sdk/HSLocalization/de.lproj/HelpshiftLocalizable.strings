@@ -56,7 +56,7 @@
 "Close" = "Schließen";
 "Loading..." = "Lädt...";
 "Help" = "Hilfe";
-"Sending failed !" = "Senden ist fehlgeschlagen!";
+"Sending failed!" = "Senden ist fehlgeschlagen!";
 "Screenshot could not be sent. Image is too large, try again with another image" = "Screenshot konnte nicht gesendet werden. Bild zu groß ist, nochmals mit einem anderen Bild";
 "Name invalid" = "Name ungültig";
 "Please provide a name." = "Bitte geben sie einen name.";
@@ -73,7 +73,6 @@
 "CONTACT US" = "KONTAKT";
 "Back" = "Zurück";
 "Thanks for messaging us! Did we answer all your questions?" = "Danke für Ihre Nachricht! Konnten wir all Ihre Fragen beantworten?";
-"You ended the conversation above." = "Sie haben die obige Unterhaltung beendet.";
 "YES, THANKS!" = "JA, DANKE!";
 "START A NEW CONVERSATION" = "EINE NEUE UNTERHALTUNG BEGINNEN";
 "New Conversation" = "Neue Unterhaltung";
@@ -83,3 +82,4 @@
 "Your message has been received. Thanks for contacting us!" = "Ihre Nachricht ist eingegangen. Danke, dass Sie uns kontaktieren!";
 "What else can we help you with?" = "Wie können wir Ihnen sonst noch helfen?";
 "Would you like to review the app?" = "Möchten Sie die App bewerten?";
+"This conversation has ended." = "Dieses Gespräch ist beendet.";

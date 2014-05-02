@@ -20,6 +20,8 @@
 		<string></string>
 		<key>Contact us button color</key>
 		<string></string>
+		<key>Cell selection color</key>
+		<string></string>
 	</dict>
 	<key>Navigation Bar</key>
 	<dict>

@@ -20,6 +20,8 @@
 		<string>fafafa</string>
 		<key>Contact us button color</key>
 		<string>3396ff</string>
+		<key>Cell selection color</key>
+		<string>444A4B</string>
 	</dict>
 	<key>Navigation Bar</key>
 	<dict>

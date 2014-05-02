@@ -56,7 +56,7 @@
 "Close" = "Kapat";
 "Loading..." = "Yükleniyor...";
 "Help" = "Yardım";
-"Sending failed !" = "Gönderme başarısız!";
+"Sending failed!" = "Gönderme başarısız!";
 "Screenshot could not be sent. Image is too large, try again with another image" = "Ekran görüntüsü gönderilemedi. Dosya çok büyük, başka bir dosya ile tekrar deneyin";
 "Name invalid" = "Ad geçersiz";
 "Please provide a name." = "Lütfen bir ad girin.";
@@ -73,7 +73,6 @@
 "CONTACT US" = "BİZE ULAŞIN";
 "Back" = "Geri";
 "Thanks for messaging us! Did we answer all your questions?" = "Mesaj gönderdiğiniz için teşekkür ederiz! Tüm sorularınız cevaplandı mı?";
-"You ended the conversation above." = "Yukarıdaki sohbeti sonlandırdınız.";
 "YES, THANKS!" = "EVET, TEŞEKKÜRLER!";
 "START A NEW CONVERSATION" = "YENİ BİR SOHBET BAŞLAT";
 "New Conversation" = "Yeni Sohbet";
@@ -83,3 +82,4 @@
 "Your message has been received. Thanks for contacting us!" = "Mesajınız alındı. Bize ulaştığınız için teşekkür ederiz!";
 "What else can we help you with?" = "Yardımcı olabileceğimiz başka bir konu var mı?";
 "Would you like to review the app?" = "Uygulamayı değerlendirmek istiyor musunuz?";
+"This conversation has ended." = "Bu konuşma sona erdi.";
