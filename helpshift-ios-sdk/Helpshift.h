@@ -1,6 +1,6 @@
 /*
  *    Helpshift.h
- *    SDK version 4.4.0
+ *    SDK version 4.5.0
  *
  *    Get the documentation at http://www.helpshift.com/docs
  *
@@ -188,6 +188,7 @@ extern NSString *const HSTagsKey;
 /** Set the name and email of the application user.
  *
  * This is part of additional user configuration. If this is provided through the api, user will not be prompted to re-enter this information again.
+ * Pass nil values for both name and email to clear out old existing values.
  *
  *   @param name The name of the user.
  *   @param email The email address of the user.
