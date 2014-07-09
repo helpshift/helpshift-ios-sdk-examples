@@ -25,7 +25,7 @@ Each one of the sub-directories ending with `App` in this repository is a genuin
 
 ## Samples for Older Releases
 
-* [Release v4.5.0](../../tree/release/4.4.0)
+* [Release v4.5.0](../../tree/release/4.5.0)
 * [Release v4.4.0](../../tree/release/4.4.0)
 * [Release v4.3.1](../../tree/release/4.3.1)
 * [Release v4.3.0](../../tree/release/4.3.0)
