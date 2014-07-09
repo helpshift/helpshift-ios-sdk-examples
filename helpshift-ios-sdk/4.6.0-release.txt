@@ -1,5 +1,4 @@
-  
-Helpshift SDK 4.5.0 Release Notes (for iOS)
+Helpshift SDK 4.6.0 Release Notes (for iOS)
 -----------------------------------------------
 
 Helpshift is an embedded support desk for native apps.
@@ -13,6 +12,13 @@ Documentation for Installation and Usage Instructions:
 http://developers.helpshift.com/
 
 New features:
+4.6.0 Release Date: July 9, 2014
+       * Added a API option "requireEmail" to make emails compulsory or optional in the new conversation form.
+       * Added fixes for iOS 8.
+       * Added fixes for empty custom metadata.
+       * Updated Korean translations.
+       * Bug fixes
+       * UI fixes
 4.5.0 Release Date: June 6, 2014
        * Optimized FAQ updates. Changes to FAQs in the admin are now updated and shown as soon as the SDK is opened.
        * Users can now directly attach screenshots while submitting new conversation or during an ongoing conversation.
@@ -137,7 +143,7 @@ New features:
 2.3.0-rc.2 Release Date: April 29, 2013
        * Bug fixes
 2.3.0-rc.1 Release Date: April 25, 2013
-       * Added API's to clear user data and breadcrumb list.	
+       * Added API's to clear user data and breadcrumb list.
 2.2.0 Release Date: April 17, 2013
        * Bug fixes
 2.2.0-rc.3 Release Date: April 13, 2013
@@ -243,15 +249,15 @@ New features:
        * Bug fixes
        * UI fixes
 1.2.2 Release Date: November 23, 2012
-	* Change in the method signature for installing the Helpshift library support.
-	* Bug fixes
-	* UI fixes
+    * Change in the method signature for installing the Helpshift library support.
+    * Bug fixes
+    * UI fixes
 1.2.1 Release Date: November 12, 2012
-	* iPod touch carrier does not exist (case handled)
-	* UIView choppy animations fixed
-	* Reachability class conflict fixed
-	* Memory leak fixes
-	* UI/Stability fixes
+    * iPod touch carrier does not exist (case handled)
+    * UIView choppy animations fixed
+    * Reachability class conflict fixed
+    * Memory leak fixes
+    * UI/Stability fixes
 
 1.2.0 Release Date: November 2, 2012
         * Funnel support
