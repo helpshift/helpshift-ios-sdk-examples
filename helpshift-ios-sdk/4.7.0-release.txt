@@ -1,4 +1,4 @@
-Helpshift SDK 4.6.0 Release Notes (for iOS)
+Helpshift SDK 4.7.0 Release Notes (for iOS)
 -----------------------------------------------
 
 Helpshift is an embedded support desk for native apps.
@@ -12,6 +12,16 @@ Documentation for Installation and Usage Instructions:
 http://developers.helpshift.com/
 
 New features:
+4.7.0 Release Date: September 2, 2014
+       * Added support for Customer satisfaction survey, which prompts your app users to rate their customer support experience with your agents.
+       * Agent names will now be visible in an ongoing conversation.
+       * Added an API option, "conversationPrefillText", for prefilling new conversation description.
+       * Added an API option, "hideNameAndEmail", for conditionally hiding name and email fields when starting a new conversation.
+       * UX improvements for attaching screenshot.
+       * Removed FAQ sync status.
+       * Added support for deep-links in FAQs.
+       * Bug fixes.
+       * UI fixes.
 4.6.0 Release Date: July 9, 2014
        * Added a API option "requireEmail" to make emails compulsory or optional in the new conversation form.
        * Added fixes for iOS 8.

@@ -1,6 +1,6 @@
 /*
  *    Helpshift.h
- *    SDK version 4.6.0
+ *    SDK version 4.7.0
  *
  *    Get the documentation at http://www.helpshift.com/docs
  *
@@ -314,8 +314,15 @@ extern NSString *const HSTagsKey;
  */
 - (void) clearBreadCrumbs;
 
-
-
+/** Close the current Helpshift session
+ *
+ * If currently any Helpshift session is active, this API will close that session.
+ * Otherwise if any Helpshift session is not active, this API does nothing.
+ *
+ * @available Available in SDK version 4.7.0 or later
+ *
+ */
+- (void) closeHelpshiftSession;
 
 // Deprecated API calls
 

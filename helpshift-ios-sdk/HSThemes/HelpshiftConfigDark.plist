@@ -76,5 +76,20 @@
 		<key>Background color</key>
 		<string>ffcc00</string>
 	</dict>
+	<key>Conversation Resolution</key>
+	<dict>
+		<key>Background color</key>
+		<string>373737</string>
+		<key>Text color</key>
+		<string>9f9f9f</string>
+		<key>Rating star color</key>
+		<string></string>
+		<key>Start new conversation button color</key>
+		<string>dd9756</string>
+		<key>Yes button color</key>
+		<string>1fbe23</string>
+		<key>No button color</key>
+		<string>ae64aa</string>
+	</dict>
 </dict>
 </plist>
