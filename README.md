@@ -1,10 +1,10 @@
 # Helpshift iOS SDK Samples
 
-This repository contains a collection example projects for Helpshift iOS SDK v4.7.0
+This repository contains a collection example projects for Helpshift iOS SDK v4.8.0
 
 ## Requirements
 
-* Xcode 5.0 or greater (see [Xcode on Apple Developer](https://developer.apple.com/xcode/downloads/))
+* Xcode 6.0-GM or greater (see [Xcode on Apple Developer](https://developer.apple.com/xcode/downloads/))
 
 ## Projects
 
@@ -25,6 +25,7 @@ Each one of the sub-directories ending with `App` in this repository is a genuin
 
 ## Samples for Older Releases
 
+* [Release v4.7.0](../../tree/release/4.7.0)
 * [Release v4.6.0](../../tree/release/4.6.0)
 * [Release v4.5.0](../../tree/release/4.5.0)
 * [Release v4.4.0](../../tree/release/4.4.0)

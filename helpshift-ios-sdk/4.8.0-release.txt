@@ -1,17 +1,22 @@
-Helpshift SDK 4.7.0 Release Notes (for iOS)
+Helpshift SDK 4.8.0 Release Notes (for iOS)
 -----------------------------------------------
 
 Helpshift is an embedded support desk for native apps.
 Helpshift SDK for iOS is required for having Helpshift support running on native apps.
 
 Requirements:
-App must be running on iOS 5, 6 or 7.
+App must be running on iOS 6, 7 or 8.
 The SDK works with armv7, armv7s, arm64 as well as i386/x86_64 (iOS simulator) architectures.
+Helpshift SDK 4.8.0 will run only on Xcode6-GM and above.
 
 Documentation for Installation and Usage Instructions:
 http://developers.helpshift.com/
 
 New features:
+4.8.0 Release Date: September 16, 2014
+       * Full iOS 8 compatibility.
+       * iOS 8 bug fixes.
+       * iOS 8 UI fixes.
 4.7.0 Release Date: September 2, 2014
        * Added support for Customer satisfaction survey, which prompts your app users to rate their customer support experience with your agents.
        * Agent names will now be visible in an ongoing conversation.
