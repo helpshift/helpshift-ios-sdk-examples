@@ -18,7 +18,7 @@
 "Go to the screen you want a screenshot of, hold down the power button and the home button on your iPad, at the same time." = "Vai alla schermata che vuoi acquisire, tieni premuto il pulsante di alimentazione e contemporaneamente premi il pulsante Home sul tuo iPad.";
 "That's it, your screenshot is now in your iPhone gallery!" = "Ecco fatto, ora la tua schermata è presente nella galleria immagini del tuo iPhone!";
 "That's it, your screenshot is now in your iPad gallery!" = "Ecco fatto, ora la tua schermata è presente nella galleria immagini del tuo iPad!";
-"Take screenshot" = "Acquisisci schermata";
+"Take screenshot" = "Scatta screenshot";
 "Opening Gallery..." = "Apertura galleria...";
 "Screenshot sent" = "Schermata inviata";
 "Your message was not sent.Tap \"Try Again\" to send this message?" = "Il tuo messaggio non è stato inviato. Toccare Riprova per inviare il messaggio?";
@@ -37,7 +37,7 @@
 "Question" = "Domanda";
 "Was this helpful?" = "È stato utile?";
 "You found this helpful." = "Questo ti è stato utile.";
-"You didn't find this helpful." = "Questo non ti è stato utile.";
+"You didn't find this helpful." = "Non ti è stata utile.";
 "Try Again" = "Riprova";
 "Cancel" = "Annulla";
 "REVIEW" = "RECENSISCI";
@@ -69,7 +69,7 @@
 "CONTACT US" = "CONTATTACI";
 "Back" = "Indietro";
 "YES, THANKS!" = "SÌ, GRAZIE!";
-"START A NEW CONVERSATION" = "AVVIA UNA NUOVA CONVERSAZIONE";
+"START A NEW CONVERSATION" = "INIZIA NUOVA CONVERSAZIONE";
 "New Conversation" = "Nuova conversazione";
 "What's on your mind?" = "A cosa stai pensando?";
 "Thanks for contacting us." = "Grazie per averci contattato.";
@@ -89,3 +89,7 @@
 "Thanks for rating us." = "Grazie per la tua valutazione.";
 "Your feedback has been received." = "La tua risposta è stata ricevuta.";
 "or" = "o";
+"Questions that may already have your answer" = "Domande in cui potresti trovare la tua risposta";
+"SEND ANYWAY" = "INVIA COMUNQUE";
+"Done" = "Fatto";
+"Suggestions" = "Suggerimenti";

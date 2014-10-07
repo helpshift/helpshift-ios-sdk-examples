@@ -18,7 +18,7 @@
 "Go to the screen you want a screenshot of, hold down the power button and the home button on your iPad, at the same time." = "Gehen Sie zu der Ansicht, von der Sie ein Screenshot erstellen möchten, und drücken Sie lange und gleichzeitig auf den Ein/Aus- und Home-Button Ihres iPads.";
 "That's it, your screenshot is now in your iPhone gallery!" = "Das war's! Ihr Screenshot befindet sich jetzt in Ihrem iPhone-Album!";
 "That's it, your screenshot is now in your iPad gallery!" = "Das war's! Ihr Screenshot befindet sich jetzt in Ihrem iPad-Album!";
-"Take screenshot" = "Screenshot erstellen";
+"Take screenshot" = "Screenshot machen";
 "Opening Gallery..." = "Album wird geöffnet...";
 "Screenshot sent" = "Screenshot gesendet";
 "Your message was not sent.Tap \"Try Again\" to send this message?" = "Ihre Nachricht konnte nicht gesendet werden. Tippen Sie auf „Wiederholen“, um den Vorgang zu wiederholen.";
@@ -37,7 +37,7 @@
 "Question" = "Frage";
 "Was this helpful?" = "War dies hilfreich?";
 "You found this helpful." = "Sie fanden dies hilfreich.";
-"You didn't find this helpful." = "Sie fanden dies nicht hilfreich.";
+"You didn't find this helpful." = "Sie fanden das nicht hilfreich.";
 "Try Again" = "Wiederholen";
 "Cancel" = "Abbrechen";
 "REVIEW" = "BEWERTEN";
@@ -69,7 +69,7 @@
 "CONTACT US" = "KONTAKT";
 "Back" = "Zurück";
 "YES, THANKS!" = "JA, DANKE!";
-"START A NEW CONVERSATION" = "EINE NEUE UNTERHALTUNG BEGINNEN";
+"START A NEW CONVERSATION" = "NEUE UNTERHALTUNG ANFANGEN";
 "New Conversation" = "Neue Unterhaltung";
 "What's on your mind?" = "Was möchten Sie uns mitteilen?";
 "Thanks for contacting us." = "Danke, dass Sie uns kontaktieren.";
@@ -79,8 +79,8 @@
 "This conversation has ended." = "Dieses Gespräch ist beendet.";
 "What's your feedback about our customer support?" = "Was sagen Sie zu unserem Kundensupport?";
 "Service Rating" = "Service-Bewertung";
-"Hated it" = "Ich habe ihn gehasst";
-"Loved it" = "Ich habe ihn geliebt";
+"Hated it" = "Schrecklich";
+"Loved it" = "Super";
 "Any other feedback? (optional)" = "Andere Rückmeldungen? (optional)";
 "Thanks for messaging us!" = "Danke für Ihre Mitteilung!";
 "Did we answer all your questions?" = "Haben wir all Ihre Fragen beantwortet?";
@@ -89,3 +89,7 @@
 "Thanks for rating us." = "Danke für Ihre Bewertung.";
 "Your feedback has been received." = "Wir haben Ihr Feedback erhalten.";
 "or" = "oder";
+"Questions that may already have your answer" = "Fragen, die evtl. Ihre Antwort enthalten";
+"SEND ANYWAY" = "TROTZDEM ABSCHICKEN";
+"Done" = "Fertig";
+"Suggestions" = "Vorschläge";

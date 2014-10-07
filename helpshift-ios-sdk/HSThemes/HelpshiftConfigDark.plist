@@ -58,13 +58,17 @@
 		<key>Text color</key>
 		<string>b2b2b2</string>
 	</dict>
-	<key>FAQ and Chat Footer</key>
+	<key>FAQ and Chat</key>
 	<dict>
 		<key>Chat send button color</key>
 		<string>3396ff</string>
 		<key>FAQ yes button color</key>
 		<string>3396ff</string>
 		<key>FAQ no button color</key>
+		<string>cca300</string>
+		<key>Screenshot tutorial button color</key>
+		<string>3396ff</string>
+		<key>Screenshot attach button color</key>
 		<string>cca300</string>
 	</dict>
 	<key>Message Retry Badge</key>

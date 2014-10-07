@@ -37,7 +37,7 @@
 "Question" = "Вопрос";
 "Was this helpful?" = "Это было полезно?";
 "You found this helpful." = "Вы считаете это полезным.";
-"You didn't find this helpful." = "Вы не считаете это полезным.";
+"You didn't find this helpful." = "Вам это не помогло.";
 "Try Again" = "Повторить попытку";
 "Cancel" = "Отмена";
 "REVIEW" = "ОЦЕНИТЬ";
@@ -78,8 +78,8 @@
 "This conversation has ended." = "Разговор завершен.";
 "What's your feedback about our customer support?" = "Каков ваш отзыв о нашей клиентской поддержке?";
 "Service Rating" = "Оценка обслуживания";
-"Hated it" = "Отвратительно";
-"Loved it" = "Замечательно";
+"Hated it" = "Не нравится";
+"Loved it" = "Нравится";
 "Any other feedback? (optional)" = "Иной отзыв? (по желанию)";
 "Thanks for messaging us!" = "Спасибо за обращение к нам!";
 "Did we answer all your questions?" = "Мы ответили на все ваши вопросы?";
@@ -88,3 +88,7 @@
 "Thanks for rating us." = "Спасибо за оценку.";
 "Your feedback has been received." = "Ваш отзыв был получен.";
 "or" = "или";
+"Questions that may already have your answer" = "Вопросы, на которые уже может быть ответ для вас";
+"SEND ANYWAY" = "ВСЕ РАВНО ОТПРАВИТЬ";
+"Done" = "Готово";
+"Suggestions" = "Предложения";

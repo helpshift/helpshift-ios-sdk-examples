@@ -18,7 +18,7 @@
 "Go to the screen you want a screenshot of, hold down the power button and the home button on your iPad, at the same time." = "Diríjase a la pantalla que desee capturar, mantenga pulsado el botón de encendido junto al botón de inicio del iPad, ambos a la vez.";
 "That's it, your screenshot is now in your iPhone gallery!" = "Listo, la captura de pantalla quedó guardada en la galería del iPhone.";
 "That's it, your screenshot is now in your iPad gallery!" = "Listo, la captura de pantalla quedó guardada en la galería del iPad.";
-"Take screenshot" = "Realizar captura de pantalla";
+"Take screenshot" = "Hacer captura";
 "Opening Gallery..." = "Abriendo galería...";
 "Screenshot sent" = "Captura de pantalla enviada";
 "Your message was not sent.Tap \"Try Again\" to send this message?" = "No se envió el mensaje. ¿Desea volver a intentarlo?";
@@ -68,8 +68,8 @@
 "Please check your network connection and try again." = "Verifica la conexión a Internet e inténtalo de nuevo.";
 "CONTACT US" = "CONTÁCTANOS";
 "Back" = "Volver";
-"YES, THANKS!" = "SÍ, ¡GRACIAS!";
-"START A NEW CONVERSATION" = "INICIAR UNA NUEVA CONVERSACIÓN";
+"YES, THANKS!" = "¡SÍ, GRACIAS!";
+"START A NEW CONVERSATION" = "INICIAR NUEVA CONVERSACIÓN";
 "New Conversation" = "Nueva conversación";
 "What's on your mind?" = "¿Qué piensas?";
 "Thanks for contacting us." = "Gracias por contactarnos.";
@@ -80,7 +80,7 @@
 "What's your feedback about our customer support?" = "¿Qué tienes que decir sobre nuestra atención al cliente?";
 "Service Rating" = "Valoración del servicio";
 "Hated it" = "Horrible";
-"Loved it" = "Me encantó";
+"Loved it" = "Me gusta";
 "Any other feedback? (optional)" = "¿Algún otro comentario? (opcional)";
 "Thanks for messaging us!" = "¡Gracias por escribirnos!";
 "Did we answer all your questions?" = "¿Hemos respondido a todas tus preguntas?";
@@ -89,3 +89,7 @@
 "Thanks for rating us." = "Gracias por su valoración.";
 "Your feedback has been received." = "Se han recibido sus comentarios.";
 "or" = "o";
+"Questions that may already have your answer" = "Preguntas que ya pueden tener tu respuesta";
+"SEND ANYWAY" = "ENVIAR EN CUALQUIER CASO";
+"Done" = "Hecho";
+"Suggestions" = "Recomendaciones";

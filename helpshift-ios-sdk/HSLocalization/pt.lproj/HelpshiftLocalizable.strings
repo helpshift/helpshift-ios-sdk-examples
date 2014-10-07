@@ -18,7 +18,7 @@
 "Go to the screen you want a screenshot of, hold down the power button and the home button on your iPad, at the same time." = "Vá até a tela que você quer capturar e mantenha pressionados o botão liga / desliga e o botão home do seu iPad ao mesmo tempo.";
 "That's it, your screenshot is now in your iPhone gallery!" = "É isso, agora você tem uma captura da sua tela na galeria do iPhone!";
 "That's it, your screenshot is now in your iPad gallery!" = "É isso, agora você tem uma captura da sua tela na galeria do iPad!";
-"Take screenshot" = "Fazer captura de tela";
+"Take screenshot" = "Capturar ecrã";
 "Opening Gallery..." = "Abrindo Galeria...";
 "Screenshot sent" = "Captura de tela enviada";
 "Your message was not sent.Tap \"Try Again\" to send this message?" = "Sua mensagem não foi enviada.Tocar em Tentar Novamente para enviar esta mensagem?";
@@ -37,7 +37,7 @@
 "Question" = "Pergunta";
 "Was this helpful?" = "Isto foi útil?";
 "You found this helpful." = "Você achou isto útil.";
-"You didn't find this helpful." = "Você não achou isto útil.";
+"You didn't find this helpful." = "Não achou isto útil.";
 "Try Again" = "Tentar novamente";
 "Cancel" = "Cancelar";
 "REVIEW" = "REVER";
@@ -68,8 +68,8 @@
 "Please check your network connection and try again." = "Por favor, confira sua conexão de rede e tente novamente.";
 "CONTACT US" = "CONTATE-NOS";
 "Back" = "Voltar";
-"YES, THANKS!" = "SIM, OBRIGADO!";
-"START A NEW CONVERSATION" = "INICIAR UMA NOVA CONVERSA";
+"YES, THANKS!" = "SIM, OBG!";
+"START A NEW CONVERSATION" = "INICIAR NOVA CONVERSAÇÃO";
 "New Conversation" = "Nova Conversa";
 "What's on your mind?" = "No que você está pensando?";
 "Thanks for contacting us." = "Obrigado por contatar-nos.";
@@ -89,3 +89,7 @@
 "Thanks for rating us." = "Obrigado por nos avaliar.";
 "Your feedback has been received." = "O seu feedback foi recebido.";
 "or" = "ou";
+"Questions that may already have your answer" = "Questões que podem já ter a sua resposta";
+"SEND ANYWAY" = "SIM, ENVIAR";
+"Done" = "Feito";
+"Suggestions" = "Sugestões";

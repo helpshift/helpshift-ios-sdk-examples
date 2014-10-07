@@ -58,13 +58,17 @@
 		<key>Text color</key>
 		<string></string>
 	</dict>
-	<key>FAQ and Chat Footer</key>
+	<key>FAQ and Chat</key>
 	<dict>
 		<key>Chat send button color</key>
 		<string></string>
 		<key>FAQ yes button color</key>
 		<string></string>
 		<key>FAQ no button color</key>
+		<string></string>
+		<key>Screenshot tutorial button color</key>
+		<string></string>
+		<key>Screenshot attach button color</key>
 		<string></string>
 	</dict>
 	<key>Message Retry Badge</key>

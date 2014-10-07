@@ -68,8 +68,8 @@
 "Please check your network connection and try again." = "Controleer je netwerkverbinding en probeer het nogmaals.";
 "CONTACT US" = "CONTACT ONS";
 "Back" = "Terug";
-"YES, THANKS!" = "JA< BEDANKT!";
-"START A NEW CONVERSATION" = "BEGIN EEN NIEUW GESPREK";
+"YES, THANKS!" = "JA BEDANKT!";
+"START A NEW CONVERSATION" = "NIEUW GESPREK STARTEN";
 "New Conversation" = "Nieuw Gesprek";
 "What's on your mind?" = "Wat is het probleem?";
 "Thanks for contacting us." = "Dank voor het contact opnemen met ons.";
@@ -79,7 +79,7 @@
 "This conversation has ended." = "Deze conversatie is beëindigt.";
 "What's your feedback about our customer support?" = "Wat is uw feedback over onze klantenservice?";
 "Service Rating" = "Beoordeling van de service";
-"Hated it" = "Vreselijk";
+"Hated it" = "Niet leuk";
 "Loved it" = "Geweldig";
 "Any other feedback? (optional)" = "Enige andere feedback? (Optioneel)";
 "Thanks for messaging us!" = "Bedankt voor uw bericht!";
@@ -89,3 +89,7 @@
 "Thanks for rating us." = "Bedankt voor het beoordelen.";
 "Your feedback has been received." = "Uw feedback is ontvangen.";
 "or" = "of";
+"Questions that may already have your answer" = "Vragen die uw antwoord al kunnen hebben";
+"SEND ANYWAY" = "TOCH STUREN";
+"Done" = "Klaar";
+"Suggestions" = "Suggesties";

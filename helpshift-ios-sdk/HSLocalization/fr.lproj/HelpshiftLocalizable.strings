@@ -18,7 +18,7 @@
 "Go to the screen you want a screenshot of, hold down the power button and the home button on your iPad, at the same time." = "Choisissez l'écran désiré puis maintenez enfoncés simultanément le bouton de mise sous tension et le bouton d'accueil de votre iPad.";
 "That's it, your screenshot is now in your iPhone gallery!" = "Voilà, votre nouvelle capture d'écran est maintenant intégrée à la galerie de photos de votre iPhone !";
 "That's it, your screenshot is now in your iPad gallery!" = "Voilà, votre nouvelle capture d'écran est maintenant intégrée à la galerie de photos de votre iPad !";
-"Take screenshot" = "Prenez une capture d'écran";
+"Take screenshot" = "Capture d'écran";
 "Opening Gallery..." = "Ouverture de la Galerie de photos...";
 "Screenshot sent" = "La capture d'écran a été envoyée";
 "Your message was not sent.Tap \"Try Again\" to send this message?" = "Votre message n'a pas été envoyé. Voulez-vous taper Réessayez pour envoyer ce message ? ";
@@ -37,7 +37,7 @@
 "Question" = "Question";
 "Was this helpful?" = "Cela vous a-t-il été utile?";
 "You found this helpful." = "Notre aide vous a-t-elle été utile.";
-"You didn't find this helpful." = "Notre aide ne vous a pas été utile.";
+"You didn't find this helpful." = "Cela ne vous a pas aidé.";
 "Try Again" = "Veuillez réessayer";
 "Cancel" = "Annulez";
 "REVIEW" = "RÉVISION";
@@ -68,8 +68,8 @@
 "Please check your network connection and try again." = "Veuillez vérifier votre bonne connexion réseau et réessayer.";
 "CONTACT US" = "CONTACTEZ-NOUS";
 "Back" = "Retour";
-"YES, THANKS!" = "OUI, JE VOUS REMERCIE !";
-"START A NEW CONVERSATION" = "COMMENCER UNE NOUVELLE CONVERSATION";
+"YES, THANKS!" = "OUI, MERCI !";
+"START A NEW CONVERSATION" = "NOUVELLE CONVERSATION";
 "New Conversation" = "Nouvelle conversation";
 "What's on your mind?" = "À quoi pensez-vous ?";
 "Thanks for contacting us." = "Merci de nous avoir contactés.";
@@ -89,3 +89,7 @@
 "Thanks for rating us." = "Merci d'avoir donné votre avis.";
 "Your feedback has been received." = "Votre avis a bien été reçu.";
 "or" = "ou";
+"Questions that may already have your answer" = "Questions relatives à la vôtre";
+"SEND ANYWAY" = "ENVOYER QUAND MÊME";
+"Done" = "Fait";
+"Suggestions" = "Suggestions";
