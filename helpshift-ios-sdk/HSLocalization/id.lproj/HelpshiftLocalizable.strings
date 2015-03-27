@@ -1,0 +1,95 @@
+/*
+  HelpshiftLocalizable.strings
+  Helpshift
+
+  Copyright (c) 2014 Helpshift,Inc., All rights reserved.
+*/
+
+
+"Rate our App" = "Beri Peringkat";
+"If you love our app, please take a moment to rate it in the App Store" = "Apabila Anda menyukai aplikasi kami, mohon beri kami peringkat di App Store";
+"Rate" = "Peringkat";
+"Send Feedback" = "Kirim Komentar";
+"No Internet!" = "Tidak ada koneksi Internet!";
+"No working Internet connection is found." = "Koneksi Internet tidak ditemukan.";
+"Take a screenshot on your iPhone" = "Ambil tangkapan layar pada iPhone Anda";
+"Take a screenshot on your iPad" = "Ambil tangkapan layar pada iPad Anda";
+"Go to the screen you want a screenshot of, hold down the power button and the home button on your iPhone, at the same time." = "Buka layar yang ingin Anda ambil tangkapan layarnya, tahan tombol daya dan tombol home pada iPhone Anda secara bersamaan.";
+"Go to the screen you want a screenshot of, hold down the power button and the home button on your iPad, at the same time." = "Buka layar yang ingin Anda ambil tangkapan layarnya, tahan tombol daya dan tombol home pada iPad Anda secara bersamaan.";
+"That's it, your screenshot is now in your iPhone gallery!" = "Tangkapan layar Anda kini berada di galeri iPhone Anda!";
+"That's it, your screenshot is now in your iPad gallery!" = "Tangkapan layar Anda kini berada di galeri iPad Anda!";
+"Take screenshot" = "Ambil tangkapan layar";
+"Opening Gallery..." = "Membuka Galeri...";
+"Screenshot sent" = "Tangkapan layar dikirim";
+"Your message was not sent.Tap \"Try Again\" to send this message?" = "Pesan Anda tidak terkirim. Tekan \"Coba Lagi\" untuk mengirim pesan ini?";
+"No faqs found in this section" = "Tidak ada faq di bagian ini";
+"Could not fetch faqs" = "Tidak dapat mengambil faq";
+"We could not fetch the required data" = "Tidak dapat mengambil data";
+"FAQ" = "FAQ";
+"Can't find what you were looking for?" = "Tidak menemukan yang Anda cari?";
+"Sorry to hear that. Could you please tell us a little bit more about the problem you are facing?" = "Kami mohon maaf. Dapatkah Anda menjelaskan masalah yang Anda alami pada kami?";
+"We're happy to help you!" = "Kami senang membantu Anda!";
+"Describe your problem" = "Jelaskan masalah Anda";
+"Email invalid" = "Email salah";
+"Please provide a valid email address." = "Mohon berikan alamat email yang benar.";
+"Invalid Entry" = "Entri tidak valid";
+"Please enter a brief description of the issue you are facing." = "Mohon beri penjelasan singkat tentang masalah yang Anda alami.";
+"Question" = "Pertanyaan";
+"Was this helpful?" = "Apakah ini membantu?";
+"You found this helpful." = "Ini membantu Anda.";
+"You didn't find this helpful." = "Ini tidak membantu Anda.";
+"Try Again" = "Coba Lagi";
+"Cancel" = "Batal";
+"REVIEW" = "TINJAU";
+"Send" = "Kirim";
+"Ok, attach" = "Oke, lampirkan";
+"Learn how" = "Pelajari";
+"YES" = "YA";
+"NO" = "TIDAK";
+"Accepted review request" = "Menerima permintaan tinjau";
+"SEND" = "KIRIM";
+"OK" = "Oke";
+"Close" = "Tutup";
+"Loading..." = "Memuat...";
+"Help" = "Bantuan";
+"Sending failed!" = "Pengiriman gagal!";
+"Screenshot could not be sent. Image is too large, try again with another image" = "Tangkapan layar tidak dapat dikirim. Gambar terlalu besar, coba lagi dengan gambar lain";
+"Name invalid" = "Nama salah";
+"Please provide a name." = "Mohon berikan nama.";
+"New message from Support" = "Pesan baru dari Dukungan";
+"new messages from Support" = "pesan baru dari Dukungan";
+"No FAQs found" = "FAQ tidak ditemukan";
+"Conversation" = "Percakapan";
+"Name" = "Nama";
+"Email (optional)" = "Email (opsional)";
+"Email" = "Email";
+"Sending your message..." = "Mengirim pesan Anda...";
+"Message send failure." = "Gagal mengirim pesan.";
+"Please check your network connection and try again." = "Silakan periksa koneksi jaringan Anda dan coba lagi.";
+"CONTACT US" = "HUBUNGI KAMI";
+"Back" = "Kembali";
+"YES, THANKS!" = "YA, TERIMA KASIH!";
+"START A NEW CONVERSATION" = "MULAI PERCAKAPAN BARU";
+"New Conversation" = "Percakapan Baru";
+"What's on your mind?" = "Apa yang Anda pikirkan?";
+"Thanks for contacting us." = "Terima kasih telah menghubungi kami.";
+"Your message has been received." = "Pesan Anda telah diterima.";
+"What else can we help you with?" = "Apa lagi yang dapat kami bantu?";
+"Would you like to review the app?" = "Bersediakah Anda memberi kami peringkat?";
+"This conversation has ended." = "Percakapan ini sudah berakhir.";
+"What's your feedback about our customer support?" = "Bagaimana komentar Anda tentang dukungan pelanggan kami?";
+"Service Rating" = "Peringkat Layanan";
+"Hated it" = "Tidak puas";
+"Loved it" = "Sangat puas";
+"Any other feedback? (optional)" = "Ada komentar lain? (opsional)";
+"Thanks for messaging us!" = "Terima kasih atas pesan Anda!";
+"Did we answer all your questions?" = "Apakah semua pertanyaan Anda terjawab?";
+"Preview" = "Pratinjau";
+"Your Rating:" = "Peringkat dari Anda:";
+"Thanks for rating us." = "Terima kasih telah memberi kami peringkat.";
+"Your feedback has been received." = "Komentar Anda telah diterima.";
+"or" = "atau";
+"Questions that may already have your answer" = "Pertanyaan yang mungkin memiliki jawaban untuk Anda";
+"SEND ANYWAY" = "TETAP KIRIM";
+"Done" = "Selesai";
+"Suggestions" = "Saran";

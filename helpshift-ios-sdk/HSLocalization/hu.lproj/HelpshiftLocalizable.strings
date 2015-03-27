@@ -1,0 +1,95 @@
+/*
+ HelpshiftLocalizable.strings
+ Helpshift
+
+ Copyright (c) 2014 Helpshift,Inc., All rights reserved.
+ */
+
+
+"Rate our App" = "Értékelje alkalmazásunkat";
+"If you love our app, please take a moment to rate it in the App Store" = "Ha tetszik az alkalmazásunk, kérjük, értékelje az App Store áruházban";
+"Rate" = "Értékelés";
+"Send Feedback" = "Visszajelzés küldés";
+"No Internet!" = "Nincs Internet!";
+"No working Internet connection is found." = "Nem található működő internet kapcsolat.";
+"Take a screenshot on your iPhone" = "Készítsen képernyőképet iPhonján";
+"Take a screenshot on your iPad" = "Készítsen képernyőképet iPadjén";
+"Go to the screen you want a screenshot of, hold down the power button and the home button on your iPhone, at the same time." = "Menjen az iPhone oldalára, amiről a képernyőképet készítené, tartsa lenyomva egyszerre a bekapcsoló és a Home gombokat.";
+"Go to the screen you want a screenshot of, hold down the power button and the home button on your iPad, at the same time." = "Menjen az iPad oldalára amiről a képernyőképet készítené, tartsa lenyomva egyszerre a bekapcsoló és a Home gombokat.";
+"That's it, your screenshot is now in your iPhone gallery!" = "Kész, a képernyőkép az iPhone Fényképek között van!";
+"That's it, your screenshot is now in your iPad gallery!" = "Kész, a képernyőkép az iPad Fényképek között van!";
+"Take screenshot" = "Képernyőkép készítése";
+"Opening Gallery..." = "Fényképek megnyitása...";
+"Screenshot sent" = "Képernyőkép elküldve";
+"Your message was not sent.Tap \"Try Again\" to send this message?" = "Üzenete nem lett elküldve. Érintse meg a \"Próbálja Újra\" gombot az üzenet küldéséhez";
+"No faqs found in this section" = "Ehhez a részleghez nincs GYIK";
+"Could not fetch faqs" = "GYIK nem betölthető";
+"We could not fetch the required data" = "Nem tudtuk betölteni a kért adatokat";
+"FAQ" = "GYIK";
+"Can't find what you were looking for?" = "Megválaszolatlan kérdése maradt?";
+"Sorry to hear that. Could you please tell us a little bit more about the problem you are facing?" = "Sajnálattal halljuk. Tudna egy kicsit bővebben beszélni a felmerült problémáról?";
+"We're happy to help you!" = "Szívesen segítünk!";
+"Describe your problem" = "Ismertesse problémáját";
+"Email invalid" = "Érvénytelen e-mail";
+"Please provide a valid email address." = "Kérjük adjon meg érvényes e-mail címet.";
+"Invalid Entry" = "Érvénytelen Bejegyzés";
+"Please enter a brief description of the issue you are facing." = "Kérjük, röviden írja le milyen problémával küzd.";
+"Question" = "Kérdés";
+"Was this helpful?" = "Hasznos volt?";
+"You found this helpful." = "Hasznosnak találta.";
+"You didn't find this helpful." = "Nem találta hasznosnak.";
+"Try Again" = "Próbálja Újra";
+"Cancel" = "Mégse";
+"REVIEW" = "ÉRTÉKELÉS";
+"Send" = "Elküldés";
+"Ok, attach" = "Rendben, csatolja";
+"Learn how" = "Tudja meg, hogyan";
+"YES" = "IGEN";
+"NO" = "NEM";
+"Accepted review request" = "Értékelés kérés elfogadva";
+"SEND" = "ELKÜLDÉS";
+"OK" = "RENDBEN";
+"Close" = "Bezárás";
+"Loading..." = "Töltés folyamatban...";
+"Help" = "Súgó";
+"Sending failed!" = "Küldés sikertelen!";
+"Screenshot could not be sent. Image is too large, try again with another image" = "Képernyőkép küldése sikertelen. A kép túl nagy, próbálja újra egy másik képpel";
+"Name invalid" = "Érvénytelen név";
+"Please provide a name." = "Kérjük, adjon megy egy nevet.";
+"New message from Support" = "Új üzenet a Támogatótól";
+"new messages from Support" = "Új üzenetek a Támogatótól";
+"No FAQs found" = "GYIK nem található";
+"Conversation" = "Párbeszéd";
+"Name" = "Név";
+"Email (optional)" = "E-mail (nem kötelező)";
+"Email" = "E-mail";
+"Sending your message..." = "Elküldjük az üzenetét...";
+"Message send failure." = "Az üzenet küldése sikertelen";
+"Please check your network connection and try again." = "Kérjük, ellenőrizze hálózati kapcsolatát, majd próbálja újra";
+"CONTACT US" = "KAPCSOLAT";
+"Back" = "Vissza";
+"YES, THANKS!" = "IGEN, KÖSZÖNÖM!";
+"START A NEW CONVERSATION" = "KEZDJEN ÚJ PÁRBESZÉDET";
+"New Conversation" = "Új Párbeszéd";
+"What's on your mind?" = "Mi jár a fejében?";
+"Thanks for contacting us." = "Köszönjük, hogy felvette velünk a kapcsolatot.";
+"Your message has been received." = "Üzenete kézbesítve.";
+"What else can we help you with?" = "Miben tudunk még segítségére lenni?";
+"Would you like to review the app?" = "Volna kedve értékelni az alkalmazást?";
+"This conversation has ended." = "Ez a párbeszéd befejeződött.";
+"What's your feedback about our customer support?" = "Mi a visszajelzése ügyfélszolgálatunkról?";
+"Service Rating" = "Szolgáltatás Értékelő";
+"Hated it" = "Gyűlölte";
+"Loved it" = "Imádta";
+"Any other feedback? (optional)" = "Bármi más észrevétel? (nem kötelező)";
+"Thanks for messaging us!" = "Köszönjük üzenetét!";
+"Did we answer all your questions?" = "Válaszoltunk minden kérdésére?";
+"Preview" = "Előnézet";
+"Your Rating:" = "Értékelése:";
+"Thanks for rating us." = "Köszönjük, hogy értékelt minket";
+"Your feedback has been received." = "Értékelése elfogadva.";
+"or" = "vagy";
+"Questions that may already have your answer" = "Kérdések, amelyekre lehet, hogy már megvan a válasz";
+"SEND ANYWAY" = "MINDENKÉPP ELKÜLDÉS";
+"Done" = "Kész";
+"Suggestions" = "Javaslatok";

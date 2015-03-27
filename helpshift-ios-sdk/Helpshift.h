@@ -1,6 +1,6 @@
 /*
  *    Helpshift.h
- *    SDK version 4.9.0
+ *    SDK version 4.10.2
  *
  *    Get the documentation at http://www.helpshift.com/docs
  *
@@ -8,10 +8,6 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
-
-/**
- * This document describes the API exposed by the Helpshift SDK (4.x) which the developers can use to integrate Helpshift support into their iOS applications. If you want documentation regarding how to use the various features provided by the Helpshift SDK, please visit the [developer docs](http://developers.helpshift.com/)
- */
 
 typedef enum HSAlertToRateAppAction
 {
@@ -57,6 +53,24 @@ extern NSString *const HSCustomMetadataKey;
 //
 extern NSString *const HSTagsKey;
 
+// String constant to check which type of message you get in userRepliedToConversationWithMessage: delegate.
+// When you use userRepliedToConversationWithMessage: delegate, you can check the type of message user replied with.
+// When user replied with text message you will get that message string in delegate method.
+// Example usage 1:
+// - (void) userRepliedToConversationWithMessage:(NSString *)newMessage {
+//   if ([newMessage isEqualToString:HSUserAcceptedTheSolution]) {
+//    // do something here
+//    }
+// }
+
+static NSString *HSUserAcceptedTheSolution = @"User accepted the solution";
+static NSString *HSUserRejectedTheSolution = @"User rejected the solution";
+static NSString *HSUserSentScreenShot = @"User sent a screenshot";
+static NSString *HSUserReviewedTheApp = @"User reviewed the app";
+
+/**
+ * This document describes the API exposed by the Helpshift SDK (4.x) which the developers can use to integrate Helpshift support into their iOS applications. If you want documentation regarding how to use the various features provided by the Helpshift SDK, please visit the [developer docs](http://developers.helpshift.com/)
+ */
 
 @protocol HelpshiftDelegate;
 @interface Helpshift : NSObject <UIAlertViewDelegate>
@@ -324,6 +338,30 @@ extern NSString *const HSTagsKey;
  */
 - (void) closeHelpshiftSession;
 
+/** Login a user with a given identifier
+ *
+ * This api introduces support for multiple logins in Helpshift.
+ * The identifier uniquely identifies the user. Name and email are optional.
+ * If any Helpshift session is active, then any login attempt is ignored.
+ *
+ * @param name The name of the user
+ * @param email The email of the user
+ *
+ * @available Available in SDK version 4.10.0 or later
+ *
+ */
++ (void) loginWithIdentifier:(NSString *)identifier withName:(NSString *)name andEmail:(NSString *)email;
+
+/** Logout the currently logged in user
+ *
+ * After logout, Helpshift falls back to the default login.
+ * If any Helpshift session is active, then any logout attempt is ignored.
+ *
+ * @available Available in SDK version 4.10.0 or later
+ *
+ */
++ (void) logout;
+
 // Deprecated API calls
 
 /**
@@ -422,6 +460,17 @@ extern NSString *const HSTagsKey;
 
 - (void) didReceiveNotificationCount:(NSInteger)count;
 
+@optional
+/** Optional delegate method that is called when the a Helpshift session begins.
+ *
+ *
+ * Helpshift session is any Helpshift support screen opened via showFAQ:, showConversation: or other API calls.
+ * Whenever one of these APIs launches a view on screen, this method is invoked.
+ *
+ *  @available Available in SDK version 4.10.1 or later
+ */
+- (void) helpshiftSessionHasBegun;
+
 /** Optional delegate method that is called when the Helpshift session ends.
  *
  *
@@ -430,7 +479,6 @@ extern NSString *const HSTagsKey;
  *
  *  @available Available in SDK version 1.4.3 or later
  */
-@optional
 - (void) helpshiftSessionHasEnded;
 
 /** Optional delegate method that is called when a Helpshift inapp notification arrives and is shown
@@ -439,4 +487,35 @@ extern NSString *const HSTagsKey;
  * @available Available in SDK version 4.3.0 or later
  */
 - (void) didReceiveInAppNotificationWithMessageCount:(NSInteger)count;
+
+/** Optional delegate method that is called when new conversation get started via any Helpshift API Ex:- showFaq:, showConversation:,etc
+ * @param newConversationMessage Return first message of new conversation.
+ * @available Available in SDK version 4.10.0 or later
+ */
+- (void) newConversationStartedWithMessage:(NSString *)newConversationMessage;
+
+/** Optional delegate method that is called when user reply on current open conversation via any Helpshift API Ex:- showFaq:, showConversation:, etc
+ * @param newMessage Return reply message on open conversation.
+ * @available Available in SDK version 4.10.0 or later
+ */
+- (void) userRepliedToConversationWithMessage:(NSString *)newMessage;
+
+/**Optional delegate method that is called when user complete customer satisfaction survey after issue getting resolved.
+ * @param rating Return the rating of customer satisfaction survey.
+ * @param feedback Return text which user added in customer satisfaction survey.
+ *
+ * @available Available in SDK version 4.10.1 or later.
+ */
+- (void) userCompletedCustomerSatisfactionSurvey:(NSInteger)rating withFeedback:(NSString *)feedback;
+
+/** Optional delegate method that is called when the user taps an downloaded attachment file to view it.
+ *  @return If the app chooses to display the attachment file itself, return true
+ *          If the app does not wish to handle the attachment, return false. In this case, the SDK will display the attachment
+ *  @param fileLocation Returns the location on the downloaded attachment file.
+ *         parentViewController Returns SDK's top view controller that the app can use to present its view.
+ *
+ * @available Available in SDK version 4.10.0 or later
+ */
+- (BOOL) displayAttachmentFileAtLocation:(NSURL *)fileLocation onViewController:(UIViewController *)parentViewController;
+
 @end

@@ -1,0 +1,95 @@
+/*
+ HelpshiftLocalizable.strings
+ Helpshift
+
+ Copyright (c) 2014 Helpshift,Inc., All rights reserved.
+ */
+
+
+"Rate our App" = "Ohodnotit aplikaci";
+"If you love our app, please take a moment to rate it in the App Store" = "Pokud se vám naše aplikace líbí, věnujte prosím chvíli jejímu hodnocení na webu App Store.";
+"Rate" = "Ohodnotit";
+"Send Feedback" = "Zaslat feedback";
+"No Internet!" = "Není připojení!";
+"No working Internet connection is found." = "Nebylo nalezeno žádné funkční připojení k Internetu.";
+"Take a screenshot on your iPhone" = "Pořídit snímek obrazovky v zařízení iPhone";
+"Take a screenshot on your iPad" = "Pořídit snímek obrazovky v zařízení iPad";
+"Go to the screen you want a screenshot of, hold down the power button and the home button on your iPhone, at the same time." = "Přejděte na obrazovku, jejíž snímek chcete pořídit, a současně podržte tlačítko napájení a domovské tlačítko zařízení iPhone.";
+"Go to the screen you want a screenshot of, hold down the power button and the home button on your iPad, at the same time." = "Přejděte na obrazovku, jejíž snímek chcete pořídit, a současně podržte tlačítko napájení a domovské tlačítko zařízení iPad.";
+"That's it, your screenshot is now in your iPhone gallery!" = "To je vše, snímek obrazovky teď najdete v galerii zařízení iPhone!";
+"That's it, your screenshot is now in your iPad gallery!" = "To je vše, snímek obrazovky teď najdete v galerii zařízení iPad!";
+"Take screenshot" = "Vyfotit obrazovku";
+"Opening Gallery..." = "Otevírám galerii...";
+"Screenshot sent" = "Snímek byl odeslán";
+"Your message was not sent.Tap \"Try Again\" to send this message?" = "Vaše zpráva nebyla odeslána.Odešlete ji klepnutím na \"Opakovat\"?";
+"No faqs found in this section" = "V této sekci nebyly nalezeny žádné dotazy";
+"Could not fetch faqs" = "Nepodařilo se získat časté dotazy";
+"We could not fetch the required data" = "Požadovaná data se nepodařilo získat";
+"FAQ" = "Časté dotazy";
+"Can't find what you were looking for?" = "Nemůžete najít, co jste hledali?";
+"Sorry to hear that. Could you please tell us a little bit more about the problem you are facing?" = "To je nám líto. Můžete nám prosím říct víc o problému, který máte?";
+"We're happy to help you!" = "Rádi vám pomůžeme!";
+"Describe your problem" = "Popište svůj problém";
+"Email invalid" = "Neplatný e-mail";
+"Please provide a valid email address." = "Zadejte prosím platnou e-mailovou adresu";
+"Invalid Entry" = "Neplatný záznam";
+"Please enter a brief description of the issue you are facing." = "Zadejte prosím stručný popis problému, se kterým jste se setkali.";
+"Question" = "Otázka";
+"Was this helpful?" = "Pomohlo to?";
+"You found this helpful." = "Pomohlo vám to.";
+"You didn't find this helpful." = "Nepomohlo vám to.";
+"Try Again" = "Opakovat";
+"Cancel" = "Zrušit";
+"REVIEW" = "RECENZOVAT";
+"Send" = "Odeslat";
+"Ok, attach" = "OK, přiložit";
+"Learn how" = "Zjistit jak";
+"YES" = "ANO";
+"NO" = "NE";
+"Accepted review request" = "Přijat požadavek na recenzi";
+"SEND" = "ODESLAT";
+"OK" = "OK";
+"Close" = "Zavřít";
+"Loading..." = "Nahrávám...";
+"Help" = "Nápověda";
+"Sending failed!" = "Odesílání se nezdařilo!";
+"Screenshot could not be sent. Image is too large, try again with another image" = "Snímek se nepodařilo odeslat, protože je příliš velký. Zkuste to s jiným obrázkem.";
+"Name invalid" = "Neplatný název";
+"Please provide a name." = "Zadejte prosím název.";
+"New message from Support" = "Nová zpráva od podpory";
+"New messages from Support" = "Nové zprávy od podpory";
+"No FAQs found" = "Žádné časté dotazy";
+"Conversation" = "Konverzace";
+"Name" = "Jméno";
+"Email (optional)" = "E-mail (nepovinný)";
+"Email" = "Odeslat e-mail";
+"Sending your message..." = "Odesílám zprávu...";
+"Message send failure." = "Zprávu se nepodařilo odeslat.";
+"Please check your network connection and try again." = "Zkontrolujte připojení k Internetu a akci opakujte.";
+"CONTACT US" = "KONTAKT";
+"Back" = "Zpět";
+"YES, THANKS!" = "ANO, DĚKUJI!";
+"START A NEW CONVERSATION" = "ZAHÁJIT NOVOU KONVERZACI";
+"New Conversation" = "Nová konverzace";
+"What's on your mind?" = "Co si přejete?";
+"Thanks for contacting us." = "Děkujeme, že jste nás kontaktovali.";
+"Your message has been received." = "Vaše zpráva byla přijata.";
+"What else can we help you with?" = "S čím vám ještě můžeme pomoct?";
+"Would you like to review the app?" = "Přejete si napsat recenzi na tuto aplikaci?";
+"This conversation has ended." = "Tato konverzace skončila.";
+"What's your feedback about our customer support?" = "Jaký je váš názor na naši zákaznickou podporu?";
+"Service Rating" = "Hodnocení služby";
+"Hated it" = "Nelíbila se mi";
+"Loved it" = "Líbila se mi";
+"Any other feedback? (optional)" = "Chcete nám sdělit ještě něco? (nepovinné)";
+"Thanks for messaging us!" = "Děkujeme, že jste nám napsali!";
+"Did we answer all your questions?" = "Odpověděli jsme na všechny vaše dotazy?";
+"Preview" = "Náhled";
+"Your Rating:" = "Vaše hodnocení";
+"Thanks for rating us." = "Děkujeme, že jste nás ohodnotili.";
+"Your feedback has been received." = "Váš názor jsme obdrželi.";
+"or" = "nebo";
+"Questions that may already have your answer" = "Otázky, na které už možná existuje odpověď";
+"SEND ANYWAY" = "PŘESTO ODESLAT";
+"Done" = "Hotovo";
+"Suggestions" = "Návrhy";
