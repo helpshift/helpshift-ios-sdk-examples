@@ -82,12 +82,34 @@ static NSArray *hsFeatures = nil;
 
 //Showing the support screens in app [http://www.helpshift.com/docs/howto/ios/v2.x/#decomposition]
 - (void)btnSupportClick:(id)sender {
+
+    // Dictionary for metaData
+    NSDictionary *metaDataWithTags = @{@"usertype": @"paid",
+                                       @"level":@"7",
+                                       @"score":@"12345",
+                                       HSTagsKey:@[@"feedback",@"paid user",@"v4.1"]};
+
     UIButton *button = (UIButton *) sender;
     switch (button.tag) {
         case HS_SHOW_HELP:
-            [[Helpshift sharedInstance] showFAQs:self withOptions:nil];
+
+            //You can add metaData in withOptions dictionary
+
+            [[Helpshift sharedInstance] showFAQs:self withOptions:@{HSCustomMetadataKey : metaDataWithTags}];
             break;
         case HS_SHOW_CONTACTUS:
+            //You can also add metaData using setMetadataBlock Api
+            [Helpshift setMetadataBlock:^NSDictionary *{
+                NSMutableDictionary *metadata = [[NSMutableDictionary alloc] init];
+                [metadata setObject:@"xyz" forKey:@"name"];
+                [metadata setObject:@"xyz@abc.com" forKey:@"email"];
+                [metadata setObject:[NSNumber numberWithInteger:10] forKey:@"game level"];
+                [metadata setObject:[NSNumber numberWithInteger:200] forKey:@"score"];
+                // Add tags with metaData
+                NSArray *tags = @[@"feedback",@"paid user"];
+                [metadata setObject:tags forKey:HSTagsKey];
+                return metadata;
+            }];
             [[Helpshift sharedInstance] showConversation:self withOptions:nil];
             break;
         case HS_SHOW_FAQSECTION:
