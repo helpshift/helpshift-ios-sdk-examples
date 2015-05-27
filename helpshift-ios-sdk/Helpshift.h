@@ -1,6 +1,6 @@
 /*
  *    Helpshift.h
- *    SDK version 4.10.2
+ *    SDK version 4.11.0
  *
  *    Get the documentation at http://www.helpshift.com/docs
  *
@@ -126,6 +126,18 @@ static NSString *HSUserReviewedTheApp = @"User reviewed the app";
  * @available Available in SDK version 4.3.0 or later
  */
 + (void) pauseDisplayOfInAppNotification:(BOOL)pauseInApp;
+
+/** Change the SDK language. By default, the device's prefered language is used.
+ *  If a Helpshift session is already active at the time of invocation, this call will fail and will return false.
+ *
+ * @param languageCode the string representing the language code. For example, use 'fr' for French.
+ *
+ * @return BOOL indicating wether the specified language was applied. In case the language code is incorrect or
+ * the corresponding localization file was not found, bool value of false is returned and the default language is used.
+ *
+ * @available Available in SDK version 4.11.0 or later
+ */
+- (BOOL) setSDKLanguage:(NSString *)languageCode;
 
 /** Show the helpshift conversation screen (with Optional Arguments)
  *

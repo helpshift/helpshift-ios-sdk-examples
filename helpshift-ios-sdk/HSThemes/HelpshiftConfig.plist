@@ -22,6 +22,8 @@
 		<string></string>
 		<key>Cell selection color</key>
 		<string></string>
+		<key>Search highlight color</key>
+		<string></string>
 	</dict>
 	<key>Navigation Bar</key>
 	<dict>
@@ -33,8 +35,14 @@
 		<string></string>
 		<key>Bar button text color</key>
 		<string></string>
+		<key>Bar button font name</key>
+		<string></string>
+		<key>Bar button font size</key>
+		<string></string>
 		<key>Background color</key>
 		<string></string>
+		<key>Set Translucent</key>
+		<true/>
 		<key>Text shadow color (iOS 6)</key>
 		<string></string>
 		<key>Background image (iOS 6)</key>
