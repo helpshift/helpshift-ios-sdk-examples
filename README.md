@@ -13,6 +13,12 @@ Each one of the sub-directories ending with `App` in this repository is a genuin
 * **[HelpshiftSupportApp](HelpshiftSupportApp)**: demonstrates different support screens in your app
 * **[APNApp](APNApp)**: handling customer support notifications via Apple Push Notification Service
 
+For the projects to build and run successfully, please follow these steps : 
+* Enter your install credentials in `AppDelegate.m`.
+* Enter your bundle identifier in General section in project settings.
+* (For push notifications) Select a valid team in General section in project settings.
+* (For push notifications) Turn on the capability for Push Notifications in Capabilities section in project settings.
+
 ## Resources
 * Documentation: [https://developers.helpshift.com/ios/getting-started/](https://developers.helpshift.com/ios/getting-started/)
 * API Reference: [https://www.helpshift.com/docs/api/ios/v5.x/index.html](https://www.helpshift.com/docs/api/ios/v4.x/index.html)
