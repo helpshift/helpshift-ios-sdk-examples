@@ -26,10 +26,11 @@
 		6A5D3E401DA25DBC003EB0F5 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A5D3E3F1DA25DBC003EB0F5 /* CoreLocation.framework */; };
 		6A5D3E421DA25DC2003EB0F5 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A5D3E411DA25DC2003EB0F5 /* MobileCoreServices.framework */; };
 		6A5D3E441DA25DC9003EB0F5 /* CoreSpotlight.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A5D3E431DA25DC9003EB0F5 /* CoreSpotlight.framework */; };
-		6A5D3E501DA25E06003EB0F5 /* HsLocalization.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6A5D3E4C1DA25E06003EB0F5 /* HsLocalization.bundle */; };
-		6A5D3E511DA25E06003EB0F5 /* HSThemes in Resources */ = {isa = PBXBuildFile; fileRef = 6A5D3E4D1DA25E06003EB0F5 /* HSThemes */; };
-		6A5D3E521DA25E06003EB0F5 /* HsUIResourceBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6A5D3E4E1DA25E06003EB0F5 /* HsUIResourceBundle.bundle */; };
-		6A5D3E531DA25E06003EB0F5 /* libHelpshift.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A5D3E4F1DA25E06003EB0F5 /* libHelpshift.a */; };
+		6AB815641E2616D90063A86C /* HsLocalization.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6AB8155E1E2616D90063A86C /* HsLocalization.bundle */; };
+		6AB815651E2616D90063A86C /* HelpshiftConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6AB815601E2616D90063A86C /* HelpshiftConfig.plist */; };
+		6AB815661E2616D90063A86C /* HelpshiftConfigDark.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6AB815611E2616D90063A86C /* HelpshiftConfigDark.plist */; };
+		6AB815671E2616D90063A86C /* HsUIResourceBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6AB815621E2616D90063A86C /* HsUIResourceBundle.bundle */; };
+		6AB815681E2616D90063A86C /* libHelpshift.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AB815631E2616D90063A86C /* libHelpshift.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,16 +57,17 @@
 		6A5D3E3F1DA25DBC003EB0F5 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		6A5D3E411DA25DC2003EB0F5 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		6A5D3E431DA25DC9003EB0F5 /* CoreSpotlight.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreSpotlight.framework; path = System/Library/Frameworks/CoreSpotlight.framework; sourceTree = SDKROOT; };
-		6A5D3E461DA25E06003EB0F5 /* Helpshift.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Helpshift.h; sourceTree = "<group>"; };
-		6A5D3E471DA25E06003EB0F5 /* HelpshiftAll.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelpshiftAll.h; sourceTree = "<group>"; };
-		6A5D3E481DA25E06003EB0F5 /* HelpshiftCampaigns.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelpshiftCampaigns.h; sourceTree = "<group>"; };
-		6A5D3E491DA25E06003EB0F5 /* HelpshiftCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelpshiftCore.h; sourceTree = "<group>"; };
-		6A5D3E4A1DA25E06003EB0F5 /* HelpshiftInbox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelpshiftInbox.h; sourceTree = "<group>"; };
-		6A5D3E4B1DA25E06003EB0F5 /* HelpshiftSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelpshiftSupport.h; sourceTree = "<group>"; };
-		6A5D3E4C1DA25E06003EB0F5 /* HsLocalization.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = HsLocalization.bundle; sourceTree = "<group>"; };
-		6A5D3E4D1DA25E06003EB0F5 /* HSThemes */ = {isa = PBXFileReference; lastKnownFileType = folder; path = HSThemes; sourceTree = "<group>"; };
-		6A5D3E4E1DA25E06003EB0F5 /* HsUIResourceBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = HsUIResourceBundle.bundle; sourceTree = "<group>"; };
-		6A5D3E4F1DA25E06003EB0F5 /* libHelpshift.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libHelpshift.a; sourceTree = "<group>"; };
+		6AB815581E2616D90063A86C /* Helpshift.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Helpshift.h; sourceTree = "<group>"; };
+		6AB815591E2616D90063A86C /* HelpshiftAll.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelpshiftAll.h; sourceTree = "<group>"; };
+		6AB8155A1E2616D90063A86C /* HelpshiftCampaigns.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelpshiftCampaigns.h; sourceTree = "<group>"; };
+		6AB8155B1E2616D90063A86C /* HelpshiftCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelpshiftCore.h; sourceTree = "<group>"; };
+		6AB8155C1E2616D90063A86C /* HelpshiftInbox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelpshiftInbox.h; sourceTree = "<group>"; };
+		6AB8155D1E2616D90063A86C /* HelpshiftSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelpshiftSupport.h; sourceTree = "<group>"; };
+		6AB8155E1E2616D90063A86C /* HsLocalization.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = HsLocalization.bundle; sourceTree = "<group>"; };
+		6AB815601E2616D90063A86C /* HelpshiftConfig.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = HelpshiftConfig.plist; sourceTree = "<group>"; };
+		6AB815611E2616D90063A86C /* HelpshiftConfigDark.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = HelpshiftConfigDark.plist; sourceTree = "<group>"; };
+		6AB815621E2616D90063A86C /* HsUIResourceBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = HsUIResourceBundle.bundle; sourceTree = "<group>"; };
+		6AB815631E2616D90063A86C /* libHelpshift.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libHelpshift.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,7 +88,7 @@
 				6A5D3E301DA25D85003EB0F5 /* CoreText.framework in Frameworks */,
 				6A5D3E2E1DA25D7F003EB0F5 /* QuartzCore.framework in Frameworks */,
 				6A5D3E2C1DA25D79003EB0F5 /* CoreGraphics.framework in Frameworks */,
-				6A5D3E531DA25E06003EB0F5 /* libHelpshift.a in Frameworks */,
+				6AB815681E2616D90063A86C /* libHelpshift.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -158,18 +160,27 @@
 		6A5D3E451DA25DDD003EB0F5 /* Helpshift */ = {
 			isa = PBXGroup;
 			children = (
-				6A5D3E461DA25E06003EB0F5 /* Helpshift.h */,
-				6A5D3E471DA25E06003EB0F5 /* HelpshiftAll.h */,
-				6A5D3E481DA25E06003EB0F5 /* HelpshiftCampaigns.h */,
-				6A5D3E491DA25E06003EB0F5 /* HelpshiftCore.h */,
-				6A5D3E4A1DA25E06003EB0F5 /* HelpshiftInbox.h */,
-				6A5D3E4B1DA25E06003EB0F5 /* HelpshiftSupport.h */,
-				6A5D3E4C1DA25E06003EB0F5 /* HsLocalization.bundle */,
-				6A5D3E4D1DA25E06003EB0F5 /* HSThemes */,
-				6A5D3E4E1DA25E06003EB0F5 /* HsUIResourceBundle.bundle */,
-				6A5D3E4F1DA25E06003EB0F5 /* libHelpshift.a */,
+				6AB815581E2616D90063A86C /* Helpshift.h */,
+				6AB815591E2616D90063A86C /* HelpshiftAll.h */,
+				6AB8155A1E2616D90063A86C /* HelpshiftCampaigns.h */,
+				6AB8155B1E2616D90063A86C /* HelpshiftCore.h */,
+				6AB8155C1E2616D90063A86C /* HelpshiftInbox.h */,
+				6AB8155D1E2616D90063A86C /* HelpshiftSupport.h */,
+				6AB8155E1E2616D90063A86C /* HsLocalization.bundle */,
+				6AB8155F1E2616D90063A86C /* HSThemes */,
+				6AB815621E2616D90063A86C /* HsUIResourceBundle.bundle */,
+				6AB815631E2616D90063A86C /* libHelpshift.a */,
 			);
 			name = Helpshift;
+			sourceTree = "<group>";
+		};
+		6AB8155F1E2616D90063A86C /* HSThemes */ = {
+			isa = PBXGroup;
+			children = (
+				6AB815601E2616D90063A86C /* HelpshiftConfig.plist */,
+				6AB815611E2616D90063A86C /* HelpshiftConfigDark.plist */,
+			);
+			path = HSThemes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,11 +240,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6AB815651E2616D90063A86C /* HelpshiftConfig.plist in Resources */,
 				6A5D3E231DA25D2C003EB0F5 /* LaunchScreen.storyboard in Resources */,
-				6A5D3E511DA25E06003EB0F5 /* HSThemes in Resources */,
-				6A5D3E521DA25E06003EB0F5 /* HsUIResourceBundle.bundle in Resources */,
-				6A5D3E501DA25E06003EB0F5 /* HsLocalization.bundle in Resources */,
+				6AB815641E2616D90063A86C /* HsLocalization.bundle in Resources */,
 				6A5D3E201DA25D2C003EB0F5 /* Assets.xcassets in Resources */,
+				6AB815671E2616D90063A86C /* HsUIResourceBundle.bundle in Resources */,
+				6AB815661E2616D90063A86C /* HelpshiftConfigDark.plist in Resources */,
 				6A5D3E1E1DA25D2C003EB0F5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

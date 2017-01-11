@@ -5,6 +5,8 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
+extern double const HS_NO_EXPIRY_TIMESTAMP;
+
 /**
  *  Get the information related to a Campaign message object.
  */
@@ -21,6 +23,7 @@
 - (BOOL) getReadStatus;
 - (BOOL) getSeenStatus;
 - (NSTimeInterval) getCreatedAt;
+- (NSTimeInterval) getExpiryTimestamp;
 
 - (NSInteger) getCountOfActions;
 - (NSString *) getActionTitleAtIndex:(NSInteger)index;

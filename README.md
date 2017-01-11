@@ -1,6 +1,6 @@
 # Helpshift iOS SDK Samples
 
-This repository contains a collection example projects for Helpshift iOS SDK v5.8.0
+This repository contains a collection example projects for Helpshift iOS SDK v5.9.0
 
 ## Requirements
 
@@ -28,7 +28,7 @@ For the projects to build and run successfully, please follow these steps :
 ## License
 
 ```
-Copyright 2016, Helpshift, Inc.
+Copyright 2017, Helpshift, Inc.
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.

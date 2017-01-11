@@ -1,6 +1,6 @@
 /*
  *    HelpshiftSupport.h
- *    SDK Version 5.8.0
+ *    SDK Version 5.9.0
  *
  *    Get the documentation at http://www.helpshift.com/docs
  *
@@ -379,6 +379,16 @@ static NSString *HelpshiftSupportSingleFAQFlow = @"singleFaqFlow";
     withController:(UIViewController *)viewController
     andRestorationHandler:(void (^)(NSArray *))restorationHandler;
 
+/**
+ *  This is a wrapper over NSLog. Use this API as a replacement over NSLog for the logs that need to be added as meta data while filing an issue.
+ *  This API internally calls NSLog.
+ *
+ * @param logText the string to be logged.
+ *
+ * Available in SDK version 5.9.0 or later
+ */
++ (void) log:(NSString *)format, ...;
+
 #pragma mark Dynamic Forms
 
 /**
@@ -590,6 +600,17 @@ static NSString *HelpshiftSupportSingleFAQFlow = @"singleFaqFlow";
 - (BOOL) pushDynamicFormOnViewController:(UIViewController *)viewController withTitle:(NSString *)title andFlows:(NSArray *)flows __deprecated;
 
 - (UIViewController *) dynamicFormWithTitle:(NSString *)title andFlows:(NSArray *)flows __deprecated;
+
+#ifdef XAMARIN_SUPPORT
+
++ (void) ShowDynamicForm:(UIViewController *)uiViewController withTitle:(NSString *)title withFlowsJson:(NSString *)flowsJson;
+
++ (void) HSLog:(NSString *)log;
+
++ (void) SetMetaData:(NSString *)jsonMetaData;
+
+#endif
+
 
 @end
 

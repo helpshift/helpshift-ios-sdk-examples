@@ -1,6 +1,6 @@
 /*
  *    HelpshiftCampaigns.h
- *    SDK Version 5.8.0
+ *    SDK Version 5.9.0
  *
  *    Get the documentation at http://www.helpshift.com/docs
  *
