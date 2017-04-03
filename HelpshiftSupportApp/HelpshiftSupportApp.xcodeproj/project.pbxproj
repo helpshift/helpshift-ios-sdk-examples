@@ -26,11 +26,14 @@
 		6A5D3E401DA25DBC003EB0F5 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A5D3E3F1DA25DBC003EB0F5 /* CoreLocation.framework */; };
 		6A5D3E421DA25DC2003EB0F5 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A5D3E411DA25DC2003EB0F5 /* MobileCoreServices.framework */; };
 		6A5D3E441DA25DC9003EB0F5 /* CoreSpotlight.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A5D3E431DA25DC9003EB0F5 /* CoreSpotlight.framework */; };
-		6AB815641E2616D90063A86C /* HsLocalization.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6AB8155E1E2616D90063A86C /* HsLocalization.bundle */; };
-		6AB815651E2616D90063A86C /* HelpshiftConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6AB815601E2616D90063A86C /* HelpshiftConfig.plist */; };
-		6AB815661E2616D90063A86C /* HelpshiftConfigDark.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6AB815611E2616D90063A86C /* HelpshiftConfigDark.plist */; };
-		6AB815671E2616D90063A86C /* HsUIResourceBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6AB815621E2616D90063A86C /* HsUIResourceBundle.bundle */; };
-		6AB815681E2616D90063A86C /* libHelpshift.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AB815631E2616D90063A86C /* libHelpshift.a */; };
+		6A7F21391E92232C00721A5E /* HelpshiftLocalizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6A7F20FD1E92232C00721A5E /* HelpshiftLocalizable.strings */; };
+		6A7F213A1E92232C00721A5E /* HsLocalization.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6A7F21321E92232C00721A5E /* HsLocalization.bundle */; };
+		6A7F213B1E92232C00721A5E /* HelpshiftConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6A7F21341E92232C00721A5E /* HelpshiftConfig.plist */; };
+		6A7F213C1E92232C00721A5E /* HelpshiftConfigDark.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6A7F21351E92232C00721A5E /* HelpshiftConfigDark.plist */; };
+		6A7F213D1E92232C00721A5E /* HsUIResourceBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6A7F21361E92232C00721A5E /* HsUIResourceBundle.bundle */; };
+		6A7F213E1E92232C00721A5E /* libHelpshift.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A7F21371E92232C00721A5E /* libHelpshift.a */; };
+		6A7F21411E92236200721A5E /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A7F21401E92236200721A5E /* WebKit.framework */; };
+		6A7F21431E92236600721A5E /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A7F21421E92236600721A5E /* Photos.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,17 +60,69 @@
 		6A5D3E3F1DA25DBC003EB0F5 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		6A5D3E411DA25DC2003EB0F5 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		6A5D3E431DA25DC9003EB0F5 /* CoreSpotlight.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreSpotlight.framework; path = System/Library/Frameworks/CoreSpotlight.framework; sourceTree = SDKROOT; };
-		6AB815581E2616D90063A86C /* Helpshift.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Helpshift.h; sourceTree = "<group>"; };
-		6AB815591E2616D90063A86C /* HelpshiftAll.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelpshiftAll.h; sourceTree = "<group>"; };
-		6AB8155A1E2616D90063A86C /* HelpshiftCampaigns.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelpshiftCampaigns.h; sourceTree = "<group>"; };
-		6AB8155B1E2616D90063A86C /* HelpshiftCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelpshiftCore.h; sourceTree = "<group>"; };
-		6AB8155C1E2616D90063A86C /* HelpshiftInbox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelpshiftInbox.h; sourceTree = "<group>"; };
-		6AB8155D1E2616D90063A86C /* HelpshiftSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelpshiftSupport.h; sourceTree = "<group>"; };
-		6AB8155E1E2616D90063A86C /* HsLocalization.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = HsLocalization.bundle; sourceTree = "<group>"; };
-		6AB815601E2616D90063A86C /* HelpshiftConfig.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = HelpshiftConfig.plist; sourceTree = "<group>"; };
-		6AB815611E2616D90063A86C /* HelpshiftConfigDark.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = HelpshiftConfigDark.plist; sourceTree = "<group>"; };
-		6AB815621E2616D90063A86C /* HsUIResourceBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = HsUIResourceBundle.bundle; sourceTree = "<group>"; };
-		6AB815631E2616D90063A86C /* libHelpshift.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libHelpshift.a; sourceTree = "<group>"; };
+		6A7F20F81E92232C00721A5E /* Helpshift.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Helpshift.h; sourceTree = "<group>"; };
+		6A7F20F91E92232C00721A5E /* HelpshiftAll.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelpshiftAll.h; sourceTree = "<group>"; };
+		6A7F20FA1E92232C00721A5E /* HelpshiftCampaigns.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelpshiftCampaigns.h; sourceTree = "<group>"; };
+		6A7F20FB1E92232C00721A5E /* HelpshiftCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelpshiftCore.h; sourceTree = "<group>"; };
+		6A7F20FE1E92232C00721A5E /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/HelpshiftLocalizable.strings; sourceTree = "<group>"; };
+		6A7F20FF1E92232C00721A5E /* bg */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = bg; path = bg.lproj/HelpshiftLocalizable.strings; sourceTree = "<group>"; };
+		6A7F21001E92232C00721A5E /* bn */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = bn; path = bn.lproj/HelpshiftLocalizable.strings; sourceTree = "<group>"; };
+		6A7F21011E92232C00721A5E /* ca */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ca; path = ca.lproj/HelpshiftLocalizable.strings; sourceTree = "<group>"; };
+		6A7F21021E92232C00721A5E /* cs */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = cs; path = cs.lproj/HelpshiftLocalizable.strings; sourceTree = "<group>"; };
+		6A7F21031E92232C00721A5E /* da */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = da; path = da.lproj/HelpshiftLocalizable.strings; sourceTree = "<group>"; };
+		6A7F21041E92232C00721A5E /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/HelpshiftLocalizable.strings; sourceTree = "<group>"; };
+		6A7F21051E92232C00721A5E /* el */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = el; path = el.lproj/HelpshiftLocalizable.strings; sourceTree = "<group>"; };
+		6A7F21061E92232C00721A5E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/HelpshiftLocalizable.strings; sourceTree = "<group>"; };
+		6A7F21071E92232C00721A5E /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/HelpshiftLocalizable.strings; sourceTree = "<group>"; };
+		6A7F21081E92232C00721A5E /* fa */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fa; path = fa.lproj/HelpshiftLocalizable.strings; sourceTree = "<group>"; };
+		6A7F21091E92232C00721A5E /* fi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fi; path = fi.lproj/HelpshiftLocalizable.strings; sourceTree = "<group>"; };
+		6A7F210A1E92232C00721A5E /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/HelpshiftLocalizable.strings; sourceTree = "<group>"; };
+		6A7F210B1E92232C00721A5E /* gu */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = gu; path = gu.lproj/HelpshiftLocalizable.strings; sourceTree = "<group>"; };
+		6A7F210C1E92232C00721A5E /* he */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = he; path = he.lproj/HelpshiftLocalizable.strings; sourceTree = "<group>"; };
+		6A7F210D1E92232C00721A5E /* hi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hi; path = hi.lproj/HelpshiftLocalizable.strings; sourceTree = "<group>"; };
+		6A7F210E1E92232C00721A5E /* hr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hr; path = hr.lproj/HelpshiftLocalizable.strings; sourceTree = "<group>"; };
+		6A7F210F1E92232C00721A5E /* hu */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hu; path = hu.lproj/HelpshiftLocalizable.strings; sourceTree = "<group>"; };
+		6A7F21101E92232C00721A5E /* id */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = id; path = id.lproj/HelpshiftLocalizable.strings; sourceTree = "<group>"; };
+		6A7F21111E92232C00721A5E /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/HelpshiftLocalizable.strings; sourceTree = "<group>"; };
+		6A7F21121E92232C00721A5E /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/HelpshiftLocalizable.strings; sourceTree = "<group>"; };
+		6A7F21131E92232C00721A5E /* kn */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = kn; path = kn.lproj/HelpshiftLocalizable.strings; sourceTree = "<group>"; };
+		6A7F21141E92232C00721A5E /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/HelpshiftLocalizable.strings; sourceTree = "<group>"; };
+		6A7F21151E92232C00721A5E /* lv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = lv; path = lv.lproj/HelpshiftLocalizable.strings; sourceTree = "<group>"; };
+		6A7F21161E92232C00721A5E /* ml */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ml; path = ml.lproj/HelpshiftLocalizable.strings; sourceTree = "<group>"; };
+		6A7F21171E92232C00721A5E /* mr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = mr; path = mr.lproj/HelpshiftLocalizable.strings; sourceTree = "<group>"; };
+		6A7F21181E92232C00721A5E /* ms */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ms; path = ms.lproj/HelpshiftLocalizable.strings; sourceTree = "<group>"; };
+		6A7F21191E92232C00721A5E /* nb-NO */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "nb-NO"; path = "nb-NO.lproj/HelpshiftLocalizable.strings"; sourceTree = "<group>"; };
+		6A7F211A1E92232C00721A5E /* nb */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nb; path = nb.lproj/HelpshiftLocalizable.strings; sourceTree = "<group>"; };
+		6A7F211B1E92232C00721A5E /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/HelpshiftLocalizable.strings; sourceTree = "<group>"; };
+		6A7F211C1E92232C00721A5E /* pa */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pa; path = pa.lproj/HelpshiftLocalizable.strings; sourceTree = "<group>"; };
+		6A7F211D1E92232C00721A5E /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/HelpshiftLocalizable.strings; sourceTree = "<group>"; };
+		6A7F211E1E92232C00721A5E /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/HelpshiftLocalizable.strings; sourceTree = "<group>"; };
+		6A7F211F1E92232C00721A5E /* ro */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ro; path = ro.lproj/HelpshiftLocalizable.strings; sourceTree = "<group>"; };
+		6A7F21201E92232C00721A5E /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/HelpshiftLocalizable.strings; sourceTree = "<group>"; };
+		6A7F21211E92232C00721A5E /* sk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sk; path = sk.lproj/HelpshiftLocalizable.strings; sourceTree = "<group>"; };
+		6A7F21221E92232C00721A5E /* sl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sl; path = sl.lproj/HelpshiftLocalizable.strings; sourceTree = "<group>"; };
+		6A7F21231E92232C00721A5E /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/HelpshiftLocalizable.strings; sourceTree = "<group>"; };
+		6A7F21241E92232C00721A5E /* ta */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ta; path = ta.lproj/HelpshiftLocalizable.strings; sourceTree = "<group>"; };
+		6A7F21251E92232C00721A5E /* te */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = te; path = te.lproj/HelpshiftLocalizable.strings; sourceTree = "<group>"; };
+		6A7F21261E92232C00721A5E /* th */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = th; path = th.lproj/HelpshiftLocalizable.strings; sourceTree = "<group>"; };
+		6A7F21271E92232C00721A5E /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/HelpshiftLocalizable.strings; sourceTree = "<group>"; };
+		6A7F21281E92232C00721A5E /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/HelpshiftLocalizable.strings; sourceTree = "<group>"; };
+		6A7F21291E92232C00721A5E /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/HelpshiftLocalizable.strings; sourceTree = "<group>"; };
+		6A7F212A1E92232C00721A5E /* zh-Hans-SG */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans-SG"; path = "zh-Hans-SG.lproj/HelpshiftLocalizable.strings"; sourceTree = "<group>"; };
+		6A7F212B1E92232C00721A5E /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/HelpshiftLocalizable.strings"; sourceTree = "<group>"; };
+		6A7F212C1E92232C00721A5E /* zh-Hant-HK */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant-HK"; path = "zh-Hant-HK.lproj/HelpshiftLocalizable.strings"; sourceTree = "<group>"; };
+		6A7F212D1E92232C00721A5E /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/HelpshiftLocalizable.strings"; sourceTree = "<group>"; };
+		6A7F212E1E92232C00721A5E /* zh-Hk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hk"; path = "zh-Hk.lproj/HelpshiftLocalizable.strings"; sourceTree = "<group>"; };
+		6A7F212F1E92232C00721A5E /* zh-Sg */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Sg"; path = "zh-Sg.lproj/HelpshiftLocalizable.strings"; sourceTree = "<group>"; };
+		6A7F21301E92232C00721A5E /* HelpshiftInbox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelpshiftInbox.h; sourceTree = "<group>"; };
+		6A7F21311E92232C00721A5E /* HelpshiftSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelpshiftSupport.h; sourceTree = "<group>"; };
+		6A7F21321E92232C00721A5E /* HsLocalization.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = HsLocalization.bundle; sourceTree = "<group>"; };
+		6A7F21341E92232C00721A5E /* HelpshiftConfig.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = HelpshiftConfig.plist; sourceTree = "<group>"; };
+		6A7F21351E92232C00721A5E /* HelpshiftConfigDark.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = HelpshiftConfigDark.plist; sourceTree = "<group>"; };
+		6A7F21361E92232C00721A5E /* HsUIResourceBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = HsUIResourceBundle.bundle; sourceTree = "<group>"; };
+		6A7F21371E92232C00721A5E /* libHelpshift.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libHelpshift.a; sourceTree = "<group>"; };
+		6A7F21401E92236200721A5E /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		6A7F21421E92236600721A5E /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +130,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A7F21431E92236600721A5E /* Photos.framework in Frameworks */,
+				6A7F21411E92236200721A5E /* WebKit.framework in Frameworks */,
 				6A5D3E441DA25DC9003EB0F5 /* CoreSpotlight.framework in Frameworks */,
 				6A5D3E421DA25DC2003EB0F5 /* MobileCoreServices.framework in Frameworks */,
 				6A5D3E401DA25DBC003EB0F5 /* CoreLocation.framework in Frameworks */,
@@ -88,7 +145,7 @@
 				6A5D3E301DA25D85003EB0F5 /* CoreText.framework in Frameworks */,
 				6A5D3E2E1DA25D7F003EB0F5 /* QuartzCore.framework in Frameworks */,
 				6A5D3E2C1DA25D79003EB0F5 /* CoreGraphics.framework in Frameworks */,
-				6AB815681E2616D90063A86C /* libHelpshift.a in Frameworks */,
+				6A7F213E1E92232C00721A5E /* libHelpshift.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,6 +197,8 @@
 		6A5D3E2A1DA25D55003EB0F5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6A7F21421E92236600721A5E /* Photos.framework */,
+				6A7F21401E92236200721A5E /* WebKit.framework */,
 				6A5D3E431DA25DC9003EB0F5 /* CoreSpotlight.framework */,
 				6A5D3E411DA25DC2003EB0F5 /* MobileCoreServices.framework */,
 				6A5D3E3F1DA25DBC003EB0F5 /* CoreLocation.framework */,
@@ -160,25 +219,34 @@
 		6A5D3E451DA25DDD003EB0F5 /* Helpshift */ = {
 			isa = PBXGroup;
 			children = (
-				6AB815581E2616D90063A86C /* Helpshift.h */,
-				6AB815591E2616D90063A86C /* HelpshiftAll.h */,
-				6AB8155A1E2616D90063A86C /* HelpshiftCampaigns.h */,
-				6AB8155B1E2616D90063A86C /* HelpshiftCore.h */,
-				6AB8155C1E2616D90063A86C /* HelpshiftInbox.h */,
-				6AB8155D1E2616D90063A86C /* HelpshiftSupport.h */,
-				6AB8155E1E2616D90063A86C /* HsLocalization.bundle */,
-				6AB8155F1E2616D90063A86C /* HSThemes */,
-				6AB815621E2616D90063A86C /* HsUIResourceBundle.bundle */,
-				6AB815631E2616D90063A86C /* libHelpshift.a */,
+				6A7F20F81E92232C00721A5E /* Helpshift.h */,
+				6A7F20F91E92232C00721A5E /* HelpshiftAll.h */,
+				6A7F20FA1E92232C00721A5E /* HelpshiftCampaigns.h */,
+				6A7F20FB1E92232C00721A5E /* HelpshiftCore.h */,
+				6A7F20FC1E92232C00721A5E /* HelpshiftDefaultLocalizations */,
+				6A7F21301E92232C00721A5E /* HelpshiftInbox.h */,
+				6A7F21311E92232C00721A5E /* HelpshiftSupport.h */,
+				6A7F21321E92232C00721A5E /* HsLocalization.bundle */,
+				6A7F21331E92232C00721A5E /* HSThemes */,
+				6A7F21361E92232C00721A5E /* HsUIResourceBundle.bundle */,
+				6A7F21371E92232C00721A5E /* libHelpshift.a */,
 			);
 			name = Helpshift;
 			sourceTree = "<group>";
 		};
-		6AB8155F1E2616D90063A86C /* HSThemes */ = {
+		6A7F20FC1E92232C00721A5E /* HelpshiftDefaultLocalizations */ = {
 			isa = PBXGroup;
 			children = (
-				6AB815601E2616D90063A86C /* HelpshiftConfig.plist */,
-				6AB815611E2616D90063A86C /* HelpshiftConfigDark.plist */,
+				6A7F20FD1E92232C00721A5E /* HelpshiftLocalizable.strings */,
+			);
+			path = HelpshiftDefaultLocalizations;
+			sourceTree = "<group>";
+		};
+		6A7F21331E92232C00721A5E /* HSThemes */ = {
+			isa = PBXGroup;
+			children = (
+				6A7F21341E92232C00721A5E /* HelpshiftConfig.plist */,
+				6A7F21351E92232C00721A5E /* HelpshiftConfigDark.plist */,
 			);
 			path = HSThemes;
 			sourceTree = "<group>";
@@ -224,6 +292,55 @@
 			knownRegions = (
 				en,
 				Base,
+				ar,
+				bg,
+				bn,
+				ca,
+				cs,
+				da,
+				de,
+				el,
+				es,
+				fa,
+				fi,
+				fr,
+				gu,
+				he,
+				hi,
+				hr,
+				hu,
+				id,
+				it,
+				ja,
+				kn,
+				ko,
+				lv,
+				ml,
+				mr,
+				ms,
+				"nb-NO",
+				nb,
+				nl,
+				pa,
+				pl,
+				pt,
+				ro,
+				ru,
+				sk,
+				sl,
+				sv,
+				ta,
+				te,
+				th,
+				tr,
+				uk,
+				vi,
+				"zh-Hans-SG",
+				"zh-Hans",
+				"zh-Hant-HK",
+				"zh-Hant",
+				"zh-Hk",
+				"zh-Sg",
 			);
 			mainGroup = 6A5D3E071DA25D2C003EB0F5;
 			productRefGroup = 6A5D3E111DA25D2C003EB0F5 /* Products */;
@@ -240,12 +357,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6AB815651E2616D90063A86C /* HelpshiftConfig.plist in Resources */,
 				6A5D3E231DA25D2C003EB0F5 /* LaunchScreen.storyboard in Resources */,
-				6AB815641E2616D90063A86C /* HsLocalization.bundle in Resources */,
+				6A7F21391E92232C00721A5E /* HelpshiftLocalizable.strings in Resources */,
+				6A7F213B1E92232C00721A5E /* HelpshiftConfig.plist in Resources */,
+				6A7F213A1E92232C00721A5E /* HsLocalization.bundle in Resources */,
+				6A7F213D1E92232C00721A5E /* HsUIResourceBundle.bundle in Resources */,
+				6A7F213C1E92232C00721A5E /* HelpshiftConfigDark.plist in Resources */,
 				6A5D3E201DA25D2C003EB0F5 /* Assets.xcassets in Resources */,
-				6AB815671E2616D90063A86C /* HsUIResourceBundle.bundle in Resources */,
-				6AB815661E2616D90063A86C /* HelpshiftConfigDark.plist in Resources */,
 				6A5D3E1E1DA25D2C003EB0F5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,6 +398,63 @@
 				6A5D3E221DA25D2C003EB0F5 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		6A7F20FD1E92232C00721A5E /* HelpshiftLocalizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A7F20FE1E92232C00721A5E /* ar */,
+				6A7F20FF1E92232C00721A5E /* bg */,
+				6A7F21001E92232C00721A5E /* bn */,
+				6A7F21011E92232C00721A5E /* ca */,
+				6A7F21021E92232C00721A5E /* cs */,
+				6A7F21031E92232C00721A5E /* da */,
+				6A7F21041E92232C00721A5E /* de */,
+				6A7F21051E92232C00721A5E /* el */,
+				6A7F21061E92232C00721A5E /* en */,
+				6A7F21071E92232C00721A5E /* es */,
+				6A7F21081E92232C00721A5E /* fa */,
+				6A7F21091E92232C00721A5E /* fi */,
+				6A7F210A1E92232C00721A5E /* fr */,
+				6A7F210B1E92232C00721A5E /* gu */,
+				6A7F210C1E92232C00721A5E /* he */,
+				6A7F210D1E92232C00721A5E /* hi */,
+				6A7F210E1E92232C00721A5E /* hr */,
+				6A7F210F1E92232C00721A5E /* hu */,
+				6A7F21101E92232C00721A5E /* id */,
+				6A7F21111E92232C00721A5E /* it */,
+				6A7F21121E92232C00721A5E /* ja */,
+				6A7F21131E92232C00721A5E /* kn */,
+				6A7F21141E92232C00721A5E /* ko */,
+				6A7F21151E92232C00721A5E /* lv */,
+				6A7F21161E92232C00721A5E /* ml */,
+				6A7F21171E92232C00721A5E /* mr */,
+				6A7F21181E92232C00721A5E /* ms */,
+				6A7F21191E92232C00721A5E /* nb-NO */,
+				6A7F211A1E92232C00721A5E /* nb */,
+				6A7F211B1E92232C00721A5E /* nl */,
+				6A7F211C1E92232C00721A5E /* pa */,
+				6A7F211D1E92232C00721A5E /* pl */,
+				6A7F211E1E92232C00721A5E /* pt */,
+				6A7F211F1E92232C00721A5E /* ro */,
+				6A7F21201E92232C00721A5E /* ru */,
+				6A7F21211E92232C00721A5E /* sk */,
+				6A7F21221E92232C00721A5E /* sl */,
+				6A7F21231E92232C00721A5E /* sv */,
+				6A7F21241E92232C00721A5E /* ta */,
+				6A7F21251E92232C00721A5E /* te */,
+				6A7F21261E92232C00721A5E /* th */,
+				6A7F21271E92232C00721A5E /* tr */,
+				6A7F21281E92232C00721A5E /* uk */,
+				6A7F21291E92232C00721A5E /* vi */,
+				6A7F212A1E92232C00721A5E /* zh-Hans-SG */,
+				6A7F212B1E92232C00721A5E /* zh-Hans */,
+				6A7F212C1E92232C00721A5E /* zh-Hant-HK */,
+				6A7F212D1E92232C00721A5E /* zh-Hant */,
+				6A7F212E1E92232C00721A5E /* zh-Hk */,
+				6A7F212F1E92232C00721A5E /* zh-Sg */,
+			);
+			name = HelpshiftLocalizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -373,6 +548,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = HelpshiftSupportApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -388,6 +564,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = HelpshiftSupportApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

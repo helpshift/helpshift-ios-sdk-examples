@@ -6,7 +6,11 @@
 	<dict>
 		<key>Font name</key>
 		<string></string>
+		<key>Font file name</key>
+		<string></string>
 		<key>Bold font name</key>
+		<string></string>
+		<key>Bold font file name</key>
 		<string></string>
 		<key>Background color</key>
 		<string></string>
@@ -40,6 +44,10 @@
 		<string>cccccc</string>
 		<key>Table view disclosure color</key>
 		<string></string>
+		<key>Table view cell extra vertical padding</key>
+		<integer>0</integer>
+		<key>Table view max lines</key>
+		<integer>3</integer>
 	</dict>
 	<key>Navigation Bar</key>
 	<dict>
@@ -59,6 +67,8 @@
 		<string></string>
 		<key>Set Translucent</key>
 		<true/>
+		<key>Hide back button label</key>
+		<false/>
 	</dict>
 	<key>Search Bar</key>
 	<dict>

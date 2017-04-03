@@ -1,6 +1,6 @@
 /*
  *    HelpshiftCore.h
- *    SDK Version 5.9.0
+ *    SDK Version 5.10.0
  *
  *    Get the documentation at http://www.helpshift.com/docs
  *
@@ -18,6 +18,7 @@
 - (void) _setName:(NSString *)name andEmail:(NSString *)email;
 - (void) _registerDeviceToken:(NSData *)deviceToken;
 - (BOOL) _handleRemoteNotification:(NSDictionary *)notification withController:(UIViewController *)viewController;
+- (BOOL) _handleRemoteNotification:(NSDictionary *)notification isAppLaunch:(BOOL)isAppLaunch withController:(UIViewController *)viewController;
 - (BOOL) _handleLocalNotification:(UILocalNotification *)notification withController:(UIViewController *)viewController;
 - (BOOL) _handleInteractiveRemoteNotification:(NSDictionary *)notification forAction:(NSString *)actionIdentifier completionHandler:(void (^)())completionHandler;
 - (BOOL) _handleInteractiveLocalNotification:(UILocalNotification *)notification forAction:(NSString *)actionIdentifier completionHandler:(void (^)())completionHandler;
@@ -98,6 +99,7 @@ typedef enum HsEnableContactUs
 @property (nonatomic, assign) BOOL disableEntryExitAnimations;
 @property (nonatomic, assign) BOOL enableInboxPolling;
 @property (nonatomic, assign) BOOL enableInAppNotifications;
+@property (nonatomic, assign) BOOL enableLogging;
 @property (nonatomic, assign) HsAddFAQsToDeviceSearch addFaqsToDeviceSearch;
 @property (strong, nonatomic) NSDictionary *extraConfig;
 
@@ -227,6 +229,17 @@ typedef enum HsEnableContactUs
  *  @return BOOL value indicating whether Helpshift handled this push notification.
  */
 + (BOOL) handleRemoteNotification:(NSDictionary *)notification withController:(UIViewController *)viewController;
+
+/**
+ *  Pass along a notification to the Helpshift SDK to handle
+ *
+ *  @param notification   Notification dictionary
+ *  @param isAppLaunch    A boolean indicating whether the app was lanuched from a killed state. This parameter should ideally only be true in case when called from app's didFinishLaunchingWithOptions delegate.
+ *  @param viewController The viewController on which you want the Helpshift SDK stack to be shown
+ *
+ *  @return BOOL value indicating whether Helpshift handled this push notification.
+ */
++ (BOOL) handleRemoteNotification:(NSDictionary *)notification isAppLaunch:(BOOL)isAppLaunch withController:(UIViewController *)viewController;
 
 /**
  *  Pass along a local notification to the Helpshift SDK

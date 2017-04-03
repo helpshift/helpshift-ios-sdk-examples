@@ -7,6 +7,17 @@
 
 extern double const HS_NO_EXPIRY_TIMESTAMP;
 
+typedef enum HelpshiftInboxMessageActionType
+{
+    HelpshiftInboxMessageActionTypeUnknown = 0,
+    HelpshiftInboxMessageActionTypeDeepLink,
+    HelpshiftInboxMessageActionTypeFaqsScreen,
+    HelpshiftInboxMessageActionTypeFaqSection,
+    HelpshiftInboxMessageActionTypeFaq,
+    HelpshiftInboxMessageActionTypeConversation,
+    HelpshiftInboxMessageActionTypeReviewRequest
+} HelpshiftInboxMessageActionType;
+
 /**
  *  Get the information related to a Campaign message object.
  */
@@ -28,6 +39,8 @@ extern double const HS_NO_EXPIRY_TIMESTAMP;
 - (NSInteger) getCountOfActions;
 - (NSString *) getActionTitleAtIndex:(NSInteger)index;
 - (NSString *) getActionTitleColorAtIndex:(NSInteger)index;
+- (HelpshiftInboxMessageActionType) getActionTypeAtIndex:(NSInteger)index;
+- (NSString *) getActionDataAtIndex:(NSInteger)index;
 - (BOOL) getActionGoalCompletionAtIndex:(NSInteger)index;
 
 /**

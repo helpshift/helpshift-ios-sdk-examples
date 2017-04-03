@@ -1,6 +1,6 @@
 # Helpshift iOS SDK Samples
 
-This repository contains a collection example projects for Helpshift iOS SDK v5.9.0
+This repository contains a collection example projects for Helpshift iOS SDK v5.10.0
 
 ## Requirements
 

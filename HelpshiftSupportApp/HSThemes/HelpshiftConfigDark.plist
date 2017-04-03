@@ -6,7 +6,11 @@
 	<dict>
 		<key>Font name</key>
 		<string></string>
+		<key>Font file name</key>
+		<string></string>
 		<key>Bold font name</key>
+		<string></string>
+		<key>Bold font file name</key>
 		<string></string>
 		<key>Background color</key>
 		<string>383838</string>
@@ -40,6 +44,10 @@
 		<string>888888</string>
 		<key>Table view disclosure color</key>
 		<string>888888</string>
+		<key>Table view cell extra vertical padding</key>
+		<integer>0</integer>
+		<key>Table view max lines</key>
+		<integer>3</integer>
 	</dict>
 	<key>Navigation Bar</key>
 	<dict>
@@ -59,12 +67,8 @@
 		<string>1f1f1f</string>
 		<key>Set Translucent</key>
 		<true/>
-		<key>Text shadow color (iOS 6)</key>
-		<string></string>
-		<key>Background image (iOS 6)</key>
-		<string></string>
-		<key>Background image landscape (iOS 6)</key>
-		<string></string>
+		<key>Hide back button label</key>
+		<false/>
 	</dict>
 	<key>Search Bar</key>
 	<dict>

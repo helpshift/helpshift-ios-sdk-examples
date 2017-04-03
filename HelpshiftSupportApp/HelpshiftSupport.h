@@ -1,6 +1,6 @@
 /*
  *    HelpshiftSupport.h
- *    SDK Version 5.9.0
+ *    SDK Version 5.10.0
  *
  *    Get the documentation at http://www.helpshift.com/docs
  *
@@ -278,6 +278,14 @@ static NSString *HelpshiftSupportSingleFAQFlow = @"singleFaqFlow";
  */
 
 + (void) setMetadataObjectBlock:(HelpshiftSupportMetadataObjectBlock)metadataBlock;
+
+/** Get a boolean value that indicates if there is any active converation in the SDK currently.
+ *
+ *  Returns YES if there an active conversation going on otherwise returns NO.
+ *  @available Available in SDK version 5.10.0 or later
+ */
+
++ (BOOL) isConversationActive;
 
 /** Get the notification count for replies to new conversations.
  *
@@ -601,17 +609,6 @@ static NSString *HelpshiftSupportSingleFAQFlow = @"singleFaqFlow";
 
 - (UIViewController *) dynamicFormWithTitle:(NSString *)title andFlows:(NSArray *)flows __deprecated;
 
-#ifdef XAMARIN_SUPPORT
-
-+ (void) ShowDynamicForm:(UIViewController *)uiViewController withTitle:(NSString *)title withFlowsJson:(NSString *)flowsJson;
-
-+ (void) HSLog:(NSString *)log;
-
-+ (void) SetMetaData:(NSString *)jsonMetaData;
-
-#endif
-
-
 @end
 
 @protocol HelpshiftSupportDelegate <NSObject>
@@ -657,6 +654,12 @@ static NSString *HelpshiftSupportSingleFAQFlow = @"singleFaqFlow";
  * Available in SDK version 5.0.0 or later
  */
 - (void) newConversationStartedWithMessage:(NSString *)newConversationMessage;
+
+/**
+ *  Optional delegate method that gets called when the current conversation is ended.
+ * Available in SDK version 5.10.0 or later
+ */
+- (void) conversationEnded;
 
 /** Optional delegate method that is called when user reply on current open conversation via any Helpshift API Ex:- showFaq:, showConversation:, etc
  * @param newMessage Return reply message on open conversation.
