@@ -34,6 +34,7 @@
 		6A7F213E1E92232C00721A5E /* libHelpshift.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A7F21371E92232C00721A5E /* libHelpshift.a */; };
 		6A7F21411E92236200721A5E /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A7F21401E92236200721A5E /* WebKit.framework */; };
 		6A7F21431E92236600721A5E /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A7F21421E92236600721A5E /* Photos.framework */; };
+		6AF3CB981F1F6BE900915D4C /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AF3CB971F1F6BDE00915D4C /* libicucore.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,7 +61,6 @@
 		6A5D3E3F1DA25DBC003EB0F5 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		6A5D3E411DA25DC2003EB0F5 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		6A5D3E431DA25DC9003EB0F5 /* CoreSpotlight.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreSpotlight.framework; path = System/Library/Frameworks/CoreSpotlight.framework; sourceTree = SDKROOT; };
-		6A7F20F81E92232C00721A5E /* Helpshift.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Helpshift.h; sourceTree = "<group>"; };
 		6A7F20F91E92232C00721A5E /* HelpshiftAll.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelpshiftAll.h; sourceTree = "<group>"; };
 		6A7F20FA1E92232C00721A5E /* HelpshiftCampaigns.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelpshiftCampaigns.h; sourceTree = "<group>"; };
 		6A7F20FB1E92232C00721A5E /* HelpshiftCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelpshiftCore.h; sourceTree = "<group>"; };
@@ -123,6 +123,7 @@
 		6A7F21371E92232C00721A5E /* libHelpshift.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libHelpshift.a; sourceTree = "<group>"; };
 		6A7F21401E92236200721A5E /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		6A7F21421E92236600721A5E /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
+		6AF3CB971F1F6BDE00915D4C /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +131,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6AF3CB981F1F6BE900915D4C /* libicucore.tbd in Frameworks */,
 				6A7F21431E92236600721A5E /* Photos.framework in Frameworks */,
 				6A7F21411E92236200721A5E /* WebKit.framework in Frameworks */,
 				6A5D3E441DA25DC9003EB0F5 /* CoreSpotlight.framework in Frameworks */,
@@ -197,6 +199,7 @@
 		6A5D3E2A1DA25D55003EB0F5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6AF3CB971F1F6BDE00915D4C /* libicucore.tbd */,
 				6A7F21421E92236600721A5E /* Photos.framework */,
 				6A7F21401E92236200721A5E /* WebKit.framework */,
 				6A5D3E431DA25DC9003EB0F5 /* CoreSpotlight.framework */,
@@ -219,7 +222,6 @@
 		6A5D3E451DA25DDD003EB0F5 /* Helpshift */ = {
 			isa = PBXGroup;
 			children = (
-				6A7F20F81E92232C00721A5E /* Helpshift.h */,
 				6A7F20F91E92232C00721A5E /* HelpshiftAll.h */,
 				6A7F20FA1E92232C00721A5E /* HelpshiftCampaigns.h */,
 				6A7F20FB1E92232C00721A5E /* HelpshiftCore.h */,

@@ -1,6 +1,6 @@
 /*
  *    HelpshiftSupport.h
- *    SDK Version 5.10.0
+ *    SDK Version 6.0.0
  *
  *    Get the documentation at http://www.helpshift.com/docs
  *
@@ -82,8 +82,7 @@ static NSString *HelpshiftSupportSingleFAQFlow = @"singleFaqFlow";
 
 @protocol HelpshiftSupportDelegate;
 
-@interface HelpshiftSupport : NSObject <HsApiProvider>
-{
+@interface HelpshiftSupport : NSObject <HsApiProvider>{
     id <HelpshiftSupportDelegate> delegate;
 }
 
@@ -131,7 +130,7 @@ static NSString *HelpshiftSupportSingleFAQFlow = @"singleFaqFlow";
  *
  * Available in SDK version 5.0.0 or later
  */
-+ (void) showConversation:(UIViewController *)viewController withOptions:(NSDictionary *)optionsDictionary;
++ (void) showConversation:(UIViewController *)viewController withOptions:(NSDictionary *)optionsDictionary __deprecated ;
 
 /** Show the helpshift conversation screen (with Optional Arguments)
  *
@@ -158,7 +157,7 @@ static NSString *HelpshiftSupportSingleFAQFlow = @"singleFaqFlow";
  * Available in SDK version 5.0.0 or later
  */
 
-+ (void) showFAQs:(UIViewController *)viewController withOptions:(NSDictionary *)optionsDictionary;
++ (void) showFAQs:(UIViewController *)viewController withOptions:(NSDictionary *)optionsDictionary __deprecated ;
 
 /** Show the support screen with only the faqs (with Optional Arguments)
  *
@@ -186,7 +185,7 @@ static NSString *HelpshiftSupportSingleFAQFlow = @"singleFaqFlow";
  * Available in SDK version 5.0.0 or later
  */
 
-+ (void) showFAQSection:(NSString *)faqSectionPublishID withController:(UIViewController *)viewController withOptions:(NSDictionary *)optionsDictionary;
++ (void) showFAQSection:(NSString *)faqSectionPublishID withController:(UIViewController *)viewController withOptions:(NSDictionary *)optionsDictionary __deprecated ;
 
 /** Show the helpshift screen with faqs from a particular section
  *
@@ -212,7 +211,7 @@ static NSString *HelpshiftSupportSingleFAQFlow = @"singleFaqFlow";
  * Available in SDK version 5.0.0 or later
  */
 
-+ (void) showSingleFAQ:(NSString *)faqPublishID withController:(UIViewController *)viewController withOptions:(NSDictionary *)optionsDictionary;
++ (void) showSingleFAQ:(NSString *)faqPublishID withController:(UIViewController *)viewController withOptions:(NSDictionary *)optionsDictionary __deprecated ;
 
 /** Show the helpshift screen with a single faq
  *
@@ -266,7 +265,7 @@ static NSString *HelpshiftSupportSingleFAQFlow = @"singleFaqFlow";
  *  Available in SDK version 5.0.0 or later
  */
 
-+ (void) setMetadataBlock:(HelpshiftSupportMetadataBlock)metadataBlock;
++ (void) setMetadataBlock:(HelpshiftSupportMetadataBlock)metadataBlock __deprecated ;
 
 /** Provide a block which returns a HelpshiftSupportMetadataObject for custom meta data to be attached along with new conversations
  *
@@ -412,7 +411,7 @@ static NSString *HelpshiftSupportSingleFAQFlow = @"singleFaqFlow";
  *
  *  @return Returns YES if the data provided was valid to create a dynamic form, otherwise returns NO.
  */
-+ (BOOL) showDynamicFormOnViewController:(UIViewController *)viewController withTitle:(NSString *)title andFlows:(NSArray *)flows withConfigOptions:(NSDictionary *)configOptions;
++ (BOOL) showDynamicFormOnViewController:(UIViewController *)viewController withTitle:(NSString *)title andFlows:(NSArray *)flows withConfigOptions:(NSDictionary *)configOptions __deprecated ;
 
 /**
  *  Use this method to create a list of custom 'flows' and present them in tabular form to the user.
@@ -488,7 +487,7 @@ static NSString *HelpshiftSupportSingleFAQFlow = @"singleFaqFlow";
  *  @return a flow object to be used for creating a dynamic form.
  */
 + (id) flowToShowConversationWithDisplayText:(NSString *)displayText
-    andConfigOptions:(NSDictionary *)configOptions;
+    andConfigOptions:(NSDictionary *)configOptions __deprecated ;
 
 /**
  *  Create a flow object which launches the conversation view when tapped. Refer to showConversation: for more details.
@@ -510,7 +509,7 @@ static NSString *HelpshiftSupportSingleFAQFlow = @"singleFaqFlow";
  *  @return a flow object to be used for creating a dynamic form.
  */
 + (id) flowToShowFAQsWithDisplayText:(NSString *)displayText
-    andConfigOptions:(NSDictionary *)configOptions;
+    andConfigOptions:(NSDictionary *)configOptions __deprecated ;
 
 /**
  *  Create a flow object which shows all the FAQs when tapped. Refer to showFAQs: for more details.
@@ -534,7 +533,7 @@ static NSString *HelpshiftSupportSingleFAQFlow = @"singleFaqFlow";
  */
 + (id) flowToShowFAQSectionForPublishId:(NSString *)sectionPublishId
     withDisplayText:(NSString *)displayText
-    andConfigOptions:(NSDictionary *)configOptions;
+    andConfigOptions:(NSDictionary *)configOptions __deprecated ;
 
 /**
  *  Create a flow object which launches a FAQ section when tapped. Refer to showFAQSection: for more details.
@@ -560,7 +559,7 @@ static NSString *HelpshiftSupportSingleFAQFlow = @"singleFaqFlow";
  */
 + (id) flowToShowSingleFAQForPublishId:(NSString *)FAQPublishId
     withDisplayText:(NSString *)displayText
-    andConfigOptions:(NSDictionary *)configOptions;
+    andConfigOptions:(NSDictionary *)configOptions __deprecated ;
 
 /**
  *  Create a flow object which launches a single FAQ when tapped. Refer to showSingleFAQ: for more details.

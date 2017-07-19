@@ -1,6 +1,6 @@
 /*
  *    HelpshiftCore.h
- *    SDK Version 5.10.0
+ *    SDK Version 6.0.0
  *
  *    Get the documentation at http://www.helpshift.com/docs
  *
@@ -118,7 +118,8 @@ typedef enum HsEnableContactUs
 @property (nonatomic, assign) BOOL enableFullPrivacy;
 @property (nonatomic, assign) BOOL showSearchOnNewConversation;
 @property (nonatomic, assign) BOOL showConversationResolutionQuestion;
-@property (nonatomic, assign) BOOL enableChat;
+@property (nonatomic, assign) BOOL showConversationInfoScreen;
+@property (nonatomic, assign) BOOL enableTypingIndicator;
 @property (nonatomic, assign) HsEnableContactUs enableContactUs;
 @property (strong, nonatomic) NSString *conversationPrefillText;
 @property (strong, nonatomic) NSArray *customContactUsFlows;
@@ -161,7 +162,7 @@ typedef enum HsEnableContactUs
  * Available in SDK version 5.0.0 or later
  */
 
-+ (void) installForApiKey:(NSString *)apiKey domainName:(NSString *)domainName appID:(NSString *)appID withOptions:(NSDictionary *)optionsDictionary;
++ (void) installForApiKey:(NSString *)apiKey domainName:(NSString *)domainName appID:(NSString *)appID withOptions:(NSDictionary *)optionsDictionary __deprecated;
 
 /** Initialize helpshift support
  *
