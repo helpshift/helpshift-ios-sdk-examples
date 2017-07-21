@@ -24,7 +24,7 @@ For the projects to build and run successfully, please follow these steps :
 * API Reference: [https://www.helpshift.com/docs/api/ios/v5.x/index.html](https://www.helpshift.com/docs/api/ios/v4.x/index.html)
 * Release Notes: [https://developers.helpshift.com/ios/release-notes/](https://developers.helpshift.com/ios/release-notes/)
 * Upgrading from 3.x: [https://developers.helpshift.com/ios/upgrade-3x/](https://developers.helpshift.com/ios/upgrade-3x/)
-* Post install script to move Helpshift files to a more generic folder[Podfile](Podfile)
+* Post install script to move Helpshift files to a more generic folder: [Podfile](Podfile)
 
 ## License
 
