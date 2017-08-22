@@ -74,7 +74,6 @@ Copyright (c) 2014 Helpshift,Inc., All rights reserved.
 "Back" = "Enrere";
 "Could not fetch FAQs" = "No s'han trobat Preguntes freqüents";
 "Thanks for rating us." = "Gràcies per enviar-nos la teva valoració.";
-"Chat" = "Xat";
 "Download" = "Baixa";
 "Please enter a valid email" = "Introdueix una adreça electrònica vàlida";
 "Message" = "Missatge";
@@ -114,7 +113,6 @@ Copyright (c) 2014 Helpshift,Inc., All rights reserved.
 "Cancel" = "Cancel·lar";
 "Would you like to review the app?" = "Vols revisar l'app?";
 "Loading..." = "S'està carregant…";
-"We're not around, but we'll get back to you during business hours" = "En aquest moment no hi som; ens posarem en contacte amb tu quan tornem.";
 "Read FAQs" = "Consulta les preguntes freqüents";
 "Thanks for messaging us!" = "Gràcies per enviar-nos aquest missatge.";
 "Try Again" = "Torna-ho a provar.";

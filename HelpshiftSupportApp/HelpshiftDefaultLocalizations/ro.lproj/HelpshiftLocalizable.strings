@@ -74,7 +74,6 @@ Copyright (c) 2014 Helpshift,Inc., All rights reserved.
 "Back" = "Înapoi";
 "Could not fetch FAQs" = "Nu s-au putut obține întrebări frecvente";
 "Thanks for rating us." = "Îți mulțumim pentru notare.";
-"Chat" = "Conversații";
 "Download" = "Descărcați";
 "Please enter a valid email" = "Introduceți o adresă de e-mail validă";
 "Message" = "Mesaj";
@@ -114,7 +113,6 @@ Copyright (c) 2014 Helpshift,Inc., All rights reserved.
 "Cancel" = "Anulează";
 "Would you like to review the app?" = "Ai vrea să evaluezi aplicația?";
 "Loading..." = "Se încarcă...";
-"We're not around, but we'll get back to you during business hours" = "Nu suntem la birou, dar îți vom răspunde în timpul orelor de program";
 "Read FAQs" = "Citiți întrebările frecvente";
 "Thanks for messaging us!" = "Mulțumim pentru mesajul dvs!";
 "Try Again" = "Reîncearcă";

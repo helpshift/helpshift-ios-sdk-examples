@@ -74,7 +74,6 @@ Copyright (c) 2014 Helpshift,Inc., All rights reserved.
 "Back" = "Palaa";
 "Could not fetch FAQs" = "UKK:ta ei löytynyt";
 "Thanks for rating us." = "Kiitos arvostelusta.";
-"Chat" = "Chat";
 "Download" = "Lataa";
 "Please enter a valid email" = "Kirjoita oikea sähköposti";
 "Message" = "Viesti";
@@ -114,7 +113,6 @@ Copyright (c) 2014 Helpshift,Inc., All rights reserved.
 "Cancel" = "Peru";
 "Would you like to review the app?" = "Haluaisitko arvostella sovelluksen?";
 "Loading..." = "Ladataan...";
-"We're not around, but we'll get back to you during business hours" = "Emme ole nyt paikalla, mutta palaamme asiaan työajalla";
 "Read FAQs" = "Lue UKK";
 "Thanks for messaging us!" = "Kiitos viestistäsi!";
 "Try Again" = "Yritä uudelleen";

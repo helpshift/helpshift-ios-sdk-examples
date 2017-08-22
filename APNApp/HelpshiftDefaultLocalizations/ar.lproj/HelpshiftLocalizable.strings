@@ -76,7 +76,6 @@ Copyright (c) 2014 Helpshift,Inc., All rights reserved.
 "Your email" = "بريدك الإلكتروني";
 "Could not fetch FAQs" = "لم نتمكن من استعراض الأسئلة الشائعة";
 "Thanks for rating us." = "نشكرك على تقييمك لنا.";
-"Chat" = "محادثة";
 "Download" = "تنزيل";
 "Please enter a valid email" = "يُرجى إدخال عنوان بريد إلكتروني صحيح";
 "Message" = "رسالة";
@@ -117,7 +116,6 @@ Copyright (c) 2014 Helpshift,Inc., All rights reserved.
 "Would you like to review the app?" = "هل تريد مراجعة هذا التطبيق؟";
 "Could not fetch message" = "لم نتمكن من استعراض الرسالة";
 "Loading..." = "جارٍ التحميل...";
-"We're not around, but we'll get back to you during business hours" = "لسنا موجودين الآن، لكن سوف نرد عليك في ساعات العمل.";
 "Read FAQs" = "قراءة الأسئلة المتداولة";
 "Thanks for messaging us!" = "نشكرك على مراسلتنا!";
 "Try Again" = "حاول مرة أخرى";

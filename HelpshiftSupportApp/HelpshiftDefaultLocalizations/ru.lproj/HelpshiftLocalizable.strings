@@ -74,7 +74,6 @@ Copyright (c) 2014 Helpshift,Inc., All rights reserved.
 "Back" = "Назад";
 "Could not fetch FAQs" = "Не удалось найти вопросы/ответы (ЧаВо)";
 "Thanks for rating us." = "Спасибо за оценку!";
-"Chat" = "Чат";
 "Download" = "Загрузка";
 "Please enter a valid email" = "Введите действительный адрес e-mail";
 "Message" = "Сообщение";
@@ -114,7 +113,6 @@ Copyright (c) 2014 Helpshift,Inc., All rights reserved.
 "Cancel" = "Отмена";
 "Would you like to review the app?" = "Хотите отставить отзыв о приложении?";
 "Loading..." = "Загрузка...";
-"We're not around, but we'll get back to you during business hours" = "Сейчас нас нет на месте, но мы свяжемся с вами в рабочее время.";
 "Read FAQs" = "Читать сборники ЧаВо";
 "Thanks for messaging us!" = "Спасибо, что отправили нам сообщение!";
 "Try Again" = "Еще раз";

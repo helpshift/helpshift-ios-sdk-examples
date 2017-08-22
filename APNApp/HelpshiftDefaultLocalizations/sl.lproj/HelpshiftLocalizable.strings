@@ -74,7 +74,6 @@ Copyright (c) 2014 Helpshift,Inc., All rights reserved.
 "Back" = "Nazaj";
 "Could not fetch FAQs" = "Pogostih vprašanj ni bilo mogoče pridobiti";
 "Thanks for rating us." = "Hvala, ker ste nas ocenili.";
-"Chat" = "Klepet";
 "Download" = "Prenesi";
 "Please enter a valid email" = "Vnesite veljavno e-pošto";
 "Message" = "Sporočilo";
@@ -114,7 +113,6 @@ Copyright (c) 2014 Helpshift,Inc., All rights reserved.
 "Cancel" = "Prekliči";
 "Would you like to review the app?" = "Ali želite oceniti aplikacijo?";
 "Loading..." = "Nalaganje ...";
-"We're not around, but we'll get back to you during business hours" = "Trenutno smo odsotni. Odgovorili vam bomo v času uradnih ur.";
 "Read FAQs" = "Preberi razdelek s pogostimi vprašanji";
 "Thanks for messaging us!" = "Hvala, ker ste nam poslali sporočilo.";
 "Try Again" = "Poskusite znova";

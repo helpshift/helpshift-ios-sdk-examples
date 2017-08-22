@@ -75,7 +75,6 @@ Copyright (c) 2014 Helpshift,Inc., All rights reserved.
 "Back" = "Назад";
 "Could not fetch FAQs" = "Не вдалося знайти відповіді на поширені питання (FAQ)";
 "Thanks for rating us." = "Дякуємо за оцінку!";
-"Chat" = "Чат";
 "Download" = "Завантажити";
 "Please enter a valid email" = "Введіть дійсну адресу e-mail";
 "Message" = "Повідомлення";
@@ -115,7 +114,6 @@ Copyright (c) 2014 Helpshift,Inc., All rights reserved.
 "Cancel" = "Скасувати";
 "Would you like to review the app?" = "Хочете залишити відгук про програму?";
 "Loading..." = "Завантаження...";
-"We're not around, but we'll get back to you during business hours" = "Зараз нас немає на місці, але ми зв'яжемося з вами в робочий час";
 "Read FAQs" = "Переглянути збірники FAQ";
 "Thanks for messaging us!" = "Дякуємо, що надіслали нам повідомлення!";
 "Try Again" = "Ще раз";

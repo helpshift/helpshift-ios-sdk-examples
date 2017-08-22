@@ -74,7 +74,6 @@ Copyright (c) 2014 Helpshift,Inc., All rights reserved.
 "Back" = "戻る";
 "Could not fetch FAQs" = "FAQが見つかりませんでした";
 "Thanks for rating us." = "評価いただき。ありがとうございます。";
-"Chat" = "チャット";
 "Download" = "ダウンロード";
 "Please enter a valid email" = "有効なEメールアドレスをご入力ください";
 "Message" = "メッセージ";
@@ -114,7 +113,6 @@ Copyright (c) 2014 Helpshift,Inc., All rights reserved.
 "Cancel" = "キャンセル";
 "Would you like to review the app?" = "本アプリをレビューしていただけますか？";
 "Loading..." = "ロード中…";
-"We're not around, but we'll get back to you during business hours" = "ただ今不在にしております。営業時間内に対応させていただきますのでよろしくお願いいたします。";
 "Read FAQs" = "FAQを読む";
 "Thanks for messaging us!" = "メッセージをお送りいただき、ありがとうございました。";
 "Try Again" = "再試行";

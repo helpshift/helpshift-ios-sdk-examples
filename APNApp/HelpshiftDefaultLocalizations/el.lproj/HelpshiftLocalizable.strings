@@ -74,7 +74,6 @@ Copyright (c) 2014 Helpshift,Inc., All rights reserved.
 "Back" = "Επιστροφή";
 "Could not fetch FAQs" = "Δεν ανακτήθηκαν οι συνήθεις ερωτήσεις";
 "Thanks for rating us." = "Ευχαριστούμε για την αξιολόγησή σας.";
-"Chat" = "Συνομιλία";
 "Download" = "Λήψη";
 "Please enter a valid email" = "Εισαγάγετε ένα έγκυρο email";
 "Message" = "Μήνυμα";
@@ -114,7 +113,6 @@ Copyright (c) 2014 Helpshift,Inc., All rights reserved.
 "Cancel" = "Άκυρο";
 "Would you like to review the app?" = "Θέλετε να αφήσετε κριτική για την εφαρμογή;";
 "Loading..." = "Φόρτωση...";
-"We're not around, but we'll get back to you during business hours" = "Δεν είμαστε διαθέσιμοι, αλλά θα επικοινωνήσουμε μαζί σας εργάσιμες ώρες";
 "Read FAQs" = "Ανάγνωση Συνήθων ερωτήσεων";
 "Thanks for messaging us!" = "Ευχαριστούμε για την αποστολή του μηνύματος!";
 "Try Again" = "Δοκιμάστε πάλι";

@@ -74,7 +74,6 @@ Copyright (c) 2014 Helpshift,Inc., All rights reserved.
 "Back" = "Kembali";
 "Could not fetch FAQs" = "Tidak dapat mengambil FAQ";
 "Thanks for rating us." = "Terima kasih telah memberi nilai.";
-"Chat" = "Obrolan";
 "Download" = "Unduh";
 "Please enter a valid email" = "Masukkan alamat email yang sah";
 "Message" = "Pesan";
@@ -114,7 +113,6 @@ Copyright (c) 2014 Helpshift,Inc., All rights reserved.
 "Cancel" = "Batal";
 "Would you like to review the app?" = "Apakah Anda berkenan mengulas apli ini?";
 "Loading..." = "Memuat...";
-"We're not around, but we'll get back to you during business hours" = "Kami sedang tidak bekerja, tetapi akan menghubungi Anda kembali selama jam kerja";
 "Read FAQs" = "Baca FAQ";
 "Thanks for messaging us!" = "Terima kasih telah mengirim pesan kepada kami!";
 "Try Again" = "Coba Lagi";

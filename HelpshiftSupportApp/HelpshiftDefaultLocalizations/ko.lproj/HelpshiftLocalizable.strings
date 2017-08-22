@@ -74,7 +74,6 @@ Copyright (c) 2014 Helpshift,Inc., All rights reserved.
 "Back" = "뒤로";
 "Could not fetch FAQs" = "FAQ를 불러올 수 없음";
 "Thanks for rating us." = "평가해 주셔서 감사합니다.";
-"Chat" = "대화";
 "Download" = "다운로드";
 "Please enter a valid email" = "유효한 이메일을 입력해 주세요.";
 "Message" = "메시지";
@@ -114,7 +113,6 @@ Copyright (c) 2014 Helpshift,Inc., All rights reserved.
 "Cancel" = "취소";
 "Would you like to review the app?" = "앱을 평가해 주시겠습니까?";
 "Loading..." = "불러오는 중...";
-"We're not around, but we'll get back to you during business hours" = "현재 자리를 비웠지만 영업 시간 동안에 응대해 드리겠습니다.";
 "Read FAQs" = "FAQ 읽기";
 "Thanks for messaging us!" = "보내 주셔서 감사합니다!";
 "Try Again" = "다시 시도";

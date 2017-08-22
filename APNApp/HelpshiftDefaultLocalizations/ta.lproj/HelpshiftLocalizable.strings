@@ -74,7 +74,6 @@ Copyright (c) 2014 Helpshift,Inc., All rights reserved.
 "Back" = "பின்";
 "Could not fetch FAQs" = "கேள்வி பதில்களைப் பெற முடியவில்லை";
 "Thanks for rating us." = "மதிப்பீடு வழங்கியதற்கு நன்றி.";
-"Chat" = "அரட்டை";
 "Download" = "பதிவிறக்கு";
 "Please enter a valid email" = "சரியான மின்னஞ்சல் முகவரியை உள்ளிடவும்";
 "Message" = "செய்தி";
@@ -114,7 +113,6 @@ Copyright (c) 2014 Helpshift,Inc., All rights reserved.
 "Cancel" = "ரத்துசெய்";
 "Would you like to review the app?" = "பயன்பாட்டை மதிப்பிட விரும்புகிறீர்களா?";
 "Loading..." = "ஏற்றுகிறது...";
-"We're not around, but we'll get back to you during business hours" = "எங்கள் வணிக நேரத்தில் உங்களுக்குப் பதிலளிப்போம்";
 "Read FAQs" = "கேள்வி பதிலைப் படிக்கவும்";
 "Thanks for messaging us!" = "செய்தி அனுப்பியதற்கு நன்றி!";
 "Try Again" = "மீண்டும் முயற்சி செய்யவும்";

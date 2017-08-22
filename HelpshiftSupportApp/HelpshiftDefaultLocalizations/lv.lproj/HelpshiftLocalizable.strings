@@ -74,7 +74,6 @@ Copyright (c) 2014 Helpshift,Inc., All rights reserved.
 "Back" = "Atpakaļ";
 "Could not fetch FAQs" = "BUJ nebija iespējams izgūt";
 "Thanks for rating us." = "Paldies, ka sniedzāt vērtējumu par mums.";
-"Chat" = "Tērzētava";
 "Download" = "Lejupielādēt";
 "Please enter a valid email" = "Lūdzu, ievadiet derīgu e-pastu";
 "Message" = "Ziņojums";
@@ -114,7 +113,6 @@ Copyright (c) 2014 Helpshift,Inc., All rights reserved.
 "Cancel" = "Atcelt";
 "Would you like to review the app?" = "Vai Jūs vēlētos sniegt lietojumprogrammas vērtējumu?";
 "Loading..." = "Ielādē...";
-"We're not around, but we'll get back to you during business hours" = "Šobrīd birojs ir slēgts, taču mēs ar Jums sazināsimies biroja darba laikā";
 "Read FAQs" = "Lasīt BUJ";
 "Thanks for messaging us!" = "Paldies par nosūtīto ziņojumu!";
 "Try Again" = "Mēģināt vēlreiz";

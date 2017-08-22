@@ -74,7 +74,6 @@ Copyright (c) 2014 Helpshift,Inc., All rights reserved.
 "Back" = "Zpět";
 "Could not fetch FAQs" = "Nebylo možné vyvolat často kladené dotazy";
 "Thanks for rating us." = "Děkujeme za vaše hodnocení.";
-"Chat" = "Chatovat";
 "Download" = "Stáhnout";
 "Please enter a valid email" = "Prosím, zadejte platný e-mail";
 "Message" = "Zpráva";
@@ -114,7 +113,6 @@ Copyright (c) 2014 Helpshift,Inc., All rights reserved.
 "Cancel" = "Zrušit";
 "Would you like to review the app?" = "Chtěli byste aplikaci zhodnotit?";
 "Loading..." = "Nahrávání...";
-"We're not around, but we'll get back to you during business hours" = "Nyní nejsme přítomni, ozveme se vám během pracovních hodin";
 "Read FAQs" = "Přečíst často kladené dotazy";
 "Thanks for messaging us!" = "Děkujeme za vaši zprávu!";
 "Try Again" = "Zkusit znovu";

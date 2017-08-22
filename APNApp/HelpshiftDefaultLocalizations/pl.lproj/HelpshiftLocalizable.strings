@@ -74,7 +74,6 @@ Copyright (c) 2014 Helpshift,Inc., All rights reserved.
 "Back" = "Wstecz";
 "Could not fetch FAQs" = "Nie udało się pobrać listy najczęściej zadawanych pytań";
 "Thanks for rating us." = "Dziękujemy za wystawienie nam oceny.";
-"Chat" = "Czat";
 "Download" = "Pobierz";
 "Please enter a valid email" = "Prosimy podać stosowny adres e-mail";
 "Message" = "Wiadomość";
@@ -114,7 +113,6 @@ Copyright (c) 2014 Helpshift,Inc., All rights reserved.
 "Cancel" = "Anuluj";
 "Would you like to review the app?" = "Czy życzysz sobie ocenić tę aplikację?";
 "Loading..." = "Wczytywanie...";
-"We're not around, but we'll get back to you during business hours" = "Obecnie nie ma nas w biurze, ale odpowiemy w godzinach pracy.";
 "Read FAQs" = "Zapoznaj się z Najczęściej Zadawanymi Pytaniami";
 "Thanks for messaging us!" = "Dziękujemy za wysłanie nam wiadomości!";
 "Try Again" = "Spróbuj ponownie";

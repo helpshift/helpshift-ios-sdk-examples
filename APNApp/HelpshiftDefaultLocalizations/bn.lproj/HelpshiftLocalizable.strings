@@ -74,7 +74,6 @@ Copyright (c) 2014 Helpshift,Inc., All rights reserved.
 "Back" = "পিছনে যান";
 "Could not fetch FAQs" = "ফ্যাকস আনা গেল না";
 "Thanks for rating us." = "আমাদের গুণমান বিচার করার জন্য ধন্যবাদ।";
-"Chat" = "চ্যাট";
 "Download" = "ডাউনলোড";
 "Please enter a valid email" = "একটি বৈধ ইমেইল এন্টার করুন";
 "Message" = "বার্তা";
@@ -114,7 +113,6 @@ Copyright (c) 2014 Helpshift,Inc., All rights reserved.
 "Cancel" = "বাতিল";
 "Would you like to review the app?" = "আপনি কি এই অ্যাপটি পর্যালোচনা করতে চাইবেন?";
 "Loading..." = "লোড হচ্ছে...";
-"We're not around, but we'll get back to you during business hours" = "আমরা এই মুহুর্তে উপস্থিত নই, কিন্তু কর্ম সময়ে আমরা আপনার সাথে যোগাযোগ করব।";
 "Read FAQs" = "FAQ গুলি পড়ুন";
 "Thanks for messaging us!" = "আমাদেরকে বার্তা পাঠানোর জন্য ধন্যবাদ!";
 "Try Again" = "পুনরায় চেষ্টা করুন";

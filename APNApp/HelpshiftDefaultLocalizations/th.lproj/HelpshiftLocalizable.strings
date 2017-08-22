@@ -75,7 +75,6 @@ Copyright (c) 2014 Helpshift,Inc., All rights reserved.
 "Back" = "ย้อนกลับ";
 "Could not fetch FAQs" = "ไม่สามารถดึงข้อมูลคำถามที่ถามบ่อยได้";
 "Thanks for rating us." = "ขอบคุณสำหรับการให้คะแนนแก่เรา";
-"Chat" = "แชท";
 "Download" = "ดาวน์โหลด";
 "Please enter a valid email" = "โปรดใส่อีเมลที่ถูกต้อง";
 "Message" = "ข้อความ";
@@ -115,7 +114,6 @@ Copyright (c) 2014 Helpshift,Inc., All rights reserved.
 "Cancel" = "ยกเลิก";
 "Would you like to review the app?" = "คุณต้องการให้คำวิจารณ์แอปหรือไม่";
 "Loading..." = "กำลังโหลด...";
-"We're not around, but we'll get back to you during business hours" = "ตอนนี้ไม่ใช่เวลาทำการ แต่เราจะติดต่อกลับในช่วงเวลาทำการโดยเร็วที่สุด";
 "Read FAQs" = "อ่านคำถามที่พบบ่อย";
 "Thanks for messaging us!" = "ขอบคุณสำหรับการส่งข้อความถึงเรา!";
 "Try Again" = "ลองอีกครั้ง";

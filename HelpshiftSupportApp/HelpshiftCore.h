@@ -1,6 +1,6 @@
 /*
  *    HelpshiftCore.h
- *    SDK Version 6.0.0
+ *    SDK Version 6.1.0
  *
  *    Get the documentation at http://www.helpshift.com/docs
  *
@@ -20,9 +20,9 @@
 - (BOOL) _handleRemoteNotification:(NSDictionary *)notification withController:(UIViewController *)viewController;
 - (BOOL) _handleRemoteNotification:(NSDictionary *)notification isAppLaunch:(BOOL)isAppLaunch withController:(UIViewController *)viewController;
 - (BOOL) _handleLocalNotification:(UILocalNotification *)notification withController:(UIViewController *)viewController;
-- (BOOL) _handleInteractiveRemoteNotification:(NSDictionary *)notification forAction:(NSString *)actionIdentifier completionHandler:(void (^)())completionHandler;
-- (BOOL) _handleInteractiveLocalNotification:(UILocalNotification *)notification forAction:(NSString *)actionIdentifier completionHandler:(void (^)())completionHandler;
-- (BOOL) _handleEventsForBackgroundURLSession:(NSString *)identifier completionHandler:(void (^)())completionHandler;
+- (void) _handleInteractiveRemoteNotification:(NSDictionary *)notification forAction:(NSString *)actionIdentifier completionHandler:(void (^)())completionHandler;
+- (void) _handleInteractiveLocalNotification:(UILocalNotification *)notification forAction:(NSString *)actionIdentifier completionHandler:(void (^)())completionHandler;
+- (void) _handleEventsForBackgroundURLSession:(NSString *)identifier completionHandler:(void (^)())completionHandler;
 - (BOOL) _setSDKLanguage:(NSString *)langCode;
 
 @end
@@ -130,6 +130,10 @@ typedef enum HsEnableContactUs
 - (HelpshiftAPIConfig *) build;
 @end
 
+/**
+ * Helpshift Core API provider
+ */
+
 @interface HelpshiftCore : NSObject
 /**
  *  Initialize the HelpshiftCore class with an instance of the Helpshift service which you want to use.
@@ -171,7 +175,7 @@ typedef enum HsEnableContactUs
  * @param apiKey This is your developer API Key
  * @param domainName This is your domain name without any http:// or forward slashes
  * @param appID This is the unique ID assigned to your app
- * @param withConfig This is the install config object which contains additional configuration options for the HelpshiftSDK.
+ * @param configObject This is the install config object which contains additional configuration options for the HelpshiftSDK.
  *
  * @available Available in SDK version 5.7.0 or later
  */
@@ -181,8 +185,9 @@ typedef enum HsEnableContactUs
  *
  * The identifier uniquely identifies the user. Name and email are optional.
  *
- * @param name The name of the user
- * @param email The email of the user
+ * @param identifier The unique identifier of the user.
+ * @param name The name of the user.
+ * @param email The email of the user.
  *
  * Available in SDK version 5.0.0 or later
  *
@@ -293,8 +298,22 @@ typedef enum HsEnableContactUs
  * @return BOOL indicating wether the specified language was applied. In case the language code is incorrect or
  * the corresponding localization file was not found, bool value of false is returned and the default language is used.
  *
- * Available in SDK version 5.5.0 or later
+ * @available Available in SDK version 5.5.0 or later
+ * @deprecated Deprecated in SDK version 6.1.0.
  */
-+ (BOOL) setSDKLanguage:(NSString *)languageCode;
++ (BOOL) setSDKLanguage:(NSString *)languageCode __deprecated_msg("Use setLanguage: instead");
+
+/** Change the SDK language. By default, the device's prefered language is used.
+ * The call will fail in the following cases :
+ * 1. If a Helpshift session is already active at the time of invocation
+ * 2. Language code is incorrect
+ * 3. Corresponding localization file is not found
+ *
+ * @param languageCode the string representing the language code. For example, use 'fr' for French.
+ *
+ * @available Available in SDK version 6.1.0 or later
+ */
+
++ (void) setLanguage:(NSString *)languageCode;
 
 @end

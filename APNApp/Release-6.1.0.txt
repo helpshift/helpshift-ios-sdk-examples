@@ -1,0 +1,728 @@
+Helpshift SDK 6.1.0 Release Notes (for iOS)
+-------------------------------------------
+
+Helpshift is an embedded support desk for native apps.
+Helpshift SDK for iOS is required for having Helpshift support running on native apps.
+
+Requirements:
+iOS version requirements:
+https://developers.helpshift.com/ios/getting-started/#supported-versions
+
+The SDK works with armv7, armv7s, arm64 as well as i386/x86_64 (iOS simulator) architectures.
+Helpshift SDK 6.1.0 will run only on Xcode6 and above.
+
+Documentation for Installation and Usage Instructions:
+http://developers.helpshift.com/
+
+New features:
+6.1.0 Release Date: August 21th, 2017
+        * Added support for iOS-11 beta-5
+	* Setting enableFullPrivacy API configuration to true will now hide name and email address fields.
+	* Added a new API to set the SDK language asynchronously.
+	* Added an API to asynchronously check if an active Conversation exists.
+	* Added an API to asynchronously request unread message count.
+	* Added an API to asynchronously create and return dynamic form for given flows.
+	* Added the following methods to the HelpshiftSupportDelegate protocol:
+	    (void) didCheckIfConversationActive:(BOOL)isActive
+	    (void) didReceiveUnreadMessagesCount:(NSInteger)count
+	    (void) didCreateDynamicForm:(UINavigationController *)form
+	* Fixed a bug where blank cells appeared upon searching for FAQs in FAQ section view.
+	* Fixed a bug on iOS 11-beta where the text view to enter CSAT review text was not visible in review rating screen.
+	* Fixed a bug where compilation would fail if Socket Rocket library was integrated with the app through source code.
+	* Fixed a bug where tags were not added to the new issue if added without metadata.
+	* Fixed a bug where "Bold font name" config was not applied to FAQ title.
+	* Fixed a bug where the applications that use Google Cast SDK would crash while filing a new Conversation.
+	* Fixed the warnings reported by Xcode 9 where some of the UIKit APIs were called from secondary thread.
+	* Fixed a bug where database connections were not closed before removing the database during migration.
+	* Fixed a bug on iOS 11 where back button title would not appear in single FAQ and Conversation screens.
+	* Deprecated the following APIs within the HelpshiftSupport class:
+	    (BOOL) isConversationActive
+	    (NSInteger) getNotificationCountFromRemote:(BOOL)isRemote
+	    (UINavigationController *) dynamicFormWithTitle:(NSString *)title andFlows:(NSArray *)flows
+	    setSDKLanguage:(NSString *)languageCode
+	* Deprecated the method (void) didReceiveNotificationCount:(NSInteger)count in HelphisftSupportMetadata protocol.
+6.0.0 Release Date: July 18th, 2017
+	* Added compatibility for iOS 11 beta 3.
+    	* Added support to show an animated indication on chat screen when an Agent is replying to the Conversation.
+	* Added a new High Contrast theme.
+	* Added new keys for customising text colour of user chat bubble and agent chat bubble.
+	* Added new key for customising the colour of the dots shown in the typing indicator.
+	* Added new keys for customising Secondary text colour, Placeholder text colour and Timestamp text colour.
+	* Fixed a bug where SDK would crash upon pressing back button after attaching second screenshot while the first screenshot upload was in-progress
+	* Fixed a bug where SDK would crash if issue was filed with a corrupt image.
+	* Fixed a bug where SDK would crash upon calling setMetadataObjectBlock api.
+	* Fixed a bug where search title text was not highlighted in search results.
+	* Fixed a bug where FAQ footer text gets clipped if the font size is increased in device' accessibility settings.
+	* Fixed a bug where follow-up was successful if sent while user was typing,
+	* Fixed a UI glitch where extra padding was added to the table view search controller if the translucency of the navigation bar was disabled.
+	* Fixed a crash when multi-character UTF-16 encoded characters are found in the FAQ body of the searched results.
+	* Fixed a bug where Contact Us button in FAQ search results list was not accessible using accessibility identifier.
+	* Fixed a bug where badge count was not updated when the issue is resolved.
+	* Fixed a bug where notification counts APIs were returning incorrect values.
+	* Fixed a bug where the app was not suspended immediately after being backgrounded.
+	* Fixed crash on iOS 11 beta 3 while attaching a screenshot in new conversation.
+	* Fixed crash on some devices in rare cases while creating a new issue.
+	* Fixed a rare crash on syncing sessions on iOS 10.
+	* Fixed a rare crash on app launch.
+	* Improved syncing server configurations.
+	* Improved handling for failed network requests.
+	* Deprecated APIs that take install and API configurations as NSDictionary.
+	* Removed Helpshift class and all it’s member methods that were deprecated in SDK version 5.0.0.
+6.0.0 Release Date: July 18th, 2017
+	* Added compatibility for iOS 11 beta 3.
+	* Added support to show an animated indication on chat screen when an Agent is replying to the Conversation.
+	* Added a new High Contrast theme.
+	* Added new keys for customising text colour of user chat bubble and agent chat bubble.
+	* Added new key for customising the colour of the dots shown in the typing indicator.
+	* Added new keys for customising Secondary text colour, Placeholder text colour and Timestamp text colour.
+	* Fixed a bug where SDK would crash upon pressing back button after attaching second screenshot while the first screenshot upload was in-progress
+	* Fixed a bug where SDK would crash if issue was filed with a corrupt image.
+	* Fixed a bug where SDK would crash upon calling setMetadataObjectBlock api.
+	* Fixed a bug where search title text was not highlighted in search results.
+	* Fixed a bug where FAQ footer text gets clipped if the font size is increased in device' accessibility settings.
+	* Fixed a bug where follow-up was successful if sent while user was typing,
+	* Fixed a UI glitch where extra padding was added to the table view search controller if the translucency of the navigation bar was disabled.
+	* Fixed a crash when multi-character UTF-16 encoded characters are found in the FAQ body of the searched results.
+	* Fixed a bug where Contact Us button in FAQ search results list was not accessible using accessibility identifier.
+	* Fixed a bug where badge count was not updated when the issue is resolved.
+	* Fixed a bug where notification counts APIs were returning incorrect values.
+	* Fixed crash on iOS 11 beta 3 while attaching a screenshot in new conversation.
+	* Fixed crash on some devices in rare cases while creating a new issue.
+	* Fixed a rare crash on app launch.
+	* Improved syncing server configurations.
+	* Improved handling for failed network requests.
+	* Deprecated APIs that take install and API configurations as NSDictionary.
+	* Removed Helpshift class and all it’s member methods that were deprecated in SDK version 5.0.0.
+5.10.1 Release Date: April 18, 2017
+	*  Added flag for showing conversation info screen.
+	*  Fixed getActionTitleColor API returning title instead of title color.
+5.10.1-support Release Date: April 18, 2017
+	*  Added flag for showing conversation info screen.
+5.10.0 Release Date: March 31, 2017
+	* Introduced a new API that helps redirect users directly to Conversation on tapping of push notification in cases where the app was killed by the user.
+	* Added new SDK configuration debug logging in the SDK for solving Issues during integration.
+	* Added an API to check if there is an active conversation.
+	* Added a delegate method that lets the app know when a Conversation has ended.
+	* Added Inbox Data APIs to retrieve 'action type' and 'action data' for Campaigns action buttons in messages.
+	* Made image attachment upload more network-efficient, also added support for GIF type images.
+	* Added validation to guard against malformed FAQ and Section IDs.
+	* Users can now view their Issue ID for an ongoing Issue by navigating to the Issue Information Screen by tapping the icon on the top-right of the Conversation screen.
+	* Added a configuration in HelpshiftConfig.plist to specify extra vertical padding for table view cells.
+	* Added a configuration in HelpshiftConfig.plist to hide the label of the back button while Helpshift session is active.
+	* Added a configuration in HelpshiftConfig.plist to specify file name for custom font for FAQ body and custom bold font for FAQ title.
+	* Added translations for the screenshot tutorial.
+	* Replaced UIWebView implementation with WKWebView to display HTML content of an FAQ.
+	* Improvements to voice over support.
+	* Fixed a bug where row height was not being calculated correctly for FAQ tables.
+	* Fixed a bug where a failed message delivery could be re-sent multiple times.
+	* Fixed all memory leaks.
+	* Fixed an edge case where in some rare cases an Agent message was not visible to the user.
+	* Fixed a bug where a user's keyboard was dismissed after 'report new Issue view controller' is dismissed.
+	* Fixed a bug where the FAQ view did not use the system default font.
+	* Fixed a bug where chat bubble for landscape images was not on the same aspect ratio.
+	* Fixed a UI issue where description text could overlap a button in certain cases.
+	* Fixed a UI issue where the Helpshift SDK would hide the status bar even if the app displays it.
+	* Fixed an issue with the loading spinner for image downloads being shown indefinitely in cases of no network detection.
+	* Added missing device names to the device map dictionary.
+	* Fixed bug where in some rare cases, conversation resolution question is displayed when an agent sends a follow up request.
+	* Fixed a bug that prevented the Close button from functioning correctly in some cases.
+	* Fixed a bug where some alert popups could move to a buggy position on screen in cases when SDK was launched on push notifications. 
+	* Fixed a bug in follow up feature where a follow up request from Agent fails in some valid cases.
+	* Fixed a bug where customer could reopen a resolved issue by attaching an image.
+	* Fixed a bug where some UI elements were not correctly using the theming options.
+	* Fixed an issue where user could launch multiple conversation screens by tapping repeatedly on Contact Us buttons. 
+	* Fixed a bug where conversation text typed by customer could get deleted in some cases where he attempts to attach an image with it. 
+	* Fixed a bug where agent name is not shown for follow up request message.
+	* Fixed a bug where a user can accept or reject issue resolution multiple times in some cases.
+	* Fixed a case where chat screen was relaunched if the user was previously on chat screen and received a support push notification.
+	* Fixed a bug where in some rare cases the “Ok, Attach” button was still visible after user attaches a screenshot.
+5.10.0-support Release Date: March 31, 2017
+	* Introduced a new API that helps redirect users directly to Conversation on tapping of push notification in cases where the app was killed by the user.
+	* Added new SDK configuration debug logging in the SDK for solving Issues during integration.
+	* Added an API to check if there is an active conversation.
+	* Added a delegate method that lets the app know when a Conversation has ended.
+	* Made image attachment upload more network-efficient, also added support for GIF type images.
+	* Added validation to guard against malformed FAQ and Section IDs.
+	* Users can now view their Issue ID for an ongoing Issue by navigating to the Issue Information Screen by tapping the icon on the top-right of the Conversation screen.
+	* Added a configuration in HelpshiftConfig.plist to specify extra vertical padding for table view cells.
+	* Added a configuration in HelpshiftConfig.plist to hide the label of the back button while Helpshift session is active.
+	* Added a configuration in HelpshiftConfig.plist to specify file name for custom font for FAQ body and custom bold font for FAQ title.
+	* Added translations for the screenshot tutorial.
+	* Replaced UIWebView implementation with WKWebView to display HTML content of an FAQ.
+	* Improvements to voice over support.
+	* Fixed a bug where row height was not being calculated correctly for FAQ tables.
+	* Fixed a bug where a failed message delivery could be re-sent multiple times.
+	* Fixed all memory leaks.
+	* Fixed an edge case where in some rare cases an Agent message was not visible to the user.
+	* Fixed a bug where a user's keyboard was dismissed after 'report new Issue view controller' is dismissed.
+	* Fixed a bug where the FAQ view did not use the system default font.
+	* Fixed a bug where chat bubble for landscape images was not on the same aspect ratio.
+	* Fixed a UI issue where description text could overlap a button in certain cases.
+	* Fixed a UI issue where the Helpshift SDK would hide the status bar even if the app displays it.
+	* Fixed an issue with the loading spinner for image downloads being shown indefinitely in cases of no network detection.
+	* Added missing device names to the device map dictionary.
+	* Fixed bug where in some rare cases, conversation resolution question is displayed when an agent sends a follow up request.
+	* Fixed a bug that prevented the Close button from functioning correctly in some cases.
+	* Fixed a bug where some alert popups could move to a buggy position on screen in cases when SDK was launched on push notifications. 
+	* Fixed a bug in follow up feature where a follow up request from Agent fails in some valid cases.
+	* Fixed a bug where customer could reopen a resolved issue by attaching an image.
+	* Fixed a bug where some UI elements were not correctly using the theming options.
+	* Fixed an issue where user could launch multiple conversation screens by tapping repeatedly on Contact Us buttons. 
+	* Fixed a bug where conversation text typed by customer could get deleted in some cases where he attempts to attach an image with it. 
+	* Fixed a bug where agent name is not shown for follow up request message.
+	* Fixed a bug where a user can accept or reject issue resolution multiple times in some cases.
+	* Fixed a case where chat screen was relaunched if the user was previously on chat screen and received a support push notification.
+	* Fixed a bug where in some rare cases the “Ok, Attach” button was still visible after user attaches a screenshot.
+5.9.3 Release Date: February 6, 2017
+	*  Fixed a bug where in rare circumstances FAQs would not load.
+5.9.3 Release Date: February 6, 2017
+	*  Fixed a bug where in rare circumstances FAQs would not load.
+5.9.2 Release Date: February 2, 2017
+	*  Fixed a crash when Send Feedback button is tapped on the periodic review reminder alert view.
+	*  Fixed bug where an empty view controller was shown after quickly tapping the back button twice on the report issue screen or the chat screen.
+
+5.9.2 Release Date: February 2, 2017
+	*  Fixed a crash when Send Feedback button is tapped on the periodic review reminder alert view.
+	*  Fixed bug where an empty view controller was shown after quickly tapping the back button twice on the report issue screen or the chat screen.
+
+
+5.9.1 Release Date: January 18, 2017
+	* Fix bug where the SDK didn't pick up device language if it is Chinese - Hong Kong (Traditional) on iOS 8.x and iOS 9.x.
+5.9.1-support Release Date: January 18, 2017
+	* Fix bug where the SDK didn't pick up device language if it is Chinese - Hong Kong (Traditional) on iOS 8.x and iOS 9.x.
+5.9.0 Release Date: January 10, 2017
+	* Added support for setting expiry time to campaign messages.
+	* Implemented custom logger to support debug logs.
+	* Improved in-app FAQ search by making it faster and memory efficient.
+	* Helpshift SDK now supports iOS accessibility features for dynamic type sizes.
+	* Fix FAQ with keywords are not prioritised correctly in search results.
+	* Improved translations for SDK strings.
+	* Helpshift SDK now supports two more flavours of Chinese : Chinese - Hong Kong and Chinese - Singapore.
+	* Fix in-app notifications not received for issue resolution.
+	* Fix in-app notifications do not support orientations of the topmost view controller onto which they are shown.
+	* Fix in-app notifications rotate even if the app does not support rotation.
+	* Fix application version is not retrieved from main bundle.
+	* Fix app crashes when attempting to attach a file with no extension.
+	* Fix if an UIAlertView with textfield is presented with the app in the landscape mode, it goes beneath the onscreen keyboard.
+	* Fix when entering a very long name into the conversation page the name starts to overrun the email section before it gets truncated.
+	* Fix campaigns are fetched after a delay if a campaign is pushed through push notification but and user launches the app manually.
+	* Fix top level domain of the e-mail address (Issue reporter email) can't take more than 4 letters.
+	* Fix SDK asking for push permissions on behalf of the app even if app is registered for silent push.
+	* Changed the logic for handling http failures from the helpshift servers.
+	* Fix issue where Helpshift SDK used to poll even when push was enabled.
+	* Fix FAQs not getting added to Core Spotlight if the configuration is changed from HsAddFaqsToDeviceSearchNever to HsAddFaqsToDeviceSearchOnInstall.
+	* Improved Syncing strategy for campaigns data.
+5.9.0-support Release Date: January 10, 2017
+	* Implemented custom logger to support debug logs.
+	* Improved in-app FAQ search by making it faster and memory efficient.
+	* Helpshift SDK now supports iOS accessibility features for dynamic type sizes.
+	* Fix an issue where FAQ with search tags were not prioritised correctly in the search results.
+	* Improved translations for SDK strings.
+	* Helpshift SDK now supports two more flavours of Chinese : Chinese - Hong Kong and Chinese - Singapore.
+	* Fix in-app notifications not received for issue resolution.
+	* Fix in-app notifications do not support orientations of the topmost view controller onto which they are shown.
+	* Fix in-app notifications rotate even if the app does not support rotation.
+	* Fix application version is not retrieved from main bundle.
+	* Fix app crashes when attempting to attach a file with no extension.
+	* Fix if an UIAlertView with textfield is presented with the app in the landscape mode, it goes beneath the onscreen keyboard.
+	* Fix when entering a very long name into the conversation page the name starts to overrun the email section before it gets truncated.
+	* Fix top level domain of the e-mail address (Issue reporter email) can't take more than 4 letters.
+	* Changed the logic for handling http failures from the helpshift servers.
+	* Fix FAQs not getting added to Core Spotlight if the configuration is changed from HsAddFaqsToDeviceSearchNever to HsAddFaqsToDeviceSearchOnInstall.
+5.8.0 Release Date: September 30, 2016
+	* Add support for new Chat feature which would enable app developers/owners to give live chat experience to any set of users. This SDK is "chat ready" which means end users will be able to use this feature when it goes live in first week of November, only if enableChat flag is set with this SDK.
+	* Added support for iOS 10.
+	* Fix for iOS 10: An issue where the App Rating popup presented by Helpshift could move to an incorrect position.
+	* Added HelpshiftAPIConfig and HelpshiftInstallConfig APIs to simplify SDK configs.
+	* SDK no longer includes the 'carrier name' in metaData if 'enableFullPrivacy' flag is set to true.
+	* Push campaigns are now registered on first launch.
+	* Fix: Automatically close Helpshift’s campaign UI in case a deeplink action links back to the same app.
+	* Fix memory leak caused by Helpshift SDK holding a strong reference to the host app’s viewController.
+	* Fix an issue with Guided Ticket Filing where pressing back button would sometimes take the user to a blank screen.
+	* Fix an issue where if an FAQ contains an animated GIF, sometimes the user will get multiple failed messages error.
+	* Change the name of campaigns inbox delegate (from notificationDelegate to hsInboxNotificationDelegate) to avoid name conflict with Apple’s private API.
+	* Fix an issue where the table row text for a FAQs could be truncated with ‘…’ for some languages.
+	* Fix an issue where chat screen could go blank when returning from Suggestions view.
+	* Fix as issue where Helpshift logo could sometimes be visible on Chat screen.
+	* Updated voice over labels on Single FAQ screen.
+5.8.0-support Release Date: September 30, 2016
+	* Add support for new Chat feature which would enable app developers/owners to give live chat experience to any set of users. This SDK is "chat ready" which means end users will be able to use this feature when it goes live in first week of November, only if enableChat flag is set with this SDK.
+	* Added support for iOS 10.
+	* Fix for iOS 10: An issue where the App Rating popup presented by Helpshift could move to an incorrect position.
+	* Added HelpshiftAPIConfig and HelpshiftInstallConfig APIs to simplify SDK configs.
+	* SDK no longer includes the 'carrier name' in metaData if 'enableFullPrivacy' flag is set to true.
+	* Fix memory leak caused by Helpshift SDK holding a strong reference to the host app’s viewController.
+	* Fix an issue with Guided Ticket Filing where pressing back button would sometimes take the user to a blank screen.
+	* Fix an issue where if an FAQ contains an animated GIF, sometimes the user will get multiple failed messages error.
+	* Fix an issue where the table row text for a FAQs could be truncated with ‘…’ for some languages.
+	* Fix an issue where chat screen could go blank when returning from Suggestions view.
+	* Fix as issue where Helpshift logo could sometimes be visible on Chat screen.
+	* Updated voice over labels on Single FAQ screen.
+5.7.1 Release Date: August 24, 2016
+      * Fix accessibility VoiceOver labels in the SDK.
+5.7.1-support Release Date: August 24, 2016
+      * Fix accessibility VoiceOver labels in the SDK.
+5.7.0 Release Date: August 18, 2016
+      * Support Issue Archival feature which will automatically archive issues which are in Resolved or Rejected state for more than 12 months.
+      * Add strict validation for HelpshiftCore's installForApiKey:domainName:appID: API.
+      This API will now throw Install Exception if there are validation issues in the key information.
+      * Move the Helpshift's localization files to HSLocalization.bundle file. For instructions on how to customize Helpshift strings, please visit https://developers.helpshift.com/ios/string-customization/
+      * Add support for customizing Helpshift themes using a HelpshiftCustomConfig.plist file. For more details, please visit https://developers.helpshift.com/ios/design/
+      * Handle corrupt or unsupported file formats in In-App Campaigns.
+      * Improve localizations for German, Dutch, Chinese and Korean languages.
+      * Fix resource deadlocks in Campaigns code.
+      * Fix warnings in Helpshift header files.
+      * Fix a bug where user was able to say Yes/No to resolution request multiples times on SDK upgrade.
+      * Add support for handling HTML entities in FAQ search.
+      * Add support for iOS 10 Beta release.
+	* Fix for iOS 10: Tapping on a Push notification from Helpshift does not redirect to Chat screen.
+	* Fix for iOS 10: Crash when navigating to a Single FAQ.
+		1. Open FAQ sections (showFAQs:)
+		2. Tap any FAQ 
+		3. User is taken to Single FAQ screen and app crashes.
+	* Fix for iOS 10: Crash when an in-app notification is displayed.
+		1. File an issue
+		2. Exit Helpshift
+		3. Reply to ticket from dashboard
+		4. An in-app notification is shown and the app crashes.
+5.7.0-support Release Date: August 18, 2016
+      * Support Issue Archival feature which will automatically archive issues which are in Resolved or Rejected state for more than 12 months.
+      * Add strict validation for HelpshiftCore's installForApiKey:domainName:appID: API.
+      This API will now throw Install Exception if there are validation issues in the key information.
+      * Move the Helpshift's localization files to HSLocalization.bundle file. For instructions on how to customize Helpshift strings, please visit https://developers.helpshift.com/ios/string-customization/
+      * Add support for customizing Helpshift themes using a HelpshiftCustomConfig.plist file. For more details, please visit https://developers.helpshift.com/ios/design/
+      * Improve localizations for German, Dutch, Chinese and Korean languages.
+      * Fix warnings in Helpshift header files.
+      * Fix a bug where user was able to say Yes/No to resolution request multiples times on SDK upgrade.
+      * Add support for handling HTML entities in FAQ search.
+      * Add support for iOS 10 Beta release.
+5.6.2 Release Date: July 27, 2016
+      * Fix crash in FAQ search if any of the FAQ search tags starts with a special character.
+5.6.1 Release Date: June 3, 2016
+      * Remove duplicates in Localization files.
+      * Fix crash in showFAQs API when there is only 1 section with some FAQs.
+5.6.1 Release Date: June 3, 2016
+      * Remove duplicates in Localization files.
+      * Fix crash in showFAQs API when there is only 1 section with some FAQs.
+5.6.0 Release Date: May 18, 2016
+    * Show notification to the user when agent resolves a conversation.
+    * Send user-id and device-id with every new conversation to facilitate integration of the Support and Campaigns products.
+    * Fix bug which caused warnings about setting UI properties from background thread.
+    * Add translations for Bengali, Bulgarian, Gujarati, Hindi, Kannada, Latvian, Malayalam, Marathi, Punjabi, Persian, Tamil and Telugu languages.
+    * Fix bug which prevented keyboard from dismissing on some UI screens.
+    * Fix conversation state mismatch where user is able to click Yes and No multiple times when presented with a resolution question.
+    * Improve localization strings according to customer feedback.
+    * Added Voice over support in the SDK for improving Accessibility.
+5.6.0-support Release Date: May 31, 2016
+    * Show notification to the user when agent resolves a conversation.
+    * Fix bug which caused warnings about setting UI properties from background thread.
+    * Add translations for Bengali, Bulgarian, Gujarati, Hindi, Kannada, Latvian, Malayalam, Marathi, Punjabi, Persian, Tamil and Telugu languages.
+    * Fix bug which prevented keyboard from dismissing on some UI screens.
+    * Fix conversation state mismatch where user is able to click Yes and No multiple times when presented with a resolution question.
+    * Improve localization strings according to customer feedback.
+    * Added Voice over support in the SDK for improving Accessibility.
+5.5.1 Release Date: April 4, 2016
+    * Fix compiler error when all_load linker flag is enabled.
+    * Fix : Remove the CFBundleExectuable key from HsUIResourceBundle.
+    * Update French translations.
+5.5.0 Release Date: March 17, 2016
+    * Add support for Inbox functionality and rich in-app campaign messages.
+    * Add config option for supporting Guided Ticket Filing when user clicks on Contact Us from inside the SDK screens.
+    * Fix a bug that prevented config to be fetched after migration. This caused new SDK version to use incorrect values for certain configuration items.
+    * Fix a bug that caused text within individual chat bubbles to be scrollable. This prevented the chat screen from scrolling properly.
+    * Update the translations for the screenshot tutorial string.
+    * Fix remove Close button which appears when a DynamicFormViewController gets embedded in a TabBarController.
+
+5.5.0-support Release Date: March 31, 2016
+    * Add config option for supporting Guided Ticket Filing when user clicks on Contact Us from inside the SDK screens.
+    * Fix a bug that prevented config to be fetched after migration. This caused new SDK version to use incorrect values for certain configuration items.
+    * Fix a bug that caused text within individual chat bubbles to be scrollable. This prevented the chat screen from scrolling properly.
+    * Update the translations for the screenshot tutorial string.
+    * Fix remove Close button which appears when a DynamicFormViewController gets embedded in a TabBarController.
+    * Fix : Remove CFBundleExecutable key from HsUIResourceBundle file.
+
+5.4.0-support Release Date: February 5, 2016
+      * Add support for sending messages read status from the SDK.
+      * Reduce init times of the Helpshift SDK by adding Async queuing mechanism.
+      * Fix API config behaviour for flags not passed in the API.
+      * Fix showSingleFaq API call behaviour which caused FAQ to not get updated on migration.
+      * Add support for all dialects of Danish and Norwegian languages.
+
+5.3.1 Release Date: December 30th, 2015
+      * FIX loading screen does not go away on first call with showSingleFaq API.
+5.3.0 Release Date: December 16th, 2015
+      * Add a way for View controller based status bar apps to set Helpshift status bar style.
+      * Add support for iPad Slide Over and Split View.
+      * Fix an issue where the in-app notification bar appeared in the wrong orientation on some devices.
+      * Improve the way copy text features works on chat screen.
+      * Fix an issue that caused images on FAQ screen to not load when launched from spotlight or deep-link.
+5.2.2 Release Date: November 19th, 2015
+      * FIX the race-condition deadlock in Campaigns code.
+      * Register for rich push actions only if Push has been registered by the app.
+      * Add device mappings for iPhone 6s and 6s Plus models.
+      * Remove import statement of Helpshift.h from HelpshiftSupport.h
+5.2.1 Release Date: November 9th, 2015
+      * FIX Sending of screenshots was failing on iOS 9 due to ATS restrictions.
+      * FIX Default values being set incorrectly in case the config options dictionary was nil.
+5.2.0 Release Date: November 6th, 2015
+	* Fix: When using theming via HelpshiftConfig.plist file, there was a bug which prevented setting the navigation button colours.
+	* Added support for copy/pasting messages in chat screen. Now you can long-press a message to bring up the copy menu.
+	* Updated accessibility strings for some UI elements.
+	* Added a flag to disable entry and exit animation for Helpshift screens. Only applicable to the launch and close events of Helpshift Support views. Animations will still be present inside a Helpshift Support session.
+5.1.0 Release Date: October 29th, 2015
+      * Added feature for Guided ticket filing for all support issues created by the end-user.
+      * New SDK option for improving ticket deflection. Added option for AFTER_MARKING_ANSWER_UNHELPFUL to show contact us only after end user marks a FAQ unhelpful.
+      * Added support for reducing gibberish ticket by adding a configurable threshold for all supported language.
+      * iOS 9 feature: In-Device search - Now you can make your FAQs searchable with core spotlight.
+      * iOS 9 feature: Bitcode distribution - Now the iOS bundle will have a bit code enabled version along in the SDK archive.
+      * The Customer Satisfaction survey view is now a part of the messages scroll view. This makes it easier for users of landscape apps to view previous messages.
+      * Changed the default value of showConversationResolutionQuestion flag to true.
+      * Moved graphical assets location to Xcassets
+      * FAQ Search algorithm improvement: Improved the FAQ search relevance threshold for fuzzy match to make it strict.
+      * FAQ Search algorithm improvement: Sometimes search term was not highlighted if it was with a prepending or appending punctuation mark
+      * FAQ Search algorithm improvement: FAQs were listed twice in search results
+5.0.0 Release Date: October 9th, 2015
+      * Added data collection APIs for new Campaigns product.
+      * Added new HelpshiftSupport, HelpshiftCampaigns and HelpshiftCore API for Support, Campaigns and Core services.
+      * Deprecated older Helpshift API.
+4.15.0 Release Date: September 25, 2015
+       * Added a flag for toggling fallback languages in FAQs to english. In case you have FAQs in multiple languages but do not wish to fallback to English if localisation is missing, set 'enableDefaultFallbackLanguage' to 'no' in Helpshift's install call.
+       * Fix: Renamed a public method that could cause namespace issue with other libraries.
+       * Fix: Fixed a bug that could prevent a database from being created.
+4.14.1 Release Date: September 15, 2015
+       * Fix: Localisations on iOS 9.
+       * Fix: Sometimes admin attachments do not download on re-installing app or migrating to a newer version.
+4.14.0 Release Date: September 10, 2015
+       * Filter FAQs by category tags.
+       * Optimise conversation flow.
+       * Increased the accuracy of free disk space on the device.
+       * Added support for 12 new languages: Danish, Slovak, Catalan, Greek, Finnish, Croatian, Malay, Norwegian, Romanian, Swedish, Ukrainian and Hebrew.
+       * Changed the default conversation placeholder to "How can we help?"
+       * Fixed a bug which caused some FAQs to not load completely.
+4.13.0 Release Date: August 19, 2015
+       * Improved ticket avoidance to include the FAQs flows.
+       * Added a feature that prevents empty or gibberish tickets from being filed.
+       * Added support for two new languages: Polish and Arabic
+       * Bug fixes
+       * UI fixes
+4.12.1 Release Date: July 17, 2015
+       * Add workaround for iOS UIScrollView inconsistency bug.
+       * Bug fixes
+       * UI fixes
+4.12.0 Release Date: July 10, 2015
+       * Fix the bug in handling conversations with special characters in them.
+       * Fix the FAQs syncing bug during migrations.
+       * Move more code to ARC.
+       * Improve the FAQ on device search with Fuzzy matching.
+       * Fix iOS 6 compatibility.
+       * UI fixes
+4.11.1 Release Date: June 2, 2015
+       * Bug fixes
+       * UI fixes
+4.11.0 Release Date: May 26, 2015
+       * Ability to change SDK language dynamically.
+       * Added fuzzy search for FAQ searches.
+       * Search term highlighting for FAQs.
+       * Additional navigation bar customisations.
+       * Bug fixes
+       * UI fixes
+4.10.2 Release Date: March 25, 2015
+       * Bug fixes
+4.10.1 Release Date: March 20, 2015
+       * Added delegate call for customer satisfaction surveys.
+       * Added delegate call for tracking Helpshift session begins.
+       * Out of the box support for new languages: Hungarian, Czech, Slovenian and Traditional Chinese.
+       * Bug fixes
+       * UI fixes
+4.10.0 Release Date: March 4, 2015
+       * Allow admins to attach files with replies
+       * Allow admins to reopen conversations
+       * Added multi-user feature for support conversations
+       * Added new delegate methods for conversation updates
+       * Bug fixes
+       * UI fixes
+4.9.1 Release Date: October 9, 2014
+       * Bug fixes.
+4.9.0 Release Date: October 7, 2014
+       * Added an API option "showSearchOnNewConversation" which when enabled will enhance ticket avoidance by suggesting relevant FAQs to the users before they start a new conversation.
+       * Added an API option "enableFullPrivacy" which when enabled will restrict the user from attaching a screenshot and from sending personally identifiable information in meta-data.
+       * UI fixes.
+       * Bug fixes.
+4.8.0 Release Date: September 16, 2014
+       * Full iOS 8 compatibility.
+       * iOS 8 bug fixes.
+       * iOS 8 UI fixes.
+4.7.0 Release Date: September 2, 2014
+       * Added support for Customer satisfaction survey, which prompts your app users to rate their customer support experience with your agents.
+       * Agent names will now be visible in an ongoing conversation.
+       * Added an API option, "conversationPrefillText", for prefilling new conversation description.
+       * Added an API option, "hideNameAndEmail", for conditionally hiding name and email fields when starting a new conversation.
+       * UX improvements for attaching screenshot.
+       * Removed FAQ sync status.
+       * Added support for deep-links in FAQs.
+       * Bug fixes.
+       * UI fixes.
+4.6.0 Release Date: July 9, 2014
+       * Added a API option "requireEmail" to make emails compulsory or optional in the new conversation form.
+       * Added fixes for iOS 8.
+       * Added fixes for empty custom metadata.
+       * Updated Korean translations.
+       * Bug fixes
+       * UI fixes
+4.5.0 Release Date: June 6, 2014
+       * Optimized FAQ updates. Changes to FAQs in the admin are now updated and shown as soon as the SDK is opened.
+       * Users can now directly attach screenshots while submitting new conversation or during an ongoing conversation.
+       * New options for enableContactUs flag for ticket avoidance: ALWAYS, AFTER_VIEWING_FAQS and NEVER
+       * setName:andEmail: API can now clear name and email if nil is passed for both.
+       * Automatic app rating reminder is now available alongside the manual app rating API.
+       * Bug fixes
+       * UI fixes
+4.4.0 Release Date: April 30, 2014
+       * Added new app rating API (showAlertToRateAppWithURL:withCompletionBlock:). Automatic review request is now removed in this release.
+       * Conversation text and message reply text are now buffered, if users leaves the screen while typing is in progress.
+       * Improved message resolution interaction.
+       * Added a new option in skinning plist for cell selection color.
+       * Improved on some skinning bugs.
+       * Improved on new conversation submission warnings.
+       * Improved on FAQ helpful/unhelpful UI interaction.
+       * Various bug fixes (crashes related to migration).
+       * UI fixes
+4.3.1 Release Date: March 12, 2014
+       * Critical migration bug fix that caused a conversation related crash
+4.3.0 Release Date: March 7, 2014
+       * Added method pauseDisplayOfInAppNotification: to pause/resume display of in-app notifications
+       * Added optional delegate method didReceiveInAppNotificationWithMessageCount: for in-app notifications
+       * Added Dutch translations
+       * Potrait only/Landscape only rotation now supported in the SDK, if app supports the same
+       * New inapp notification delegate method
+       * Review request in conversation can now be customized via localized strings.
+       * Bug fixes
+       * UI fixes
+4.2.1 Release Date: February 23, 2014
+       * Fixed some critical crashes (Crash during screenshot attach, FAQ mark helpful/unhelpful and others).
+4.2.0 Release Date: February 3, 2014
+       * Added support for fullscreen and formsheet modal presentation styles on iPad
+       * Added Turkish translations
+       * Static library now contains a 64-bit simulator slice
+       * Added support for custom metadata in API options
+       * Bug fixes
+       * UI fixes
+4.1.0 Release Date: December 23, 2013
+       * Conversation forwarding feature added to SDK
+       * New Rate/Review & Feedback feature
+       * Now using CFBundleShortVersionString instead of CFBundleVersion for app version
+       * Added support for background image in HelpshiftConfig.plist
+       * Fixed bugs related to getNotificationCountRemote being called from inside helpshiftSessionHasEnded
+       * Improved UX for resolution rejected by user for resolved conversations
+       * Bug fixes
+       * UI fixes
+4.0.0 Release Date: December 4, 2013
+       * Multiple issues and inbox is no longer supported
+       * The conversation interface has been unified into a single channel
+       * New API calls for support tools and install method. Refer upgrade guide: http://developers.helpshift.com/ios/upgrade-3x/
+       * When FAQ is marked unhelpful, users can contact you to tell you why
+       * Moved helpshift db from Documents/ folder to Library/ folder
+       * New strings for localizations
+       * Bug fixes
+       * UI fixes
+3.2.1 Release Date: October 26, 2013
+       * Fixed UI issue that causes the view to cut off if UINavigationBar translucency is set to NO
+       * Bug fixes
+       * UI fixes
+3.2.0 Release Date: October 18, 2013
+       * Added support for arm64 architecture
+       * Added custom tags feature for tagging issues being reported
+       * Critical UI fix for FAQ search
+       * Bug fix for Vimeo video rendering in FAQs
+       * Other bug fixes
+3.1.2 Release Date: October 4, 2013
+       * Critical fix for a bug introduced in 2.6.0 that caused intermittent crashes (race condition)
+       * UI fixes
+3.1.1 Release Date: September 25, 2013
+       * Critical fix for Search UI issues in 3.1.0
+3.1.0 Release Date: September 24, 2013
+       * Japanese and Korean translations added
+       * Stability fixes
+       * Bug fixes
+       * UI fixes
+3.0.0 Release Date: September 13, 2013
+       * iOS 7 Support for iPad
+       * Bug fixes
+       * UI fixes
+3.0.0-rc.1 Release Date: September 7, 2013
+       * iOS 7 Support for iPhone/iPod Touch devices
+       * Skinning changes for iOS 7
+       * UI fixes
+2.6.1  Release Date: September 3, 2013
+       * Bug fixes
+       * UI fixes
+2.6.0  Release Date: August 29, 2013
+       * Migrating away from OpenUDID to identifierForVendor for iOS 6.0+
+       * FAQ support for right-to-left languages
+       * Bug fixes
+2.6.0-rc.5 Release Date: August 14, 2013
+       * Critical UI fixes related to progress hud in landscape mode
+2.6.0-rc.4 Release Date: August 13, 2013
+       * Removed some detached UIKit methods to main thread
+       * FAQ screen fixes
+       * Bug fixes
+       * UI fixes
+2.6.0-rc.3 Release Date: August 6, 2013
+       * Name collision fixes
+       * UI fixes
+2.6.0-rc.2 Release Date: July 29, 2013
+       * UI fixes
+2.6.0-rc.1 Release Date: July 25, 2013
+       * Send screenshot bug fixes
+       * Memory optimization fixes
+       * Bug fixes
+2.5.0 Release Date: June 17, 2013
+       * Bug fixes in chat
+2.5.0-rc.1 Release Date: June 6, 2013
+       * UX change in the way in app notifications are shown
+       * Bug fixes
+       * UI fixes
+2.4.0 Release Date: May 22, 2013
+       * In app notification bug fixes
+       * UI fixes
+2.4.0-rc.1 Release Date: May 8, 2013
+       * In app notifications
+       * Bug fixes
+       * UI fixes
+2.3.0 Release Date: May 2, 2013
+2.3.0-rc.2 Release Date: April 29, 2013
+       * Bug fixes
+2.3.0-rc.1 Release Date: April 25, 2013
+       * Added API's to clear user data and breadcrumb list.
+2.2.0 Release Date: April 17, 2013
+       * Bug fixes
+2.2.0-rc.3 Release Date: April 13, 2013
+       * Bug fixes
+2.2.0-rc.2 Release Date: April 12, 2013
+       * Bug fixes
+2.2.0-rc.1 Release Date: April 11, 2013
+       * Added optional flags for reporting issues
+2.1.0 Release Date: April 10, 2013
+2.1.0-rc.2 Release Date: April 3, 2013
+       * Bug fixes
+       * UI fixes
+2.1.0-rc.1 Release Date: March 28, 2013
+       * Added translation for German, Spanish, Russian, Italian, French
+       * New api to show a decomposed view for showing all FAQs
+       * Improved FAQ display
+       * Bug fixes
+2.0.1 Release Date: March 26, 2013
+       * Bug fixes
+2.0.0 Release Date: March 20, 2013
+       * registerDeviceToken api is now asynchronous
+       * Bug fixes
+       * UI fixes
+2.0.0-rc.1 Release Date: March 13, 2013
+       * Urban Airship bug fixes on iPad
+       * Fixes for custom popovers on iPhone
+       * Other bug fixes
+       * UI fixes
+2.0.0-beta.3 Release Date: March 8, 2013
+       * iPad support
+       * Links and telephone numbers in chat messages are discernible and clickable
+       * Added api to provide additional metadata with every reported issue
+       * Bug fixes
+       * UI fixes
+2.0.0-beta.2 Release Date: February 25, 2013
+       * Bug fixes
+2.0.0-beta.1 Release Date: February 22, 2013
+       * Enhanced skinning support through plist files
+       * Enhanced Decomposition support
+       * Localization support
+       * Animation/UI fixes
+       * Bug fixes
+1.4.6 Release Date : February 18, 2013
+       * Notification API fixes
+1.4.5 Release Date : February 6, 2013
+       * Documentation updates
+1.4.5-rc2 Release Date: February 1, 2013
+       * iOS 6 Navigation Controller rotation fixes
+1.4.5-rc1 Release Date: January 30, 2013
+       * Critical fix: Chat polling not working if notification polling is running
+1.4.4 Release Date: January 24, 2013
+       * Added support for multilingual issue reporting
+       * Some memory leaks resolved
+       * Bug fixes
+1.4.4-rc2 Release Data: January 21, 2013
+       * Special characters handled for report issue
+       * Chat screen offline messages fixes
+       * Some UI fixes
+       * Other bug fixes
+1.4.4-rc1 Release Data: January 16, 2013
+       * Added new apis for getting notifications about issue updates.
+       * Added screenshot confirmation before sending the image.
+       * Bug fixes
+       * UI fixes
+1.4.3 Release Date: January 10, 2013
+       * Added Helpshift delegate method for helpshift session ended.
+       * Bug fixes
+1.4.2 Release Date: January 2, 2013
+       * Report issue decomposition
+       * Bug fixes
+       * UI fixes
+       * Documentation updates
+1.4.1 Release Date: December 28, 2012
+       * Bug fixes
+1.4.0 Release Date: December 27, 2012
+       * Urban airship integration
+       * Search performance improvements
+       * Improved documentation
+       * Bug fixes
+       * UI fixes
+1.3.3 Release Date: December 19, 2012
+       * Bug fixes
+       * UI fixes
+1.3.2 Release Date: December 18, 2012
+       * Crittercism integration
+       * Bug fixes
+1.3.1 Release Date: December 13, 2012
+       * Bug fixes
+1.3.0 Release Date: December 12, 2012
+       * Support for landscape mode
+       * Bug fixes
+       * UI fixes
+1.2.4 Release Date: December 7, 2012
+       * Bug fixes
+1.2.3 Release Date: December 5, 2012
+       * Updates to the device meta-data being sent to the server
+       * Api for migrating the data in case user migrates from an old sdk which stored data in the standard user-defaults
+       * The user-defaults storage is now sandboxed away to avoid data deletion when application clears its own data
+       * User profile is based on a config value from the config api
+       * Enhancements to the review request workflow
+       * Migrating to config api for getting the review request information such as url and interval
+       * Debug log limit now comes from a dedicated config option rather than using the breadcrumb limit
+       * Bug fixes
+       * UI fixes
+1.2.2 Release Date: November 23, 2012
+    * Change in the method signature for installing the Helpshift library support.
+    * Bug fixes
+    * UI fixes
+1.2.1 Release Date: November 12, 2012
+    * iPod touch carrier does not exist (case handled)
+    * UIView choppy animations fixed
+    * Reachability class conflict fixed
+    * Memory leak fixes
+    * UI/Stability fixes
+
+1.2.0 Release Date: November 2, 2012
+        * Funnel support
+        * UI Changes/Fixes
+        * Powered By Helpshift logo
+        * Stability fixes
+        * New UI for the library including half-modal and fullscreen views
+        * Screenshot thumbnail
+        * Network warnings
+        * Review Feedback workflow
+        * Skinning support for the app through the admin dashboard
+        * Extra device information
+        * Debug logs for the app
+        * Breadcrumbs support
+        * Was this FAQ helpful workflow
+        * Universal library with support for simulator, armv7, armv7s versions
+        * Support for iPhone 5
+        * Improved stability and performance

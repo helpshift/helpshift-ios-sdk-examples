@@ -75,7 +75,6 @@ Copyright (c) 2014 Helpshift,Inc., All rights reserved.
 "Back" = "Geri";
 "Could not fetch FAQs" = "SSS getirilemedi";
 "Thanks for rating us." = "Bizi derecelendirdiğin için teşekkür ederiz.";
-"Chat" = "Sohbet";
 "Download" = "İndir";
 "Please enter a valid email" = "Lütfen geçerli bir e-posta adresi gir";
 "Message" = "Mesaj";
@@ -115,7 +114,6 @@ Copyright (c) 2014 Helpshift,Inc., All rights reserved.
 "Cancel" = "İptal";
 "Would you like to review the app?" = "Uygulamayı gözden geçirmek ister misin?";
 "Loading..." = "Yükleniyor...";
-"We're not around, but we'll get back to you during business hours" = "Şu an buralarda değiliz ama iş saatleri içerisinde size geri döneceğiz";
 "Read FAQs" = "SSS Oku";
 "Thanks for messaging us!" = "Mesaj gönderdiğin için teşekkürler!";
 "Try Again" = "Yeniden Dene";

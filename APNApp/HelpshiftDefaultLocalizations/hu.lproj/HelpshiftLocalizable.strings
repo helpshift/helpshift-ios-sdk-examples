@@ -74,7 +74,6 @@ Copyright (c) 2014 Helpshift,Inc., All rights reserved.
 "Back" = "Vissza";
 "Could not fetch FAQs" = "GYIK-ek lekérése sikertelen";
 "Thanks for rating us." = "Köszönjük, hogy értékelte alkalmazásunkat.";
-"Chat" = "Csevegés";
 "Download" = "Letöltés";
 "Please enter a valid email" = "Kérjük, érvényes e-mail címet adjon meg";
 "Message" = "Üzenet";
@@ -114,7 +113,6 @@ Copyright (c) 2014 Helpshift,Inc., All rights reserved.
 "Cancel" = "Mégsem";
 "Would you like to review the app?" = "Szeretne véleményt írni az alkalmazásról?";
 "Loading..." = "Betöltés...";
-"We're not around, but we'll get back to you during business hours" = "Nem vagyunk most bent, de munkaidőben válaszolni fogunk.";
 "Read FAQs" = "GYIK olvasása";
 "Thanks for messaging us!" = "Köszönjük az üzenetét!";
 "Try Again" = "Újrapróbálkozás";

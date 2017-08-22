@@ -74,7 +74,6 @@ Copyright (c) 2014 Helpshift,Inc., All rights reserved.
 "Back" = "ಹಿಂತಿರುಗು";
 "Could not fetch FAQs" = "ಪದೇ ಪದೇ ಕೇಳಿರುವ ಪ್ರಶ್ನೆಗಳನ್ನು ಹಿಂಪಡೆಯಲಾಗಲಿಲ್ಲ";
 "Thanks for rating us." = "ನಮಗೆ ರೇಟಿಂಗ್ ನೀಡಿದ್ದಕ್ಕೆ ಧನ್ಯವಾದಗಳು.";
-"Chat" = "ಚಾಟ್";
 "Download" = "ಡೌನ್‌ಲೋಡ್";
 "Please enter a valid email" = "ಮಾನ್ಯ ಇಮೇಲ್ ಐಡಿ ನಮೂದಿಸಿ";
 "Message" = "ಸಂದೇಶ";
@@ -114,7 +113,6 @@ Copyright (c) 2014 Helpshift,Inc., All rights reserved.
 "Cancel" = "ರದ್ದುಮಾಡು";
 "Would you like to review the app?" = "ಅಪ್ಲಿಕೇಶನ್ ಕುರಿತು ನಿಮ್ಮ ಅಭಿಪ್ರಾಯವನ್ನು ತಿಳಿಸಲು ಬಯಸುವಿರಾ?";
 "Loading..." = "ಲೋಡ್ ಆಗುತ್ತಿದೆ...";
-"We're not around, but we'll get back to you during business hours" = "ನಮ್ಮ ಸೇವೆಯು ಪ್ರಸ್ತುತ ಲಭ್ಯವಿಲ್ಲವಾದರೂ, ವ್ಯವಹಾರದ ಸಮಯದಲ್ಲಿ ನಿಮ್ಮನ್ನು ಸಂಪರ್ಕಿಸಲಿದ್ದೇವೆ";
 "Read FAQs" = "FAQ ಪ್ರಶ್ನೆಗಳನ್ನು ಓದಿ";
 "Thanks for messaging us!" = "ನಮಗೆ ಸಂದೇಶ ಕಳುಹಿಸುತ್ತಿರುವುದಕ್ಕೆ ಧನ್ಯವಾದಗಳು!";
 "Try Again" = "ಮತ್ತೊಮ್ಮೆ ಪ್ರಯತ್ನಿಸಿ";

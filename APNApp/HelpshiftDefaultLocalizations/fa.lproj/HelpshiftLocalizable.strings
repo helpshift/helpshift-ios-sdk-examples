@@ -74,7 +74,6 @@ Copyright (c) 2014 Helpshift,Inc., All rights reserved.
 "Back" = "بازگشت";
 "Could not fetch FAQs" = "فراخوانی سؤالات متداول مقدور نبود";
 "Thanks for rating us." = "از اینکه به ما امتیاز داده‌اید متشکریم.";
-"Chat" = "گفتگو";
 "Download" = "دانلود";
 "Please enter a valid email" = "لطفاً ایمیل معتبری وارد کنید";
 "Message" = "پیام";
@@ -114,7 +113,6 @@ Copyright (c) 2014 Helpshift,Inc., All rights reserved.
 "Cancel" = "لغو";
 "Would you like to review the app?" = "آیا مایل به نظردهی در مورد برنامه هستید؟";
 "Loading..." = "در حال بارگذاری...";
-"We're not around, but we'll get back to you during business hours" = "در حال حاضر در دسترس نمی باشیم، اما در طی ساعات کاری آینده به کار شما رسیدگی خواهیم کرد.";
 "Read FAQs" = "خواندن سؤالات متداول";
 "Thanks for messaging us!" = "بابت ارسال پیام از شما متشکریم!";
 "Try Again" = "دوباره تلاش کنید";

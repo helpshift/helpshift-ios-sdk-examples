@@ -74,7 +74,6 @@ Copyright (c) 2014 Helpshift,Inc., All rights reserved.
 "Back" = "返回";
 "Could not fetch FAQs" = "無法取得常見問題集";
 "Thanks for rating us." = "感謝您對我們的評價。";
-"Chat" = "聊天室";
 "Download" = "下載";
 "Please enter a valid email" = "請輸入有效的電子郵件";
 "Message" = "訊息";
@@ -114,7 +113,6 @@ Copyright (c) 2014 Helpshift,Inc., All rights reserved.
 "Cancel" = "取消";
 "Would you like to review the app?" = "您要評論此應用程式嗎？";
 "Loading..." = "載入中...";
-"We're not around, but we'll get back to you during business hours" = "目前不是服務時間，不過我們將在服務時間為您回覆。";
 "Read FAQs" = "閱讀常見問題集";
 "Thanks for messaging us!" = "感謝您給我們訊息！";
 "Try Again" = "再試一次";

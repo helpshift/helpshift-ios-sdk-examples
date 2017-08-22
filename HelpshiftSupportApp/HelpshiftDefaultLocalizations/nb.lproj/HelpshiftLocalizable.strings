@@ -74,7 +74,6 @@ Copyright (c) 2014 Helpshift,Inc., All rights reserved.
 "Back" = "Tilbake";
 "Could not fetch FAQs" = "Kunne ikke hente vanlige spørsmål";
 "Thanks for rating us." = "Takk for at du ga oss en vurdering.";
-"Chat" = "Chat";
 "Download" = "Last ned";
 "Please enter a valid email" = "Oppgi en gyldig e-postadresse";
 "Message" = "Melding";
@@ -114,7 +113,6 @@ Copyright (c) 2014 Helpshift,Inc., All rights reserved.
 "Cancel" = "Avbryt";
 "Would you like to review the app?" = "Vil du gi en vurdering av appen?";
 "Loading..." = "Laster inn …";
-"We're not around, but we'll get back to you during business hours" = "Vi er ikke inne for øyeblikket, men vi tar kontakt i åpningstiden vår.";
 "Read FAQs" = "Les vanlige spørsmål";
 "Thanks for messaging us!" = "Takk for at du skrev til oss!";
 "Try Again" = "Prøv igjen";

@@ -74,7 +74,6 @@ Copyright (c) 2014 Helpshift,Inc., All rights reserved.
 "Email invalid" = "അസാധുവായ ഇമെയിൽ";
 "Back" = "പിന്നിലേക്ക്";
 "Could not fetch FAQs" = "പതിവ് ചോദ്യങ്ങളൊന്നും കണ്ടെത്താനായില്ല";
-"Chat" = "ചാറ്റ്";
 "Download" = "ഡൗൺലോഡുചെയ്യുക";
 "Please enter a valid email" = "സാധുവായ ഇമെയിൽ നൽകുക";
 "Message" = "സന്ദേശം";
@@ -114,7 +113,6 @@ Copyright (c) 2014 Helpshift,Inc., All rights reserved.
 "Cancel" = "റദ്ദാക്കുക";
 "Would you like to review the app?" = "ആപ്പ് അവലോകനം ചെയ്യാൻ നിങ്ങൾക്ക് ‌താൽപ്പര്യമുണ്ടോ?";
 "Loading..." = "ലോഡുചെയ്യുന്നു...";
-"We're not around, but we'll get back to you during business hours" = "ഞങ്ങൾ സമീപത്തില്ല, പക്ഷേ പ്രവർത്തി സമയത്ത് ‌ഞങ്ങൾ നിങ്ങളെ വീണ്ടും ബന്ധപ്പെടും";
 "Read FAQs" = "പതിവ് ചോദ്യങ്ങൾ വായിക്കുക";
 "Thanks for messaging us!" = "ഞങ്ങൾക്ക് സന്ദേശമയച്ചതിന് നിങ്ങൾക്ക് നന്ദി!";
 "Try Again" = "വീണ്ടും ശ്രമിക്കുക";

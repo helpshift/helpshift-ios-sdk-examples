@@ -74,7 +74,6 @@ Copyright (c) 2014 Helpshift,Inc., All rights reserved.
 "Back" = "Назад";
 "Could not fetch FAQs" = "ЧЗВ не могат да бъдат извлечени";
 "Thanks for rating us." = "Благодарим ви, че ни дадохте оценка.";
-"Chat" = "Чат";
 "Download" = "Изтегляне";
 "Please enter a valid email" = "Въведете валиден имейл адрес";
 "Message" = "Съобщение";
@@ -114,7 +113,6 @@ Copyright (c) 2014 Helpshift,Inc., All rights reserved.
 "Cancel" = "Отказ";
 "Would you like to review the app?" = "Искате ли да рецензирате приложението?";
 "Loading..." = "Зареждане...";
-"We're not around, but we'll get back to you during business hours" = "В момента не сме на разположение, но ще се свържем с Вас през работния ден";
 "Read FAQs" = "Прочетете ЧЗВ";
 "Thanks for messaging us!" = "Благодарим Ви за съобщението!";
 "Try Again" = "Опитайте отново";
