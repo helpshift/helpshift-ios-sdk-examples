@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="HSSwiftDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LFs-8r-F3F">
+                                <rect key="frame" x="16" y="132" width="343" height="30"/>
+                                <state key="normal" title="Contact Us"/>
+                                <connections>
+                                    <action selector="onContactUs:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ewK-Tw-bUm"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EHf-4g-Yua">
+                                <rect key="frame" x="71" y="201" width="233" height="30"/>
+                                <state key="normal" title="Request Unread Messages  Count"/>
+                                <connections>
+                                    <action selector="getUnreadCount:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aQ3-5Z-2fR"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="LFs-8r-F3F" firstAttribute="centerX" secondItem="EHf-4g-Yua" secondAttribute="centerX" id="47a-9t-6eP"/>
+                            <constraint firstItem="EHf-4g-Yua" firstAttribute="top" secondItem="LFs-8r-F3F" secondAttribute="bottom" constant="39" id="GQe-UD-32q"/>
+                            <constraint firstItem="LFs-8r-F3F" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="Pli-d6-nLY"/>
+                            <constraint firstItem="LFs-8r-F3F" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="112" id="vFJ-Uk-UHv"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="LFs-8r-F3F" secondAttribute="trailing" id="yrv-mi-FCL"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="contactUsButton" destination="LFs-8r-F3F" id="dZz-Rl-qBC"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="127.28635682158921"/>
+        </scene>
+    </scenes>
+</document>
