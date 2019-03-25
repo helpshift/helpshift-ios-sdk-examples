@@ -1,6 +1,6 @@
 #import "AppDelegate.h"
 #import "HelpshiftCore.h"
-#import "HelpshiftAll.h"
+#import "HelpshiftSupport.h"
 
 @interface AppDelegate ()
 
@@ -13,10 +13,10 @@
     // Override point for customization after application launch.
     
     // Install Helpshift
-    [HelpshiftCore initializeWithProvider:[HelpshiftAll sharedInstance]];
+    [HelpshiftCore initializeWithProvider:[HelpshiftSupport sharedInstance]];
     [HelpshiftCore installForApiKey:@"your_api_key"
                          domainName:@"your_domain_name"
-                              appID:@"api_id"];
+                              appID:@"your_app_id"];
     
     return YES;
 }

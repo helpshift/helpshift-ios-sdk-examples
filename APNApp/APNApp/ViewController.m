@@ -19,7 +19,8 @@
 
 - (IBAction)help {
     // Show FAQs
-    [HelpshiftSupport showFAQs:self withConfig:nil];
+    HelpshiftAPIConfigBuilder *apiConfig = [[HelpshiftAPIConfigBuilder alloc] init];
+    [HelpshiftSupport showFAQs:self withConfig:apiConfig.build];
 }
 
 @end

@@ -4,5 +4,5 @@
 
 target 'HelpshiftSupportApp' do
   # Pods for HelpshiftSupportApp
-  pod 'Helpshift', ‘7.4.0’
+  pod 'Helpshift', ‘7.5.1’
 end
