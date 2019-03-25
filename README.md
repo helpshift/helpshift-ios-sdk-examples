@@ -1,16 +1,17 @@
 # Helpshift iOS SDK Samples
 
-This repository contains a collection example projects for Helpshift iOS SDK v6.1.0
+This repository contains a collection example projects for Helpshift iOS SDK
 
 ## Requirements
 
-* Xcode 7 or greater (see [Xcode on Apple Developer](https://developer.apple.com/xcode/downloads/))
+* see Helpshift SDK requirements [here](https://developers.helpshift.com/ios/getting-started/#version-requirements))
 
 ## Projects
 
-Each one of the sub-directories ending with `App` in this repository is a genuine Xcode project that demonstrates SDK integration and features.
+Each one of the sub-directories in this repository is a genuine Xcode project that demonstrates SDK integration and features.
 
 * **[HelpshiftSupportApp](HelpshiftSupportApp)**: demonstrates different support screens in your app
+* **[HSSwiftDemo](HSSwiftDemo)**: demonstrates different support screens in your app in swift language
 * **[APNApp](APNApp)**: handling customer support notifications via Apple Push Notification Service
 
 For the projects to build and run successfully, please follow these steps : 
@@ -21,10 +22,8 @@ For the projects to build and run successfully, please follow these steps :
 
 ## Resources
 * Documentation: [https://developers.helpshift.com/ios/getting-started/](https://developers.helpshift.com/ios/getting-started/)
-* API Reference: [https://www.helpshift.com/docs/api/ios/v5.x/index.html](https://www.helpshift.com/docs/api/ios/v4.x/index.html)
+* API Reference: [https://docs.helpshift.com/docs/api/ios/v7.x/index.html](https://docs.helpshift.com/docs/api/ios/v7.x/index.html)
 * Release Notes: [https://developers.helpshift.com/ios/release-notes/](https://developers.helpshift.com/ios/release-notes/)
-* Upgrading from 3.x: [https://developers.helpshift.com/ios/upgrade-3x/](https://developers.helpshift.com/ios/upgrade-3x/)
-* Post install script to move Helpshift files to a more generic folder: [Podfile](Podfile)
 
 ## License
 
