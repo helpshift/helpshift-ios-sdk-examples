@@ -1,0 +1,8 @@
+# coding: utf-8
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'HelpshiftSupportApp' do
+  # Pods for HelpshiftSupportApp
+  pod 'Helpshift', ‘7.4.0’
+end
