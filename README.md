@@ -4,7 +4,7 @@ This repository contains a collection example projects for Helpshift iOS SDK
 
 ## Requirements
 
-* see Helpshift SDK requirements [here](https://developers.helpshift.com/ios/getting-started/#version-requirements))
+* see Helpshift SDK requirements [here](https://developers.helpshift.com/ios/getting-started/#version-requirements)
 
 ## Projects
 
