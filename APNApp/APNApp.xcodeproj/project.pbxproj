@@ -321,12 +321,12 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-APNApp/Pods-APNApp-resources.sh",
-				"${PODS_ROOT}/Helpshift/helpshift-sdk-ios-v7.5.1/HsUIResources.bundle",
-				"${PODS_ROOT}/Helpshift/helpshift-sdk-ios-v7.5.1/HsLocalization.bundle",
-				"${PODS_ROOT}/Helpshift/helpshift-sdk-ios-v7.5.1/HSThemes/HelpshiftConfig.plist",
-				"${PODS_ROOT}/Helpshift/helpshift-sdk-ios-v7.5.1/HSThemes/HelpshiftConfigDark.plist",
-				"${PODS_ROOT}/Helpshift/helpshift-sdk-ios-v7.5.1/HSThemes/HelpshiftConfigHighContrast.plist",
+				"${PODS_ROOT}/Target Support Files/Pods-APNApp/Pods-APNApp-resources.sh",
+				"${PODS_ROOT}/Helpshift/helpshift-sdk-ios-v7.5.2/HsUIResources.bundle",
+				"${PODS_ROOT}/Helpshift/helpshift-sdk-ios-v7.5.2/HsLocalization.bundle",
+				"${PODS_ROOT}/Helpshift/helpshift-sdk-ios-v7.5.2/HSThemes/HelpshiftConfig.plist",
+				"${PODS_ROOT}/Helpshift/helpshift-sdk-ios-v7.5.2/HSThemes/HelpshiftConfigDark.plist",
+				"${PODS_ROOT}/Helpshift/helpshift-sdk-ios-v7.5.2/HSThemes/HelpshiftConfigHighContrast.plist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
@@ -340,7 +340,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-APNApp/Pods-APNApp-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-APNApp/Pods-APNApp-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
