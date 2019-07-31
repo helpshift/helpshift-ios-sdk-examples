@@ -315,11 +315,11 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-HelpshiftSupportApp/Pods-HelpshiftSupportApp-resources.sh",
-				"${PODS_ROOT}/Helpshift/helpshift-sdk-ios-v7.5.2/HsUIResources.bundle",
-				"${PODS_ROOT}/Helpshift/helpshift-sdk-ios-v7.5.2/HsLocalization.bundle",
-				"${PODS_ROOT}/Helpshift/helpshift-sdk-ios-v7.5.2/HSThemes/HelpshiftConfig.plist",
-				"${PODS_ROOT}/Helpshift/helpshift-sdk-ios-v7.5.2/HSThemes/HelpshiftConfigDark.plist",
-				"${PODS_ROOT}/Helpshift/helpshift-sdk-ios-v7.5.2/HSThemes/HelpshiftConfigHighContrast.plist",
+				"${PODS_ROOT}/Helpshift/helpshift-sdk-ios-v7.6.0/HsUIResources.bundle",
+				"${PODS_ROOT}/Helpshift/helpshift-sdk-ios-v7.6.0/HsLocalization.bundle",
+				"${PODS_ROOT}/Helpshift/helpshift-sdk-ios-v7.6.0/HSThemes/HelpshiftConfig.plist",
+				"${PODS_ROOT}/Helpshift/helpshift-sdk-ios-v7.6.0/HSThemes/HelpshiftConfigDark.plist",
+				"${PODS_ROOT}/Helpshift/helpshift-sdk-ios-v7.6.0/HSThemes/HelpshiftConfigHighContrast.plist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
