@@ -11,7 +11,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate, HelpshiftSupportDelegate
 {
     var window: UIWindow?
     var viewController: ViewController?
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+
+    func applicationDidFinishLaunching(_ application: UIApplication) {
         // Override point for customization after application launch.
         HelpshiftCore.initialize(with: HelpshiftSupport.sharedInstance())
         // Replace the placeholder strings with your app's Helpshift install credentials
@@ -19,7 +20,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate, HelpshiftSupportDelegate
                               domainName: "<YOUR_DOMAIN_NAME>",
                               appID: "<YOUR_APP_ID>")
         HelpshiftSupport.sharedInstance().delegate = self;
-        return true
     }
     
     // The delegate will get fired every time the Helpshift session starts.
