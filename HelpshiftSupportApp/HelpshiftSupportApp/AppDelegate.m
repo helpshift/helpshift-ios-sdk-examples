@@ -14,10 +14,12 @@
     
     // Install Helpshift
     [HelpshiftCore initializeWithProvider:[HelpshiftSupport sharedInstance]];
+    HelpshiftInstallConfigBuilder *builder = [[HelpshiftInstallConfigBuilder alloc] init];
+    builder.enableAutomaticThemeSwitching = YES;
     [HelpshiftCore installForApiKey:@"your_api_key"
                          domainName:@"your_domain_name"
-                              appID:@"your_app_id"];
-    
+                              appID:@"your_app_id"
+                         withConfig:builder.build];
     return YES;
 }
 

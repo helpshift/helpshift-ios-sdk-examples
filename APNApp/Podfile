@@ -7,6 +7,6 @@ target 'APNApp' do
   # use_frameworks!
 
   # Pods for APNApp
-  pod 'Helpshift', ‘7.6.2’
+  pod 'Helpshift', ‘7.6.3’
 
 end

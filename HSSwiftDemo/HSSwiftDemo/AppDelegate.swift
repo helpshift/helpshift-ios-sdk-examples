@@ -14,11 +14,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate, HelpshiftSupportDelegate
 
     func applicationDidFinishLaunching(_ application: UIApplication) {
         // Override point for customization after application launch.
+
         HelpshiftCore.initialize(with: HelpshiftSupport.sharedInstance())
+
+        let installConfigBuilder = HelpshiftInstallConfigBuilder()
+        installConfigBuilder.enableAutomaticThemeSwitching = true
         // Replace the placeholder strings with your app's Helpshift install credentials
         HelpshiftCore.install(forApiKey: "<YOUR_API_KEY>",
                               domainName: "<YOUR_DOMAIN_NAME>",
-                              appID: "<YOUR_APP_ID>")
+                              appID: "<YOUR_APP_ID>",
+                              with: installConfigBuilder.build())
         HelpshiftSupport.sharedInstance().delegate = self;
     }
     
