@@ -16,7 +16,6 @@
     // Install Helpshift
     HelpshiftInstallConfigBuilder *installConfigBuilder = [[HelpshiftInstallConfigBuilder alloc] init];
     // For more explanation, please visit https://developers.helpshift.com/ios/sdk-configuration/#disableAutomaticPushHandling
-    installConfigBuilder.disableAutomaticPushHandling = YES;
     installConfigBuilder.enableAutomaticThemeSwitching = YES;
     [HelpshiftCore initializeWithProvider:[HelpshiftSupport sharedInstance]];
     [HelpshiftCore installForApiKey:@"your_api_key"
