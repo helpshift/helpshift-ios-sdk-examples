@@ -168,7 +168,7 @@
 				770D0FB11FE250D4005E5A8D /* Sources */,
 				770D0FB21FE250D4005E5A8D /* Frameworks */,
 				770D0FB31FE250D4005E5A8D /* Resources */,
-				AF6A3679A034D8BA0D09E578 /* [CP] Copy Pods Resources */,
+				1D81F4D06341CDACE8E5D4F7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -278,32 +278,22 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		AF6A3679A034D8BA0D09E578 /* [CP] Copy Pods Resources */ = {
+		1D81F4D06341CDACE8E5D4F7 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-HSSwiftDemo/Pods-HSSwiftDemo-resources.sh",
-				"${PODS_ROOT}/Helpshift/helpshift-sdk-ios-v7.7.0/HsUIResources.bundle",
-				"${PODS_ROOT}/Helpshift/helpshift-sdk-ios-v7.7.0/HsLocalization.bundle",
-				"${PODS_ROOT}/Helpshift/helpshift-sdk-ios-v7.7.0/HSThemes/HelpshiftConfig.plist",
-				"${PODS_ROOT}/Helpshift/helpshift-sdk-ios-v7.7.0/HSThemes/HelpshiftConfigDark.plist",
-				"${PODS_ROOT}/Helpshift/helpshift-sdk-ios-v7.7.0/HSThemes/HelpshiftConfigDarkHighContrast.plist",
-				"${PODS_ROOT}/Helpshift/helpshift-sdk-ios-v7.7.0/HSThemes/HelpshiftConfigHighContrast.plist",
+				"${PODS_ROOT}/Target Support Files/Pods-HSSwiftDemo/Pods-HSSwiftDemo-frameworks.sh",
+				"${PODS_ROOT}/Helpshift/helpshift-sdk-ios-v7.8.0/Helpshift.framework",
 			);
-			name = "[CP] Copy Pods Resources";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/HsUIResources.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/HsLocalization.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/HelpshiftConfig.plist",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/HelpshiftConfigDark.plist",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/HelpshiftConfigDarkHighContrast.plist",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/HelpshiftConfigHighContrast.plist",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Helpshift.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HSSwiftDemo/Pods-HSSwiftDemo-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HSSwiftDemo/Pods-HSSwiftDemo-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		B4D6CA06E1FDD6011EF750FE /* [CP] Check Pods Manifest.lock */ = {

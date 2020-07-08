@@ -1,5 +1,5 @@
 #import "ViewController.h"
-#import "HelpshiftSupport.h"
+@import Helpshift;
 
 @interface ViewController ()
 

@@ -7,6 +7,6 @@ target 'HSSwiftDemo' do
   use_frameworks!
 
   # Pods for HSSwiftDemo
-    pod 'Helpshift', ‘7.7.0’
+    pod 'Helpshift', ‘7.8.0’
 
 end

@@ -6,7 +6,6 @@
 #ifndef ObjC_Bridge_h
 #define ObjC_Bridge_h
 
-#import "HelpshiftSupport.h"
-#import "HelpshiftCore.h"
+@import Helpshift;
 
 #endif /* ObjC_Bridge_h */
