@@ -1,5 +1,6 @@
 #import "AppDelegate.h"
-@import Helpshift;
+#import <Helpshift/HelpshiftCore.h>
+#import <Helpshift/HelpshiftSupport.h>
 
 @interface AppDelegate ()
 

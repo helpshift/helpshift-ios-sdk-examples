@@ -1,16 +1,16 @@
 PODS:
-  - Helpshift (7.8.0)
+  - Helpshift (7.9.0)
 
 DEPENDENCIES:
-  - Helpshift (= 7.8.0)
+  - Helpshift (= 7.9.0)
 
 SPEC REPOS:
   trunk:
     - Helpshift
 
 SPEC CHECKSUMS:
-  Helpshift: 68443f3f478222473924c6be7b833f5dd1fc12d0
+  Helpshift: 461cf731f890c87920b0282947ff66aca58dc03b
 
-PODFILE CHECKSUM: 9caa42555227d635ab1bf3be47f6abb3f63880a2
+PODFILE CHECKSUM: a8fdb374e870d2ed05ad24334d7b45706151ff51
 
-COCOAPODS: 1.9.1
+COCOAPODS: 1.8.4
